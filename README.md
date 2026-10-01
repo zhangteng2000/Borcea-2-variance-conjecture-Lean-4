@@ -1,5 +1,7 @@
 # Borcea's 2-variance conjecture in Lean
 
+**Paper:** [Borcea's 2-variance conjecture (PDF)](https://zhangteng2000.github.io/files/Borcea_2_variance_conjecture.pdf).
+
 **Verified.** The complete polynomial theorem, sharpness, finite and large degree proofs, and Toeplitz corollary compile. The final default `lake build` succeeds (4319 jobs). Independent manuscript checks and all 978 axiom reports pass.
 
 The source of record is the author-supplied manuscript, copied byte-for-byte to [docs/manuscript.txt](docs/manuscript.txt). The original attachment is unchanged. The correspondence covers 25 named results and 453 displayed formulas.

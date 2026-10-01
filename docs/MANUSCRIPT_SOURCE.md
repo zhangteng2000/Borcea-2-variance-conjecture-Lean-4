@@ -1,5 +1,7 @@
 # Manuscript source provenance
 
+Public paper: [Borcea's 2-variance conjecture (PDF)](https://zhangteng2000.github.io/files/Borcea_2_variance_conjecture.pdf).
+
 The source of record is the author's LaTeX manuscript supplied as a UTF-8 text attachment.
 Its byte-exact snapshot is preserved in `docs/manuscript.txt`.
 
