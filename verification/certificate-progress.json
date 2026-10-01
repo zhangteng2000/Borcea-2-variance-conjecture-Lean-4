@@ -1,0 +1,736 @@
+{
+  "as_of_utc": "2026-10-01 20:00:00 UTC",
+  "status": "COMPLETE",
+  "note": "All concrete acceptance modules and block exclusions compiled. Artifact accounting supplements the Lean compiler and final axiom audit.",
+  "expected_acceptance_modules": 640,
+  "built_acceptance_modules": 640,
+  "total_leaves": 33671,
+  "accepted_leaves_in_built_parts": 33671,
+  "complete_blocks": [
+    {
+      "index": 0,
+      "degrees": [
+        4,
+        4
+      ],
+      "leaves": 532,
+      "accepted_leaves_in_built_parts": 532,
+      "block_assembly_built": true
+    },
+    {
+      "index": 1,
+      "degrees": [
+        5,
+        5
+      ],
+      "leaves": 1103,
+      "accepted_leaves_in_built_parts": 1103,
+      "block_assembly_built": true
+    },
+    {
+      "index": 2,
+      "degrees": [
+        6,
+        6
+      ],
+      "leaves": 1594,
+      "accepted_leaves_in_built_parts": 1594,
+      "block_assembly_built": true
+    },
+    {
+      "index": 3,
+      "degrees": [
+        7,
+        7
+      ],
+      "leaves": 2540,
+      "accepted_leaves_in_built_parts": 2540,
+      "block_assembly_built": true
+    },
+    {
+      "index": 4,
+      "degrees": [
+        8,
+        8
+      ],
+      "leaves": 1753,
+      "accepted_leaves_in_built_parts": 1753,
+      "block_assembly_built": true
+    },
+    {
+      "index": 5,
+      "degrees": [
+        9,
+        9
+      ],
+      "leaves": 1420,
+      "accepted_leaves_in_built_parts": 1420,
+      "block_assembly_built": true
+    },
+    {
+      "index": 6,
+      "degrees": [
+        10,
+        10
+      ],
+      "leaves": 1164,
+      "accepted_leaves_in_built_parts": 1164,
+      "block_assembly_built": true
+    },
+    {
+      "index": 7,
+      "degrees": [
+        11,
+        11
+      ],
+      "leaves": 1002,
+      "accepted_leaves_in_built_parts": 1002,
+      "block_assembly_built": true
+    },
+    {
+      "index": 8,
+      "degrees": [
+        12,
+        12
+      ],
+      "leaves": 904,
+      "accepted_leaves_in_built_parts": 904,
+      "block_assembly_built": true
+    },
+    {
+      "index": 9,
+      "degrees": [
+        13,
+        13
+      ],
+      "leaves": 809,
+      "accepted_leaves_in_built_parts": 809,
+      "block_assembly_built": true
+    },
+    {
+      "index": 10,
+      "degrees": [
+        14,
+        14
+      ],
+      "leaves": 2690,
+      "accepted_leaves_in_built_parts": 2690,
+      "block_assembly_built": true
+    },
+    {
+      "index": 11,
+      "degrees": [
+        15,
+        15
+      ],
+      "leaves": 2592,
+      "accepted_leaves_in_built_parts": 2592,
+      "block_assembly_built": true
+    },
+    {
+      "index": 12,
+      "degrees": [
+        16,
+        16
+      ],
+      "leaves": 1553,
+      "accepted_leaves_in_built_parts": 1553,
+      "block_assembly_built": true
+    },
+    {
+      "index": 13,
+      "degrees": [
+        17,
+        17
+      ],
+      "leaves": 1144,
+      "accepted_leaves_in_built_parts": 1144,
+      "block_assembly_built": true
+    },
+    {
+      "index": 14,
+      "degrees": [
+        18,
+        18
+      ],
+      "leaves": 880,
+      "accepted_leaves_in_built_parts": 880,
+      "block_assembly_built": true
+    },
+    {
+      "index": 15,
+      "degrees": [
+        19,
+        19
+      ],
+      "leaves": 735,
+      "accepted_leaves_in_built_parts": 735,
+      "block_assembly_built": true
+    },
+    {
+      "index": 16,
+      "degrees": [
+        20,
+        20
+      ],
+      "leaves": 691,
+      "accepted_leaves_in_built_parts": 691,
+      "block_assembly_built": true
+    },
+    {
+      "index": 17,
+      "degrees": [
+        21,
+        21
+      ],
+      "leaves": 612,
+      "accepted_leaves_in_built_parts": 612,
+      "block_assembly_built": true
+    },
+    {
+      "index": 18,
+      "degrees": [
+        22,
+        22
+      ],
+      "leaves": 569,
+      "accepted_leaves_in_built_parts": 569,
+      "block_assembly_built": true
+    },
+    {
+      "index": 19,
+      "degrees": [
+        23,
+        23
+      ],
+      "leaves": 515,
+      "accepted_leaves_in_built_parts": 515,
+      "block_assembly_built": true
+    },
+    {
+      "index": 20,
+      "degrees": [
+        24,
+        24
+      ],
+      "leaves": 463,
+      "accepted_leaves_in_built_parts": 463,
+      "block_assembly_built": true
+    },
+    {
+      "index": 21,
+      "degrees": [
+        25,
+        25
+      ],
+      "leaves": 465,
+      "accepted_leaves_in_built_parts": 465,
+      "block_assembly_built": true
+    },
+    {
+      "index": 22,
+      "degrees": [
+        26,
+        26
+      ],
+      "leaves": 440,
+      "accepted_leaves_in_built_parts": 440,
+      "block_assembly_built": true
+    },
+    {
+      "index": 23,
+      "degrees": [
+        27,
+        27
+      ],
+      "leaves": 408,
+      "accepted_leaves_in_built_parts": 408,
+      "block_assembly_built": true
+    },
+    {
+      "index": 24,
+      "degrees": [
+        28,
+        28
+      ],
+      "leaves": 378,
+      "accepted_leaves_in_built_parts": 378,
+      "block_assembly_built": true
+    },
+    {
+      "index": 25,
+      "degrees": [
+        29,
+        29
+      ],
+      "leaves": 361,
+      "accepted_leaves_in_built_parts": 361,
+      "block_assembly_built": true
+    },
+    {
+      "index": 26,
+      "degrees": [
+        30,
+        30
+      ],
+      "leaves": 339,
+      "accepted_leaves_in_built_parts": 339,
+      "block_assembly_built": true
+    },
+    {
+      "index": 27,
+      "degrees": [
+        31,
+        33
+      ],
+      "leaves": 403,
+      "accepted_leaves_in_built_parts": 403,
+      "block_assembly_built": true
+    },
+    {
+      "index": 28,
+      "degrees": [
+        34,
+        36
+      ],
+      "leaves": 337,
+      "accepted_leaves_in_built_parts": 337,
+      "block_assembly_built": true
+    },
+    {
+      "index": 29,
+      "degrees": [
+        37,
+        40
+      ],
+      "leaves": 334,
+      "accepted_leaves_in_built_parts": 334,
+      "block_assembly_built": true
+    },
+    {
+      "index": 30,
+      "degrees": [
+        41,
+        44
+      ],
+      "leaves": 292,
+      "accepted_leaves_in_built_parts": 292,
+      "block_assembly_built": true
+    },
+    {
+      "index": 31,
+      "degrees": [
+        45,
+        48
+      ],
+      "leaves": 256,
+      "accepted_leaves_in_built_parts": 256,
+      "block_assembly_built": true
+    },
+    {
+      "index": 32,
+      "degrees": [
+        49,
+        53
+      ],
+      "leaves": 245,
+      "accepted_leaves_in_built_parts": 245,
+      "block_assembly_built": true
+    },
+    {
+      "index": 33,
+      "degrees": [
+        54,
+        58
+      ],
+      "leaves": 216,
+      "accepted_leaves_in_built_parts": 216,
+      "block_assembly_built": true
+    },
+    {
+      "index": 34,
+      "degrees": [
+        59,
+        63
+      ],
+      "leaves": 202,
+      "accepted_leaves_in_built_parts": 202,
+      "block_assembly_built": true
+    },
+    {
+      "index": 35,
+      "degrees": [
+        64,
+        69
+      ],
+      "leaves": 187,
+      "accepted_leaves_in_built_parts": 187,
+      "block_assembly_built": true
+    },
+    {
+      "index": 36,
+      "degrees": [
+        70,
+        75
+      ],
+      "leaves": 169,
+      "accepted_leaves_in_built_parts": 169,
+      "block_assembly_built": true
+    },
+    {
+      "index": 37,
+      "degrees": [
+        76,
+        82
+      ],
+      "leaves": 158,
+      "accepted_leaves_in_built_parts": 158,
+      "block_assembly_built": true
+    },
+    {
+      "index": 38,
+      "degrees": [
+        83,
+        89
+      ],
+      "leaves": 163,
+      "accepted_leaves_in_built_parts": 163,
+      "block_assembly_built": true
+    },
+    {
+      "index": 39,
+      "degrees": [
+        90,
+        97
+      ],
+      "leaves": 152,
+      "accepted_leaves_in_built_parts": 152,
+      "block_assembly_built": true
+    },
+    {
+      "index": 40,
+      "degrees": [
+        98,
+        106
+      ],
+      "leaves": 146,
+      "accepted_leaves_in_built_parts": 146,
+      "block_assembly_built": true
+    },
+    {
+      "index": 41,
+      "degrees": [
+        107,
+        133
+      ],
+      "leaves": 158,
+      "accepted_leaves_in_built_parts": 158,
+      "block_assembly_built": true
+    },
+    {
+      "index": 42,
+      "degrees": [
+        134,
+        167
+      ],
+      "leaves": 149,
+      "accepted_leaves_in_built_parts": 149,
+      "block_assembly_built": true
+    },
+    {
+      "index": 43,
+      "degrees": [
+        168,
+        209
+      ],
+      "leaves": 119,
+      "accepted_leaves_in_built_parts": 119,
+      "block_assembly_built": true
+    },
+    {
+      "index": 44,
+      "degrees": [
+        210,
+        262
+      ],
+      "leaves": 109,
+      "accepted_leaves_in_built_parts": 109,
+      "block_assembly_built": true
+    },
+    {
+      "index": 45,
+      "degrees": [
+        263,
+        328
+      ],
+      "leaves": 107,
+      "accepted_leaves_in_built_parts": 107,
+      "block_assembly_built": true
+    },
+    {
+      "index": 46,
+      "degrees": [
+        329,
+        411
+      ],
+      "leaves": 92,
+      "accepted_leaves_in_built_parts": 92,
+      "block_assembly_built": true
+    },
+    {
+      "index": 47,
+      "degrees": [
+        412,
+        514
+      ],
+      "leaves": 92,
+      "accepted_leaves_in_built_parts": 92,
+      "block_assembly_built": true
+    },
+    {
+      "index": 48,
+      "degrees": [
+        515,
+        643
+      ],
+      "leaves": 83,
+      "accepted_leaves_in_built_parts": 83,
+      "block_assembly_built": true
+    },
+    {
+      "index": 49,
+      "degrees": [
+        644,
+        804
+      ],
+      "leaves": 79,
+      "accepted_leaves_in_built_parts": 79,
+      "block_assembly_built": true
+    },
+    {
+      "index": 50,
+      "degrees": [
+        805,
+        1006
+      ],
+      "leaves": 85,
+      "accepted_leaves_in_built_parts": 85,
+      "block_assembly_built": true
+    },
+    {
+      "index": 51,
+      "degrees": [
+        1007,
+        1258
+      ],
+      "leaves": 82,
+      "accepted_leaves_in_built_parts": 82,
+      "block_assembly_built": true
+    },
+    {
+      "index": 52,
+      "degrees": [
+        1259,
+        1573
+      ],
+      "leaves": 84,
+      "accepted_leaves_in_built_parts": 84,
+      "block_assembly_built": true
+    },
+    {
+      "index": 53,
+      "degrees": [
+        1574,
+        1967
+      ],
+      "leaves": 73,
+      "accepted_leaves_in_built_parts": 73,
+      "block_assembly_built": true
+    },
+    {
+      "index": 54,
+      "degrees": [
+        1968,
+        2459
+      ],
+      "leaves": 83,
+      "accepted_leaves_in_built_parts": 83,
+      "block_assembly_built": true
+    },
+    {
+      "index": 55,
+      "degrees": [
+        2460,
+        3074
+      ],
+      "leaves": 81,
+      "accepted_leaves_in_built_parts": 81,
+      "block_assembly_built": true
+    },
+    {
+      "index": 56,
+      "degrees": [
+        3075,
+        3843
+      ],
+      "leaves": 77,
+      "accepted_leaves_in_built_parts": 77,
+      "block_assembly_built": true
+    },
+    {
+      "index": 57,
+      "degrees": [
+        3844,
+        4804
+      ],
+      "leaves": 83,
+      "accepted_leaves_in_built_parts": 83,
+      "block_assembly_built": true
+    },
+    {
+      "index": 58,
+      "degrees": [
+        4805,
+        6006
+      ],
+      "leaves": 82,
+      "accepted_leaves_in_built_parts": 82,
+      "block_assembly_built": true
+    },
+    {
+      "index": 59,
+      "degrees": [
+        6007,
+        7508
+      ],
+      "leaves": 75,
+      "accepted_leaves_in_built_parts": 75,
+      "block_assembly_built": true
+    },
+    {
+      "index": 60,
+      "degrees": [
+        7509,
+        9386
+      ],
+      "leaves": 72,
+      "accepted_leaves_in_built_parts": 72,
+      "block_assembly_built": true
+    },
+    {
+      "index": 61,
+      "degrees": [
+        9387,
+        11733
+      ],
+      "leaves": 83,
+      "accepted_leaves_in_built_parts": 83,
+      "block_assembly_built": true
+    },
+    {
+      "index": 62,
+      "degrees": [
+        11734,
+        14667
+      ],
+      "leaves": 79,
+      "accepted_leaves_in_built_parts": 79,
+      "block_assembly_built": true
+    },
+    {
+      "index": 63,
+      "degrees": [
+        14668,
+        18334
+      ],
+      "leaves": 79,
+      "accepted_leaves_in_built_parts": 79,
+      "block_assembly_built": true
+    },
+    {
+      "index": 64,
+      "degrees": [
+        18335,
+        22918
+      ],
+      "leaves": 83,
+      "accepted_leaves_in_built_parts": 83,
+      "block_assembly_built": true
+    },
+    {
+      "index": 65,
+      "degrees": [
+        22919,
+        28648
+      ],
+      "leaves": 81,
+      "accepted_leaves_in_built_parts": 81,
+      "block_assembly_built": true
+    },
+    {
+      "index": 66,
+      "degrees": [
+        28649,
+        35811
+      ],
+      "leaves": 77,
+      "accepted_leaves_in_built_parts": 77,
+      "block_assembly_built": true
+    },
+    {
+      "index": 67,
+      "degrees": [
+        35812,
+        44764
+      ],
+      "leaves": 77,
+      "accepted_leaves_in_built_parts": 77,
+      "block_assembly_built": true
+    },
+    {
+      "index": 68,
+      "degrees": [
+        44765,
+        55956
+      ],
+      "leaves": 83,
+      "accepted_leaves_in_built_parts": 83,
+      "block_assembly_built": true
+    },
+    {
+      "index": 69,
+      "degrees": [
+        55957,
+        69946
+      ],
+      "leaves": 83,
+      "accepted_leaves_in_built_parts": 83,
+      "block_assembly_built": true
+    },
+    {
+      "index": 70,
+      "degrees": [
+        69947,
+        87433
+      ],
+      "leaves": 83,
+      "accepted_leaves_in_built_parts": 83,
+      "block_assembly_built": true
+    },
+    {
+      "index": 71,
+      "degrees": [
+        87434,
+        100000
+      ],
+      "leaves": 82,
+      "accepted_leaves_in_built_parts": 82,
+      "block_assembly_built": true
+    }
+  ],
+  "final_build_jobs": 4319,
+  "final_axiom_declarations": 978,
+  "verification": "certificate-verification.json",
+  "axiom_log": "axioms-final.log"
+}
+

@@ -1,0 +1,20 @@
+Scope: cached final-entry module artifacts only; all 640 freshly verified certificate acceptance modules and the pinned dependency cache were retained.
+Cleanup executable: work/CleanFinalEntrypoints.lean, run by the pinned Lean executable after absolute-path validation.
+Exit code: 0
+REMOVED C:/Users/HUAWEI/Documents/Codex/2026-10-01/files-pasted-by-the-user-documentclass/outputs/borcea-variance-lean/.lake/build/lib/lean\BorceaVariance.olean
+REMOVED C:/Users/HUAWEI/Documents/Codex/2026-10-01/files-pasted-by-the-user-documentclass/outputs/borcea-variance-lean/.lake/build/lib/lean\BorceaVariance.olean.hash
+REMOVED C:/Users/HUAWEI/Documents/Codex/2026-10-01/files-pasted-by-the-user-documentclass/outputs/borcea-variance-lean/.lake/build/lib/lean\BorceaVariance.ilean
+REMOVED C:/Users/HUAWEI/Documents/Codex/2026-10-01/files-pasted-by-the-user-documentclass/outputs/borcea-variance-lean/.lake/build/lib/lean\BorceaVariance.ilean.hash
+REMOVED C:/Users/HUAWEI/Documents/Codex/2026-10-01/files-pasted-by-the-user-documentclass/outputs/borcea-variance-lean/.lake/build/lib/lean\BorceaVariance.trace
+REMOVED C:/Users/HUAWEI/Documents/Codex/2026-10-01/files-pasted-by-the-user-documentclass/outputs/borcea-variance-lean/.lake/build/lib/lean\ManuscriptCheck.olean
+REMOVED C:/Users/HUAWEI/Documents/Codex/2026-10-01/files-pasted-by-the-user-documentclass/outputs/borcea-variance-lean/.lake/build/lib/lean\ManuscriptCheck.olean.hash
+REMOVED C:/Users/HUAWEI/Documents/Codex/2026-10-01/files-pasted-by-the-user-documentclass/outputs/borcea-variance-lean/.lake/build/lib/lean\ManuscriptCheck.ilean
+REMOVED C:/Users/HUAWEI/Documents/Codex/2026-10-01/files-pasted-by-the-user-documentclass/outputs/borcea-variance-lean/.lake/build/lib/lean\ManuscriptCheck.ilean.hash
+REMOVED C:/Users/HUAWEI/Documents/Codex/2026-10-01/files-pasted-by-the-user-documentclass/outputs/borcea-variance-lean/.lake/build/lib/lean\ManuscriptCheck.trace
+REMOVED C:/Users/HUAWEI/Documents/Codex/2026-10-01/files-pasted-by-the-user-documentclass/outputs/borcea-variance-lean/.lake/build/lib/lean\Audit.olean
+REMOVED C:/Users/HUAWEI/Documents/Codex/2026-10-01/files-pasted-by-the-user-documentclass/outputs/borcea-variance-lean/.lake/build/lib/lean\Audit.olean.hash
+REMOVED C:/Users/HUAWEI/Documents/Codex/2026-10-01/files-pasted-by-the-user-documentclass/outputs/borcea-variance-lean/.lake/build/lib/lean\Audit.ilean
+REMOVED C:/Users/HUAWEI/Documents/Codex/2026-10-01/files-pasted-by-the-user-documentclass/outputs/borcea-variance-lean/.lake/build/lib/lean\Audit.ilean.hash
+REMOVED C:/Users/HUAWEI/Documents/Codex/2026-10-01/files-pasted-by-the-user-documentclass/outputs/borcea-variance-lean/.lake/build/lib/lean\Audit.trace
+Removed 15 cached final-entry artifacts.
+Retained all generated certificate modules and the pinned dependency cache.

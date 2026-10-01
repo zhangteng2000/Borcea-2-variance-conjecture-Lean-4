@@ -1,0 +1,6 @@
+Command: lake build BorceaVariance.FiniteDegree
+Exit code: 1
+Output below is a build summary (build completion and error lines); full Lean diagnostics are in module traces and the independent final check/audit logs.
+error: BorceaVariance/FiniteDegree.lean:17:42: Unknown constant `List.mem_nil`
+error: BorceaVariance/FiniteDegree.lean:18:443: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+error: build failed

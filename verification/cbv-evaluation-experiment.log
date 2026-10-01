@@ -1,0 +1,40 @@
+Exploratory cbv evaluation; NOT ADOPTED.
+Both attempts failed in a temporary work/ file. Any printed placeholder axiom after those errors is compiler error recovery, not an accepted theorem or a project dependency. Production acceptance remains decide +kernel at 2^100. The failed scratch source was removed.
+
+Attempt 1 (default cbv step limit):
+cumulative profiling times:
+	attribute application 0.0097ms
+	congr simp thm 0.489ms
+	elaboration 0.517ms
+	fix level params 0.0135ms
+	instantiate metavars 0.0121ms
+	let-to-have transformation 0.0096ms
+	overlappingInstancesLinter 0.472ms
+	process pre-definitions 0.257ms
+	share common exprs 0.0816ms
+	tactic execution 4.68s
+	type checking 0.264ms
+	typeclass inference 6.5ms
+C:/Users/HUAWEI/Documents/Codex/2026-10-01/files-pasted-by-the-user-documentclass/work/CbvPilot.lean:17:47: error: `simp` failed: maximum number of steps exceeded
+tactic execution of Lean.Parser.Tactic.decide_cbv took 4.68s
+'cbvPilot' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+
+Attempt 2 (cbv.maxSteps = 1000000):
+C:/Users/HUAWEI/Documents/Codex/2026-10-01/files-pasted-by-the-user-documentclass/work/CbvPilot.lean:18:47: error: maximum recursion depth has been reached
+use `set_option maxRecDepth <num>` to increase limit
+use `set_option diagnostics true` to get diagnostic information
+tactic execution of Lean.Parser.Tactic.decide_cbv took 6.09s
+'cbvPilot' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+cumulative profiling times:
+	attribute application 0.0118ms
+	congr simp thm 0.505ms
+	elaboration 0.63ms
+	fix level params 0.0127ms
+	instantiate metavars 0.0127ms
+	let-to-have transformation 0.0133ms
+	overlappingInstancesLinter 0.37ms
+	process pre-definitions 0.206ms
+	share common exprs 0.0934ms
+	tactic execution 6.09s
+	type checking 0.242ms
+	typeclass inference 9.83ms

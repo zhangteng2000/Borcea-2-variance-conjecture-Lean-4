@@ -1,0 +1,670 @@
+ℹ [3494/3497] Built Audit (13s)
+info: Audit.lean:32:0: 'QuadraticTangZhang.normSq_sub_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:33:0: 'QuadraticTangZhang.sum_normSq_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:34:0: 'QuadraticTangZhang.variance_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:35:0: 'QuadraticTangZhang.mean_sq_le_secondMoment' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:36:0: 'QuadraticTangZhang.secondMoment_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:37:0: 'QuadraticTangZhang.meanRe_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:38:0: 'QuadraticTangZhang.sum_centered_re' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:39:0: 'QuadraticTangZhang.sum_centered_im' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:40:0: 'QuadraticTangZhang.boundary_secondMoment' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:41:0: 'QuadraticTangZhang.boundary_rigidity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:42:0: 'QuadraticTangZhang.boundary_equality_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:43:0: 'QuadraticTangZhang.affine_normSq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:44:0: 'QuadraticTangZhang.affine_secondMoment' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:45:0: 'QuadraticTangZhang.criticalReciprocals_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:46:0: 'QuadraticTangZhang.criticalReciprocals_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:47:0: 'QuadraticTangZhang.criticalReciprocals_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:48:0: 'QuadraticTangZhang.reciprocalEnergy_of_ne' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:49:0: 'QuadraticTangZhang.ofReal_multiset_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:50:0: 'QuadraticTangZhang.criticalEnergy_eq_ofReal' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:51:0: 'QuadraticTangZhang.reciprocal_sum_le_of_energy_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:52:0: 'QuadraticTangZhang.multiset_variance_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:53:0: 'QuadraticTangZhang.multiset_mean_sq_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:54:0: 'QuadraticTangZhang.reciprocalEnergy_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:55:0: 'QuadraticTangZhang.reciprocalEnergy_eq_top_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:56:0: 'QuadraticTangZhang.criticalEnergy_eq_top_of_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:57:0: 'QuadraticTangZhang.main_at_common_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:58:0: 'Sendov.prod_cons_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:59:0: 'Sendov.centroid_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:60:0: 'Sendov.sumEraseProd_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:61:0: 'Sendov.sumEraseProd_cons' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:62:0: 'Sendov.prod_map_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:63:0: 'Sendov.eval_prod_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:64:0: 'Sendov.eval_deriv_prod_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:65:0: 'Sendov.prod_inv_sub_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:66:0: 'Sendov.second_origin_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:67:0: 'Sendov.continuous_deriv_seg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:68:0: 'Sendov.eval_eq_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:69:0: 'Sendov.first_origin_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:70:0: 'Sendov.prod_map_mul_const' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:71:0: 'Sendov.prod_inv_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:72:0: 'Sendov.prod_sub_mul_prod' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:73:0: 'Sendov.polar_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:74:0: 'Sendov.exists_root_multiset' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:75:0: 'Sendov.exists_crit_multiset' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:76:0: 'QuadraticTangZhang.weighted_product_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:77:0: 'QuadraticTangZhang.centered_interpolation_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:78:0: 'QuadraticTangZhang.origin_derivative_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:79:0: 'QuadraticTangZhang.centered_sum_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:80:0: 'QuadraticTangZhang.centered_remainder_general' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:81:0: 'QuadraticTangZhang.norm_meanComplex_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:82:0: 'QuadraticTangZhang.sum_sub_meanComplex' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:83:0: 'QuadraticTangZhang.centered_variance_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:84:0: 'QuadraticTangZhang.norm_meanComplex_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:85:0: 'QuadraticTangZhang.one_sub_meanComplex_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:86:0: 'QuadraticTangZhang.sum_origin_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:87:0: 'QuadraticTangZhang.centered_remainder_estimate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:88:0: 'QuadraticTangZhang.prod_norm_sq_le_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:89:0: 'QuadraticTangZhang.norm_prod_le_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:90:0: 'QuadraticTangZhang.deleted_amgm_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:91:0: 'QuadraticTangZhang.norm_deleted_prod_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:92:0: 'QuadraticTangZhang.exp_one_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:93:0: 'QuadraticTangZhang.sqrt_exp_one_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:94:0: 'QuadraticTangZhang.log_million_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:95:0: 'QuadraticTangZhang.log_three_eighths_million' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:96:0: 'QuadraticTangZhang.log_fifty_thousand' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:97:0: 'QuadraticTangZhang.near_coefficient_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:98:0: 'QuadraticTangZhang.decreasing_coefficient_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:99:0: 'QuadraticTangZhang.near_endpoint_coefficient_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:100:0: 'QuadraticTangZhang.near_total_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:101:0: 'QuadraticTangZhang.near_exponent_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:102:0: 'QuadraticTangZhang.polar_log_exponent_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:103:0: 'QuadraticTangZhang.small_alpha_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:104:0: 'QuadraticTangZhang.large_alpha_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:105:0: 'QuadraticTangZhang.sigma_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:106:0: 'QuadraticTangZhang.degree_correction_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:107:0: 'QuadraticTangZhang.small_a_power_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:108:0: 'QuadraticTangZhang.small_a_increasing_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:109:0: 'QuadraticTangZhang.small_a_decreasing_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:110:0: 'QuadraticTangZhang.small_a_total' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:111:0: 'QuadraticTangZhang.cube_root_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:112:0: 'QuadraticTangZhang.large_a_correction_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:113:0: 'QuadraticTangZhang.large_a_increasing_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:114:0: 'QuadraticTangZhang.large_a_total' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:115:0: 'QuadraticTangZhang.boundary_gap_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:116:0: 'Sendov.amgm_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:117:0: 'Sendov.maclaurin_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:118:0: 'Sendov.Multiset.prod_le_mean_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:119:0: 'Sendov.esymm_card_cons' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:120:0: 'Sendov.Multiset.esymm_card_pred_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:121:0: 'QuadraticTangZhang.beta_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:122:0: 'QuadraticTangZhang.betaS_le_beta' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:123:0: 'QuadraticTangZhang.beta_one_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:124:0: 'QuadraticTangZhang.x_gt_half_of_beta_lt_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:125:0: 'QuadraticTangZhang.rho_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:126:0: 'QuadraticTangZhang.rho_le_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:127:0: 'QuadraticTangZhang.rho_le_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:128:0: 'QuadraticTangZhang.betaS_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:129:0: 'QuadraticTangZhang.betaS_endpoint_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:130:0: 'QuadraticTangZhang.polar_chord_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:131:0: 'QuadraticTangZhang.polar_le_chord' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:132:0: 'QuadraticTangZhang.cubic_le_a' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:133:0: 'QuadraticTangZhang.cubic_discriminant_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:134:0: 'QuadraticTangZhang.cubic_discriminant_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:135:0: 'QuadraticTangZhang.exclude_center_cubic' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:136:0: 'QuadraticTangZhang.exclude_center_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:137:0: 'QuadraticTangZhang.boundary_margin' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:138:0: 'QuadraticTangZhang.exclude_center_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:139:0: 'QuadraticTangZhang.exclude_direct' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:140:0: 'QuadraticTangZhang.small_degree_factor_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:141:0: 'QuadraticTangZhang.small_degree_deficit_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:142:0: 'QuadraticTangZhang.boxEnvelope_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:143:0: 'QuadraticTangZhang.boxEnvelope_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:144:0: 'QuadraticTangZhang.boxEnvelope_convex' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:145:0: 'QuadraticTangZhang.boxEnvelope_rpow_convex' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:146:0: 'QuadraticTangZhang.weighted_sq_div' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:147:0: 'QuadraticTangZhang.convexOn_sq_div_affine' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:148:0: 'QuadraticTangZhang.boxEnvelope_rpow_div_convex' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:149:0: 'QuadraticTangZhang.convex_chord_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:150:0: 'QuadraticTangZhang.weighted_chord_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:151:0: 'QuadraticTangZhang.weighted_convex_integral_le_chord' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:152:0: 'QuadraticTangZhang.convex_quadrature_weight_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:153:0: 'QuadraticTangZhang.convex_quadrature_weight_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:154:0: 'QuadraticTangZhang.degree_term_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:155:0: 'QuadraticTangZhang.abstract_rectangle_exclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:156:0: 'QuadraticTangZhang.abstract_rectangle_exclusion_basic' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:157:0: 'QuadraticTangZhang.sum_eq_card_mul_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:158:0: 'QuadraticTangZhang.differential_origin_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:159:0: 'QuadraticTangZhang.originProduct_norm_le_beta' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:160:0: 'QuadraticTangZhang.originErrorSum_norm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:161:0: 'QuadraticTangZhang.originRemainder_norm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:162:0: 'QuadraticTangZhang.direct_scalar_inequality' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:163:0: 'QuadraticTangZhang.origin_gap_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:164:0: 'QuadraticTangZhang.beta_pos_on_unit' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:165:0: 'QuadraticTangZhang.centerFactor_norm_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:166:0: 'QuadraticTangZhang.centerIntegral_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:167:0: 'QuadraticTangZhang.centerIntegral_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:168:0: 'QuadraticTangZhang.centerCoefficient_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:169:0: 'QuadraticTangZhang.centerFactor_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:170:0: 'QuadraticTangZhang.centered_integral_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:171:0: 'QuadraticTangZhang.norm_centerFactor_sq_le_beta' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:172:0: 'QuadraticTangZhang.norm_pow_le_rpow_of_sq_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:173:0: 'QuadraticTangZhang.centered_scalar_inequality' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:174:0: 'QuadraticTangZhang.segment_quadrature_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:175:0: 'QuadraticTangZhang.segment_quadrature_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:176:0: 'QuadraticTangZhang.finite_quadrature_one_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:177:0: 'QuadraticTangZhang.finite_quadrature_two_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:178:0: 'QuadraticTangZhang.roundDown_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:179:0: 'QuadraticTangZhang.roundUp_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:180:0: 'QuadraticTangZhang.roundDown_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:181:0: 'QuadraticTangZhang.le_roundUp' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:182:0: 'QuadraticTangZhang.roundDown_cast_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:183:0: 'QuadraticTangZhang.cast_le_roundUp' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:184:0: 'QuadraticTangZhang.roundedPowLower_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:185:0: 'QuadraticTangZhang.roundedPowUpper_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:186:0: 'QuadraticTangZhang.roundedSqrtLower_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:187:0: 'QuadraticTangZhang.roundedSqrtUpper_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:188:0: 'QuadraticTangZhang.roundedSqrtLower_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:189:0: 'QuadraticTangZhang.le_roundedSqrtUpper_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:190:0: 'QuadraticTangZhang.roundedSqrt_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:191:0: 'QuadraticTangZhang.rpow_half_nat_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:192:0: 'QuadraticTangZhang.rpow_half_nat_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:193:0: 'QuadraticTangZhang.halfPower_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:194:0: 'QuadraticTangZhang.integral_t_exp_neg_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:195:0: 'QuadraticTangZhang.integral_sq_exp_neg_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:196:0: 'QuadraticTangZhang.rpow_le_exp_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:197:0: 'QuadraticTangZhang.beta_power_split_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:198:0: 'QuadraticTangZhang.direct_integral_split_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:199:0: 'QuadraticTangZhang.affine_denominator_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:200:0: 'QuadraticTangZhang.envelope_quotient_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:201:0: 'QuadraticTangZhang.uniform_integral_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:202:0: 'QuadraticTangZhang.uniform_coefficient_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:203:0: 'QuadraticTangZhang.uniform_endpoint_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:204:0: 'QuadraticTangZhang.beta_gap_form' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:205:0: 'QuadraticTangZhang.denominator_gap_form' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:206:0: 'QuadraticTangZhang.rpow_div_mono_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:207:0: 'QuadraticTangZhang.beta_quotient_gap_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:208:0: 'QuadraticTangZhang.rectangle_envelope_power_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:209:0: 'QuadraticTangZhang.rectangle_envelope_quotient_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:210:0: 'QuadraticTangZhang.polar_le_linear' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:211:0: 'QuadraticTangZhang.polar_exponential' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:212:0: 'QuadraticTangZhang.beta_rational_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:213:0: 'QuadraticTangZhang.beta_log_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:214:0: 'QuadraticTangZhang.prod_norm_le_exact_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:215:0: 'QuadraticTangZhang.exact_polar_inequality' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:216:0: 'QuadraticTangZhang.polarQuadratic_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:217:0: 'QuadraticTangZhang.polarQuadratic_le_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:218:0: 'QuadraticTangZhang.small_degree_polar_contradiction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:219:0: 'Sendov.norm_sub_le_norm_one_sub_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:220:0: 'Sendov.norm_multiset_prod' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:221:0: 'Sendov.prod_map_le_of_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:222:0: 'Sendov.norm_prod_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:223:0: 'Sendov.prod_map_norm_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:224:0: 'Sendov.one_le_integral_prod_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:225:0: 'Sendov.norm_sq_add_real_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:226:0: 'Sendov.prod_map_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:227:0: 'Sendov.sum_norm_sq_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:228:0: 'Sendov.sum_norm_sq_le_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:229:0: 'Sendov.continuous_prod_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:230:0: 'QuadraticTangZhang.smallIntegral_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:231:0: 'QuadraticTangZhang.smallIntegral_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:232:0: 'QuadraticTangZhang.smallIntegral_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:233:0: 'QuadraticTangZhang.smallIntegral_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:234:0: 'QuadraticTangZhang.smallIntegral_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:235:0: 'QuadraticTangZhang.smallIntegral_lt_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:236:0: 'Sendov.integral_exp_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:237:0: 'Sendov.integral_exp_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:238:0: 'Sendov.integral_exp_eq'' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:239:0: 'Sendov.beta_lt_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:240:0: 'Sendov.beta_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:241:0: 'Sendov.log_le_alpha_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:242:0: 'Sendov.sinh_sq_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:243:0: 'Sendov.sqrt_mul_sub_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:244:0: 'Sendov.log_sinh_div_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:245:0: 'Sendov.sinh_le_mul_exp' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:246:0: 'QuadraticTangZhang.rho_pos_of_polar' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:247:0: 'QuadraticTangZhang.chord_polar_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:248:0: 'QuadraticTangZhang.rho_log_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:249:0: 'BorceaVariance.Certificate.multiplyUp_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:250:0: 'BorceaVariance.Certificate.subtractDown_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:251:0: 'BorceaVariance.Certificate.upperPower_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:252:0: 'BorceaVariance.Certificate.upperSqrt_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:253:0: 'BorceaVariance.Certificate.upperHalfPower_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:254:0: 'BorceaVariance.Certificate.taylor32_le_exp' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:255:0: 'BorceaVariance.Certificate.degreeChain_coverage' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:256:0: 'BorceaVariance.Certificate.Generated.certificates_degree_list' depends on axioms: [propext]
+info: Audit.lean:257:0: 'BorceaVariance.Certificate.Generated.concrete_degree_coverage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: Audit.lean:258:0: 'BorceaVariance.Certificate.Generated.concrete_tree_coverage' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:259:0: 'BorceaVariance.Certificate.Generated.concrete_paths_no_duplicates' depends on axioms: [propext, Quot.sound]
+info: Audit.lean:260:0: 'BorceaVariance.Certificate.Generated.concrete_leaf_has_no_descendant' depends on axioms: [propext]
+info: Audit.lean:261:0: 'BorceaVariance.Certificate.Generated.degreeBlocks_count' does not depend on any axioms
+info: Audit.lean:262:0: 'BorceaVariance.Certificate.Generated.degreeBlocks_chain' does not depend on any axioms
+info: Audit.lean:263:0: 'BorceaVariance.Certificate.Generated.degreeBlocks_no_overlap' does not depend on any axioms
+info: Audit.lean:264:0: 'BorceaVariance.Certificate.Generated.degreeBlocks_coverage' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:265:0: 'BorceaVariance.Certificate.CounterexampleParameters.critical_far' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: Audit.lean:266:0: 'BorceaVariance.Certificate.parameters_exist' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:267:0: 'BorceaVariance.Certificate.CounterexampleParameters.variance_nonnegative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: Audit.lean:268:0: 'BorceaVariance.Certificate.CounterexampleParameters.unit_parameters' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: Audit.lean:269:0: 'BorceaVariance.Certificate.Tree.leafPaths_nodup' depends on axioms: [propext, Quot.sound]
+info: Audit.lean:270:0: 'BorceaVariance.Certificate.Tree.atLeaf_unique' does not depend on any axioms
+info: Audit.lean:271:0: 'BorceaVariance.Certificate.Tree.leaf_has_no_descendant' does not depend on any axioms
+info: Audit.lean:272:0: 'BorceaVariance.Certificate.Tree.atLeaf_split_coordinate' does not depend on any axioms
+info: Audit.lean:273:0: 'BorceaVariance.Certificate.degree_bound_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:274:0: 'BorceaVariance.Certificate.variance_nonnegative_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:275:0: 'BorceaVariance.Certificate.Interval.split_covers' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:276:0: 'BorceaVariance.Certificate.Box.split_covers' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:277:0: 'BorceaVariance.Certificate.Tree.coverage' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:278:0: 'BorceaVariance.Certificate.Tree.exclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:279:0: 'BorceaVariance.critical_root_sum_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:280:0: 'BorceaVariance.multiset_fin_enumeration' depends on axioms: [propext, Quot.sound]
+info: Audit.lean:281:0: 'BorceaVariance.normalized_critical_points' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:282:0: 'BorceaVariance.sigma2_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:283:0: 'BorceaVariance.variance_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:284:0: 'BorceaVariance.sigma2_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:285:0: 'BorceaVariance.root_eq_centroid_of_variance_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:286:0: 'BorceaVariance.polynomial_of_variance_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:287:0: 'BorceaVariance.zero_variance_main' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:288:0: 'BorceaVariance.sigma2_pos_of_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:289:0: 'BorceaVariance.centered_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:290:0: 'BorceaVariance.sum_eq_card_mul_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:291:0: 'BorceaVariance.sum_sq_eq_card_mul_secondMoment' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:292:0: 'BorceaVariance.centered_variance_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:293:0: 'BorceaVariance.centeredVariance_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:294:0: 'BorceaVariance.weighted_complex_cauchy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:295:0: 'BorceaVariance.complex_cauchy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:296:0: 'BorceaVariance.origin_identity_multiset' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:297:0: 'BorceaVariance.normalized_origin_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:298:0: 'BorceaVariance.differential_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:299:0: 'BorceaVariance.center_power_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:300:0: 'BorceaVariance.center_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:301:0: 'BorceaVariance.chord_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:302:0: 'BorceaVariance.chord_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:303:0: 'BorceaVariance.le_min_of_separate_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:304:0: 'BorceaVariance.one_sub_le_exp_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:305:0: 'BorceaVariance.exp_ge_sixth' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:306:0: 'BorceaVariance.small_a_final_margin' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:307:0: 'BorceaVariance.away_table_margins' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:308:0: 'BorceaVariance.central_B_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:309:0: 'BorceaVariance.near_final_rational_margin' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:310:0: 'BorceaVariance.exists_normalizing_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:311:0: 'BorceaVariance.normalize_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:312:0: 'BorceaVariance.normalized_root_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:313:0: 'BorceaVariance.eval_affinePullback' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:314:0: 'BorceaVariance.natDegree_affinePullback' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:315:0: 'BorceaVariance.derivative_affinePullback' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:316:0: 'BorceaVariance.roots_affinePullback' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:317:0: 'BorceaVariance.critical_roots_affinePullback' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:318:0: 'BorceaVariance.roots_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:319:0: 'BorceaVariance.multiset_sum_affine' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:320:0: 'BorceaVariance.centroid_affinePullback' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:321:0: 'BorceaVariance.centroid_C_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:322:0: 'BorceaVariance.variance_C_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:323:0: 'BorceaVariance.sigma2_C_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:324:0: 'BorceaVariance.variance_affinePullback' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:325:0: 'BorceaVariance.sigma2_affinePullback' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:326:0: 'BorceaVariance.reciprocal_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:327:0: 'BorceaVariance.reciprocal_norm_lt_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:328:0: 'BorceaVariance.reciprocal_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:329:0: 'BorceaVariance.reciprocal_conjugate_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:330:0: 'BorceaVariance.reciprocal_product_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:331:0: 'BorceaVariance.sum_beta' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:332:0: 'BorceaVariance.beta_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:333:0: 'BorceaVariance.beta_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:334:0: 'BorceaVariance.secondMoment_reciprocal_lt_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:335:0: 'BorceaVariance.secondMoment_reciprocal_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:336:0: 'BorceaVariance.centered_shift_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:337:0: 'BorceaVariance.reciprocal_weight_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:338:0: 'BorceaVariance.reciprocal_weighted_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:339:0: 'BorceaVariance.reciprocal_weighted_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:340:0: 'BorceaVariance.reciprocal_centered_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:341:0: 'BorceaVariance.norm_sub_real_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:342:0: 'BorceaVariance.norm_one_sub_real_mul_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:343:0: 'BorceaVariance.reciprocal_weighted_cauchy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:344:0: 'BorceaVariance.reciprocal_moment_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:345:0: 'BorceaVariance.reciprocal_moment_A_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:346:0: 'BorceaVariance.reciprocal_moment_B' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:347:0: 'BorceaVariance.reciprocal_inverse_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:348:0: 'BorceaVariance.reciprocal_moment_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:349:0: 'BorceaVariance.reciprocal_moments' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:350:0: 'BorceaVariance.normalized_degree_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:351:0: 'BorceaVariance.sharpPolynomial_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:352:0: 'BorceaVariance.sharpPolynomial_root_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:353:0: 'BorceaVariance.sharpPolynomial_centroid' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:354:0: 'BorceaVariance.sharpPolynomial_sigma2' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:355:0: 'BorceaVariance.sharpPolynomial_critical_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:356:0: 'BorceaVariance.sharpness_family' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:357:0: 'BorceaVariance.constant_one_sharp' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:358:0: 'BorceaVariance.no_normalized_counterexample_cubic' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:359:0: 'BorceaVariance.cubic_main' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:360:0: 'BorceaVariance.complex_quadratic_norm_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:361:0: 'BorceaVariance.choose_signed_critical_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:362:0: 'BorceaVariance.cubic_two_point_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:363:0: 'BorceaVariance.quadratic_main' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:364:0: 'BorceaVariance.bhatia_davis' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3496/3497] Built ManuscriptCheck (13s)
+info: ManuscriptCheck.lean:4:0: BorceaVariance.MainStatement : Prop
+info: ManuscriptCheck.lean:7:0: BorceaVariance.Certificate.multiplyUp_sound {S : ℕ} (hS : 0 < S) {x y : ℝ} {X Y : ℚ} (hx : 0 ≤ x) (hy : 0 ≤ y)
+  (hX : x ≤ ↑X) (hY : y ≤ ↑Y) : x * y ≤ ↑(BorceaVariance.Certificate.multiplyUp S X Y)
+info: ManuscriptCheck.lean:9:0: BorceaVariance.Certificate.subtractDown_sound {S : ℕ} (hS : 0 < S) {u c : ℝ} {U C : ℚ} (hU : u ≤ ↑U) (hC0 : 0 ≤ C)
+  (hC : ↑C ≤ c) : u - c ≤ ↑(U - BorceaVariance.Certificate.downward S C)
+info: ManuscriptCheck.lean:11:0: BorceaVariance.Certificate.upperPower_sound {S : ℕ} (hS : 0 < S) {x : ℚ} (hx : 0 ≤ x) (n : ℕ) :
+  ↑x ^ n ≤ ↑(BorceaVariance.Certificate.upperPower S x n)
+info: ManuscriptCheck.lean:13:0: BorceaVariance.Certificate.upperSqrt_sound {S : ℕ} (hS : 0 < S) {x : ℚ} (hx : 0 ≤ x) :
+  √↑x ≤ ↑(BorceaVariance.Certificate.upperSqrt S x)
+info: ManuscriptCheck.lean:15:0: BorceaVariance.Certificate.upperHalfPower_sound {S : ℕ} (hS : 0 < S) {x : ℚ} (hx : 0 ≤ x) (n : ℕ) :
+  ↑x ^ (↑n / 2) ≤ ↑(BorceaVariance.Certificate.upperHalfPower S x n)
+info: ManuscriptCheck.lean:17:0: BorceaVariance.Certificate.taylor32_le_exp {x : ℚ} (hx : 0 ≤ x) : ↑(BorceaVariance.Certificate.taylor32 x) ≤ Real.exp ↑x
+info: ManuscriptCheck.lean:19:0: BorceaVariance.Certificate.degreeChain_coverage (blocks : List BorceaVariance.Certificate.DegreeBlock) (lo hi : ℕ)
+  (h : BorceaVariance.Certificate.degreeChain lo hi blocks = true) (n : ℕ) :
+  lo ≤ n → n ≤ hi → ∃ b ∈ blocks, b.Contains n
+info: ManuscriptCheck.lean:21:0: BorceaVariance.Certificate.Generated.certificates_degree_list :
+  List.map Prod.fst BorceaVariance.Certificate.Generated.certificates =
+    BorceaVariance.Certificate.Generated.degreeBlocks
+info: ManuscriptCheck.lean:23:0: BorceaVariance.Certificate.Generated.concrete_degree_coverage (n : ℕ) (hlo : 4 ≤ n) (hhi : n ≤ 100000) :
+  ∃ c ∈ BorceaVariance.Certificate.Generated.certificates, c.1.Contains n
+info: ManuscriptCheck.lean:25:0: BorceaVariance.Certificate.Generated.concrete_tree_coverage (n : ℕ) (hlo : 4 ≤ n) (hhi : n ≤ 100000) :
+  ∃ c ∈ BorceaVariance.Certificate.Generated.certificates,
+    c.1.Contains n ∧
+      ∀ (x : BorceaVariance.Certificate.Point),
+        BorceaVariance.Certificate.initialBox.Contains x →
+          BorceaVariance.Certificate.Tree.Covered BorceaVariance.Certificate.initialBox x c.2
+info: ManuscriptCheck.lean:27:0: BorceaVariance.Certificate.Generated.concrete_paths_no_duplicates
+  (c : BorceaVariance.Certificate.DegreeBlock × BorceaVariance.Certificate.Tree)
+  (_hc : c ∈ BorceaVariance.Certificate.Generated.certificates) : c.2.leafPaths.Nodup
+info: ManuscriptCheck.lean:29:0: BorceaVariance.Certificate.Generated.concrete_leaf_has_no_descendant
+  (c : BorceaVariance.Certificate.DegreeBlock × BorceaVariance.Certificate.Tree)
+  (_hc : c ∈ BorceaVariance.Certificate.Generated.certificates) (p q : BorceaVariance.Certificate.Path)
+  (v w : BorceaVariance.Certificate.Leaf) (hp : c.2.AtLeaf p v) (hq : q ≠ []) : ¬c.2.AtLeaf (p ++ q) w
+info: ManuscriptCheck.lean:31:0: BorceaVariance.Certificate.Generated.degreeBlocks_count : BorceaVariance.Certificate.Generated.degreeBlocks.length = 72
+info: ManuscriptCheck.lean:33:0: BorceaVariance.Certificate.Generated.degreeBlocks_chain :
+  BorceaVariance.Certificate.degreeChain 4 100000 BorceaVariance.Certificate.Generated.degreeBlocks = true
+info: ManuscriptCheck.lean:35:0: BorceaVariance.Certificate.Generated.degreeBlocks_no_overlap :
+  List.Pairwise (fun a b => a.upper < b.lower) BorceaVariance.Certificate.Generated.degreeBlocks
+info: ManuscriptCheck.lean:37:0: BorceaVariance.Certificate.Generated.degreeBlocks_coverage (n : ℕ) (hlo : 4 ≤ n) (hhi : n ≤ 100000) :
+  ∃ b ∈ BorceaVariance.Certificate.Generated.degreeBlocks, b.Contains n
+info: ManuscriptCheck.lean:39:0: BorceaVariance.Certificate.CounterexampleParameters.critical_far {n : ℕ}
+  (P : BorceaVariance.Certificate.CounterexampleParameters n) (j : Fin (n - 1)) :
+  1 < ‖↑P.configuration.distinguished - P.critical j‖
+info: ManuscriptCheck.lean:41:0: BorceaVariance.Certificate.parameters_exist {n : ℕ} (hn : 2 ≤ n) (Cex : BorceaVariance.NormalizedCounterexample n) :
+  ∃ P, P.configuration = Cex
+info: ManuscriptCheck.lean:43:0: BorceaVariance.Certificate.CounterexampleParameters.variance_nonnegative {n : ℕ} (hn : 2 ≤ n)
+  (P : BorceaVariance.Certificate.CounterexampleParameters n) : P.point 1 ^ 2 ≤ P.point 2
+info: ManuscriptCheck.lean:45:0: BorceaVariance.Certificate.CounterexampleParameters.unit_parameters {n : ℕ} (hn : 2 ≤ n)
+  (P : BorceaVariance.Certificate.CounterexampleParameters n) :
+  0 ≤ P.point 0 ∧ 0 ≤ P.point 1 ∧ P.point 1 < 1 ∧ 0 < P.point 2 ∧ P.point 2 < 1
+info: ManuscriptCheck.lean:47:0: BorceaVariance.Certificate.Tree.leafPaths_nodup (T : BorceaVariance.Certificate.Tree) : T.leafPaths.Nodup
+info: ManuscriptCheck.lean:49:0: BorceaVariance.Certificate.Tree.atLeaf_unique (T : BorceaVariance.Certificate.Tree)
+  (p : BorceaVariance.Certificate.Path) (v w : BorceaVariance.Certificate.Leaf) (hv : T.AtLeaf p v)
+  (hw : T.AtLeaf p w) : v = w
+info: ManuscriptCheck.lean:51:0: BorceaVariance.Certificate.Tree.leaf_has_no_descendant (T : BorceaVariance.Certificate.Tree)
+  (p q : BorceaVariance.Certificate.Path) (v w : BorceaVariance.Certificate.Leaf) (hp : T.AtLeaf p v) (hq : q ≠ []) :
+  ¬T.AtLeaf (p ++ q) w
+info: ManuscriptCheck.lean:53:0: BorceaVariance.Certificate.Tree.atLeaf_split_coordinate (i : Fin 3) (l r : BorceaVariance.Certificate.Tree) (j : Fin 3)
+  (b : Bool) (p : BorceaVariance.Certificate.Path) (v : BorceaVariance.Certificate.Leaf)
+  (h : (BorceaVariance.Certificate.Tree.split i l r).AtLeaf ((j, b) :: p) v) : j = i
+info: ManuscriptCheck.lean:55:0: BorceaVariance.Certificate.degree_bound_sound (D : BorceaVariance.Certificate.DegreeBlock)
+  (B : BorceaVariance.Certificate.Box) (n : ℕ) (hn : 2 ≤ n) (hdegree : D.Contains n)
+  (htest : BorceaVariance.Certificate.degreeBoundTest D B = true) (x : BorceaVariance.Certificate.Point) :
+  B.Contains x → ¬BorceaVariance.Certificate.Admissible n x
+info: ManuscriptCheck.lean:57:0: BorceaVariance.Certificate.variance_nonnegative_sound (B : BorceaVariance.Certificate.Box) (n : ℕ) (hn : 2 ≤ n)
+  (htest : BorceaVariance.Certificate.varianceNonnegativeTest B = true) (x : BorceaVariance.Certificate.Point) :
+  B.Contains x → ¬BorceaVariance.Certificate.Admissible n x
+info: ManuscriptCheck.lean:59:0: BorceaVariance.Certificate.Interval.split_covers (I : BorceaVariance.Certificate.Interval) {x : ℝ} (hx : I.Contains x) :
+  I.left.Contains x ∨ I.right.Contains x
+info: ManuscriptCheck.lean:61:0: BorceaVariance.Certificate.Box.split_covers (B : BorceaVariance.Certificate.Box) (i : Fin 3)
+  {x : BorceaVariance.Certificate.Point} (hx : B.Contains x) : (B.left i).Contains x ∨ (B.right i).Contains x
+info: ManuscriptCheck.lean:63:0: BorceaVariance.Certificate.Tree.coverage (T : BorceaVariance.Certificate.Tree) (B : BorceaVariance.Certificate.Box)
+  {x : BorceaVariance.Certificate.Point} (hx : B.Contains x) : BorceaVariance.Certificate.Tree.Covered B x T
+info: ManuscriptCheck.lean:65:0: BorceaVariance.Certificate.Tree.exclusion (T : BorceaVariance.Certificate.Tree) (B : BorceaVariance.Certificate.Box)
+  (admissible : BorceaVariance.Certificate.Point → Prop)
+  (h :
+    BorceaVariance.Certificate.Tree.AllLeaves
+      (fun b x => ∀ (x : BorceaVariance.Certificate.Point), b.Contains x → ¬admissible x) B T)
+  (x : BorceaVariance.Certificate.Point) : B.Contains x → ¬admissible x
+info: ManuscriptCheck.lean:67:0: BorceaVariance.critical_root_sum_zero (p : Polynomial ℂ) (hn : 2 ≤ p.natDegree) (hcenter : p.roots.sum = 0) :
+  (Polynomial.derivative p).roots.sum = 0
+info: ManuscriptCheck.lean:69:0: BorceaVariance.multiset_fin_enumeration.{u_1} {α : Type u_1} (s : Multiset α) : ∃ f, ↑(List.ofFn f) = s
+info: ManuscriptCheck.lean:71:0: BorceaVariance.normalized_critical_points {n : ℕ} (hn : 2 ≤ n) (Cex : BorceaVariance.NormalizedCounterexample n) :
+  ∃ ζ,
+    ↑(List.ofFn ζ) = (Polynomial.derivative Cex.polynomial).roots ∧
+      ∑ j, ζ j = 0 ∧
+        (∀ (j : Fin (n - 1)), Polynomial.eval (ζ j) (Polynomial.derivative Cex.polynomial) = 0) ∧
+          ∀ (j : Fin (n - 1)), 1 < ‖↑Cex.distinguished - ζ j‖
+info: ManuscriptCheck.lean:73:0: BorceaVariance.sigma2_nonneg (p : Polynomial ℂ) : 0 ≤ BorceaVariance.sigma2 p
+info: ManuscriptCheck.lean:75:0: BorceaVariance.variance_nonneg (p : Polynomial ℂ) : 0 ≤ BorceaVariance.variance p
+info: ManuscriptCheck.lean:77:0: BorceaVariance.sigma2_sq (p : Polynomial ℂ) : BorceaVariance.sigma2 p ^ 2 = BorceaVariance.variance p
+info: ManuscriptCheck.lean:79:0: BorceaVariance.root_eq_centroid_of_variance_zero (p : Polynomial ℂ) (hn : 0 < p.natDegree)
+  (hv : BorceaVariance.variance p = 0) {a : ℂ} (ha : a ∈ p.roots) : a = BorceaVariance.centroid p
+info: ManuscriptCheck.lean:81:0: BorceaVariance.polynomial_of_variance_zero (p : Polynomial ℂ) (hn : 0 < p.natDegree)
+  (hv : BorceaVariance.variance p = 0) :
+  p = Polynomial.C p.leadingCoeff * (Polynomial.X - Polynomial.C (BorceaVariance.centroid p)) ^ p.natDegree
+info: ManuscriptCheck.lean:83:0: BorceaVariance.zero_variance_main (p : Polynomial ℂ) (hn : 2 ≤ p.natDegree) (hv : BorceaVariance.variance p = 0) (a : ℂ)
+  (ha : Polynomial.eval a p = 0) :
+  ∃ z, Polynomial.eval z (Polynomial.derivative p) = 0 ∧ ‖a - z‖ ≤ BorceaVariance.sigma2 p
+info: ManuscriptCheck.lean:85:0: BorceaVariance.sigma2_pos_of_counterexample (p : Polynomial ℂ) (hn : 2 ≤ p.natDegree) (a : ℂ)
+  (ha : Polynomial.eval a p = 0)
+  (hfar : ∀ (z : ℂ), Polynomial.eval z (Polynomial.derivative p) = 0 → BorceaVariance.sigma2 p < ‖a - z‖) :
+  0 < BorceaVariance.sigma2 p
+info: ManuscriptCheck.lean:87:0: BorceaVariance.centered_sum {m : ℕ} (hm : 0 < m) (q : Fin m → ℂ) : ∑ i, (q i - BorceaVariance.mean q) = 0
+info: ManuscriptCheck.lean:89:0: BorceaVariance.sum_eq_card_mul_mean {m : ℕ} (hm : 0 < m) (q : Fin m → ℂ) : ∑ i, q i = ↑m * BorceaVariance.mean q
+info: ManuscriptCheck.lean:91:0: BorceaVariance.sum_sq_eq_card_mul_secondMoment {m : ℕ} (hm : 0 < m) (q : Fin m → ℂ) :
+  ∑ i, ‖q i‖ ^ 2 = ↑m * BorceaVariance.secondMoment q
+info: ManuscriptCheck.lean:93:0: BorceaVariance.centered_variance_sum {m : ℕ} (hm : 0 < m) (q : Fin m → ℂ) :
+  ∑ i, ‖q i - BorceaVariance.mean q‖ ^ 2 = ↑m * BorceaVariance.centeredVariance q
+info: ManuscriptCheck.lean:95:0: BorceaVariance.centeredVariance_nonneg {m : ℕ} (hm : 0 < m) (q : Fin m → ℂ) : 0 ≤ BorceaVariance.centeredVariance q
+info: ManuscriptCheck.lean:97:0: BorceaVariance.weighted_complex_cauchy.{u_1} {ι : Type u_1} (s : Finset ι) (w : ι → ℝ) (f g : ι → ℂ)
+  (hw : ∀ i ∈ s, 0 ≤ w i) : ‖∑ i ∈ s, ↑(w i) * f i * g i‖ ^ 2 ≤ (∑ i ∈ s, w i * ‖f i‖ ^ 2) * ∑ i ∈ s, w i * ‖g i‖ ^ 2
+info: ManuscriptCheck.lean:99:0: BorceaVariance.complex_cauchy.{u_1} {ι : Type u_1} (s : Finset ι) (f g : ι → ℂ) :
+  ‖∑ i ∈ s, f i * g i‖ ^ 2 ≤ (∑ i ∈ s, ‖f i‖ ^ 2) * ∑ i ∈ s, ‖g i‖ ^ 2
+info: ManuscriptCheck.lean:101:0: BorceaVariance.origin_identity_multiset {n : ℕ} {a c : ℂ} {z q : Multiset ℂ} {p : Polynomial ℂ} (hc : c ≠ 0)
+  (hzcard : z.card = n - 1) (hq : ∀ v ∈ q, v ≠ 0) (hpa : Polynomial.eval a p = 0)
+  (hpz :
+    p =
+      Polynomial.C c *
+        ((Polynomial.X - Polynomial.C a) * (Multiset.map (fun w => Polynomial.X - Polynomial.C w) z).prod))
+  (hpq :
+    Polynomial.derivative p =
+      Polynomial.C (↑n * c) *
+        (Multiset.map (fun w => Polynomial.X - Polynomial.C w) (Multiset.map (fun v => a - v⁻¹) q)).prod) :
+  ↑n * ∫ (t : ℝ) in 0..1, (Multiset.map (fun v => 1 - a * ↑t * v) q).prod = (-1) ^ (n - 1) * q.prod * z.prod
+info: ManuscriptCheck.lean:103:0: BorceaVariance.normalized_origin_identity {n : ℕ} (Cex : BorceaVariance.NormalizedCounterexample n) (s : Multiset ℂ)
+  (hcard : s.card = n - 1)
+  (hp :
+    Cex.polynomial =
+      (Polynomial.X - Polynomial.C ↑Cex.distinguished) *
+        (Multiset.map (fun z => Polynomial.X - Polynomial.C z) s).prod) :
+  have q := QuadraticTangZhang.criticalReciprocals Cex.polynomial ↑Cex.distinguished;
+  ↑n * ∫ (t : ℝ) in 0..1, (Multiset.map (fun v => 1 - ↑Cex.distinguished * ↑t * v) q).prod =
+    (-1) ^ (n - 1) * q.prod * s.prod
+info: ManuscriptCheck.lean:105:0: BorceaVariance.differential_identity {m : ℕ} (hm : 0 < m) (q : Fin m → ℂ) (a : ℝ) :
+  (BorceaVariance.originProduct q a 1 +
+        ↑m * ↑a * BorceaVariance.mean q * ∫ (t : ℝ) in 0..1, BorceaVariance.originProduct q a t) +
+      BorceaVariance.originRemainder q a =
+    1
+info: ManuscriptCheck.lean:107:0: BorceaVariance.center_power_integral (m : ℕ) (b : ℂ) :
+  b * ↑(m + 1) * ∫ (t : ℝ) in 0..1, (1 - b * ↑t) ^ m = 1 - (1 - b) ^ (m + 1)
+info: ManuscriptCheck.lean:109:0: BorceaVariance.center_identity {m : ℕ} (q : Fin m → ℂ) (a : ℝ) (J : ℂ)
+  (horigin : ↑(m + 1) * ∫ (t : ℝ) in 0..1, BorceaVariance.originProduct q a t = (-1) ^ m * J) :
+  (-1) ^ m * ↑a * BorceaVariance.mean q * J + (1 - ↑a * BorceaVariance.mean q) ^ (m + 1) -
+      ↑(m + 1) * ↑a * BorceaVariance.mean q *
+        ∫ (t : ℝ) in 0..1, BorceaVariance.originProduct q a t - (1 - ↑a * BorceaVariance.mean q * ↑t) ^ m =
+    1
+info: ManuscriptCheck.lean:111:0: BorceaVariance.chord_one {f : ℝ → ℝ} {l u : ℝ} (hl : 0 ≤ l) (hlu : l ≤ u) (hf : ConvexOn ℝ (Set.Icc l u) f)
+  (hc : ContinuousOn f (Set.Icc l u)) :
+  ∫ (t : ℝ) in l..u, t * f t ≤ (u - l) * (2 * l + u) / 6 * f l + (u - l) * (l + 2 * u) / 6 * f u
+info: ManuscriptCheck.lean:113:0: BorceaVariance.chord_two {f : ℝ → ℝ} {l u : ℝ} (hl : 0 ≤ l) (hlu : l ≤ u) (hf : ConvexOn ℝ (Set.Icc l u) f)
+  (hc : ContinuousOn f (Set.Icc l u)) :
+  ∫ (t : ℝ) in l..u, t ^ 2 * f t ≤
+    (u - l) * (3 * l ^ 2 + 2 * l * u + u ^ 2) / 12 * f l + (u - l) * (l ^ 2 + 2 * l * u + 3 * u ^ 2) / 12 * f u
+info: ManuscriptCheck.lean:115:0: BorceaVariance.le_min_of_separate_bounds {I U V : ℝ} (hU : I ≤ U) (hV : I ≤ V) : I ≤ min U V
+info: ManuscriptCheck.lean:117:0: BorceaVariance.one_sub_le_exp_neg (u : ℝ) : 1 - u ≤ Real.exp (-u)
+info: ManuscriptCheck.lean:119:0: BorceaVariance.exp_ge_sixth {x : ℝ} (hx : 0 ≤ x) : x ^ 6 / 720 ≤ Real.exp x
+info: ManuscriptCheck.lean:121:0: BorceaVariance.small_a_final_margin : 1 / 100 + 1 / 6 + 8 / 19 < 1
+info: ManuscriptCheck.lean:123:0: BorceaVariance.away_table_margins :
+  1 / 1000 + 3 / 4 + 5 * 1665 / 100000 < 1 ∧
+    1 / 1000 + 19 / 20 + 5 * 170 / 100000 < 1 ∧
+      1 / 1000 + 19 / 20 + 5 * 794 / 100000 = 9907 / 10000 ∧
+        9907 / 10000 < 1 ∧ 1 / 1000 + 17 / 20 + 5 * 2500 / 100000 < 1
+info: ManuscriptCheck.lean:125:0: BorceaVariance.central_B_value : 1 - 36 / 625 = 589 / 625
+info: ManuscriptCheck.lean:127:0: BorceaVariance.near_final_rational_margin : 4 / 100000 + 128 / 300 + 20736 / 10 ^ 15 < 1 / 2
+info: ManuscriptCheck.lean:129:0: BorceaVariance.exists_normalizing_scale (w : ℂ) (s : ℝ) (hs : 0 < s) : ∃ b r, b ≠ 0 ∧ 0 ≤ r ∧ ‖b‖ = s ∧ b * ↑r = w
+info: ManuscriptCheck.lean:131:0: BorceaVariance.normalize_counterexample (p : Polynomial ℂ) (hn : 2 ≤ p.natDegree) (a : ℂ) (ha : Polynomial.eval a p = 0)
+  (hfar : ∀ (z : ℂ), Polynomial.eval z (Polynomial.derivative p) = 0 → BorceaVariance.sigma2 p < ‖a - z‖) :
+  Nonempty (BorceaVariance.NormalizedCounterexample p.natDegree)
+info: ManuscriptCheck.lean:133:0: BorceaVariance.normalized_root_factorization {n : ℕ} (Cex : BorceaVariance.NormalizedCounterexample n) :
+  ∃ s,
+    s.card = n - 1 ∧
+      Cex.polynomial.roots = ↑Cex.distinguished ::ₘ s ∧
+        Cex.polynomial =
+            (Polynomial.X - Polynomial.C ↑Cex.distinguished) *
+              (Multiset.map (fun z => Polynomial.X - Polynomial.C z) s).prod ∧
+          ↑Cex.distinguished + s.sum = 0 ∧ Cex.distinguished ^ 2 + (Multiset.map (fun z => ‖z‖ ^ 2) s).sum = ↑n
+info: ManuscriptCheck.lean:135:0: BorceaVariance.eval_affinePullback (p : Polynomial ℂ) (b c z : ℂ) :
+  Polynomial.eval z (BorceaVariance.affinePullback p b c) = Polynomial.eval (b * z + c) p
+info: ManuscriptCheck.lean:137:0: BorceaVariance.natDegree_affinePullback (p : Polynomial ℂ) {b : ℂ} (hb : b ≠ 0) (c : ℂ) :
+  (BorceaVariance.affinePullback p b c).natDegree = p.natDegree
+info: ManuscriptCheck.lean:139:0: BorceaVariance.derivative_affinePullback (p : Polynomial ℂ) (b c : ℂ) :
+  Polynomial.derivative (BorceaVariance.affinePullback p b c) =
+    Polynomial.C b * BorceaVariance.affinePullback (Polynomial.derivative p) b c
+info: ManuscriptCheck.lean:141:0: BorceaVariance.roots_affinePullback (p : Polynomial ℂ) {b : ℂ} (hb : b ≠ 0) (c : ℂ) :
+  (BorceaVariance.affinePullback p b c).roots = Multiset.map (fun z => (z - c) / b) p.roots
+info: ManuscriptCheck.lean:143:0: BorceaVariance.critical_roots_affinePullback (p : Polynomial ℂ) {b : ℂ} (hb : b ≠ 0) (c : ℂ) :
+  (Polynomial.derivative (BorceaVariance.affinePullback p b c)).roots =
+    Multiset.map (fun z => (z - c) / b) (Polynomial.derivative p).roots
+info: ManuscriptCheck.lean:145:0: BorceaVariance.roots_card (p : Polynomial ℂ) : p.roots.card = p.natDegree
+info: ManuscriptCheck.lean:147:0: BorceaVariance.multiset_sum_affine (s : Multiset ℂ) (b c : ℂ) :
+  (Multiset.map (fun z => (z - c) / b) s).sum = (s.sum - ↑s.card * c) / b
+info: ManuscriptCheck.lean:149:0: BorceaVariance.centroid_affinePullback (p : Polynomial ℂ) (hn : 0 < p.natDegree) {b : ℂ} (hb : b ≠ 0) (c : ℂ) :
+  BorceaVariance.centroid (BorceaVariance.affinePullback p b c) = (BorceaVariance.centroid p - c) / b
+info: ManuscriptCheck.lean:151:0: BorceaVariance.centroid_C_mul (p : Polynomial ℂ) {c : ℂ} (hc : c ≠ 0) :
+  BorceaVariance.centroid (Polynomial.C c * p) = BorceaVariance.centroid p
+info: ManuscriptCheck.lean:153:0: BorceaVariance.variance_C_mul (p : Polynomial ℂ) {c : ℂ} (hc : c ≠ 0) :
+  BorceaVariance.variance (Polynomial.C c * p) = BorceaVariance.variance p
+info: ManuscriptCheck.lean:155:0: BorceaVariance.sigma2_C_mul (p : Polynomial ℂ) {c : ℂ} (hc : c ≠ 0) :
+  BorceaVariance.sigma2 (Polynomial.C c * p) = BorceaVariance.sigma2 p
+info: ManuscriptCheck.lean:157:0: BorceaVariance.variance_affinePullback (p : Polynomial ℂ) (hn : 0 < p.natDegree) {b : ℂ} (hb : b ≠ 0) (c : ℂ) :
+  BorceaVariance.variance (BorceaVariance.affinePullback p b c) = BorceaVariance.variance p / ‖b‖ ^ 2
+info: ManuscriptCheck.lean:159:0: BorceaVariance.sigma2_affinePullback (p : Polynomial ℂ) (hn : 0 < p.natDegree) {b : ℂ} (hb : b ≠ 0) (c : ℂ) :
+  BorceaVariance.sigma2 (BorceaVariance.affinePullback p b c) = BorceaVariance.sigma2 p / ‖b‖
+info: ManuscriptCheck.lean:161:0: BorceaVariance.reciprocal_mul {m : ℕ} (a : ℝ) (ζ : Fin m → ℂ) (hne : ∀ (j : Fin m), ↑a - ζ j ≠ 0) (j : Fin m) :
+  (↑a - ζ j) * BorceaVariance.reciprocalFamily a ζ j = 1
+info: ManuscriptCheck.lean:163:0: BorceaVariance.reciprocal_norm_lt_one {m : ℕ} (a : ℝ) (ζ : Fin m → ℂ) (hfar : ∀ (j : Fin m), 1 < ‖↑a - ζ j‖)
+  (j : Fin m) : ‖BorceaVariance.reciprocalFamily a ζ j‖ < 1
+info: ManuscriptCheck.lean:165:0: BorceaVariance.reciprocal_ne_zero {m : ℕ} (a : ℝ) (ζ : Fin m → ℂ) (hne : ∀ (j : Fin m), ↑a - ζ j ≠ 0) (j : Fin m) :
+  BorceaVariance.reciprocalFamily a ζ j ≠ 0
+info: ManuscriptCheck.lean:167:0: BorceaVariance.reciprocal_conjugate_formula {m : ℕ} (a : ℝ) (ζ : Fin m → ℂ) (hne : ∀ (j : Fin m), ↑a - ζ j ≠ 0)
+  (j : Fin m) :
+  BorceaVariance.reciprocalFamily a ζ j = (↑a - (starRingEnd ℂ) (ζ j)) * ↑(‖BorceaVariance.reciprocalFamily a ζ j‖ ^ 2)
+info: ManuscriptCheck.lean:169:0: BorceaVariance.reciprocal_product_identity {m : ℕ} (a : ℝ) (ζ : Fin m → ℂ) (hne : ∀ (j : Fin m), ↑a - ζ j ≠ 0)
+  (j : Fin m) : ζ j * BorceaVariance.reciprocalFamily a ζ j = ↑a * BorceaVariance.reciprocalFamily a ζ j - 1
+info: ManuscriptCheck.lean:171:0: BorceaVariance.sum_beta {m : ℕ} (hm : 0 < m) (q : Fin m → ℂ) (a t : ℝ) :
+  ∑ j, ‖1 - ↑a * ↑t * q j‖ ^ 2 = ↑m * BorceaVariance.beta a (BorceaVariance.mean q) (BorceaVariance.secondMoment q) t
+info: ManuscriptCheck.lean:173:0: BorceaVariance.beta_decomposition {m : ℕ} (q : Fin m → ℂ) (a t : ℝ) :
+  BorceaVariance.beta a (BorceaVariance.mean q) (BorceaVariance.secondMoment q) t =
+    ‖1 - ↑a * ↑t * BorceaVariance.mean q‖ ^ 2 + a ^ 2 * t ^ 2 * BorceaVariance.centeredVariance q
+info: ManuscriptCheck.lean:175:0: BorceaVariance.beta_nonneg {m : ℕ} (hm : 0 < m) (q : Fin m → ℂ) (a t : ℝ) :
+  0 ≤ BorceaVariance.beta a (BorceaVariance.mean q) (BorceaVariance.secondMoment q) t
+info: ManuscriptCheck.lean:177:0: BorceaVariance.secondMoment_reciprocal_lt_one {m : ℕ} (hm : 0 < m) (a : ℝ) (ζ : Fin m → ℂ)
+  (hfar : ∀ (j : Fin m), 1 < ‖↑a - ζ j‖) : BorceaVariance.secondMoment (BorceaVariance.reciprocalFamily a ζ) < 1
+info: ManuscriptCheck.lean:179:0: BorceaVariance.secondMoment_reciprocal_pos {m : ℕ} (hm : 0 < m) (a : ℝ) (ζ : Fin m → ℂ)
+  (hne : ∀ (j : Fin m), ↑a - ζ j ≠ 0) : 0 < BorceaVariance.secondMoment (BorceaVariance.reciprocalFamily a ζ)
+info: ManuscriptCheck.lean:181:0: BorceaVariance.centered_shift_energy {m : ℕ} (hm : 0 < m) (ζ : Fin m → ℂ) (hcenter : ∑ j, ζ j = 0) (a : ℝ) :
+  ∑ j, ‖↑a - ζ j‖ ^ 2 = ↑m * (a ^ 2 + BorceaVariance.secondMoment ζ)
+info: ManuscriptCheck.lean:183:0: BorceaVariance.reciprocal_weight_sum {m : ℕ} (hm : 0 < m) (a : ℝ) (ζ : Fin m → ℂ) :
+  ∑ j, (1 - ‖BorceaVariance.reciprocalFamily a ζ j‖ ^ 2) =
+    ↑m * (1 - BorceaVariance.secondMoment (BorceaVariance.reciprocalFamily a ζ))
+info: ManuscriptCheck.lean:185:0: BorceaVariance.reciprocal_weighted_energy {m : ℕ} (hm : 0 < m) (a : ℝ) (ζ : Fin m → ℂ)
+  (hne : ∀ (j : Fin m), ↑a - ζ j ≠ 0) :
+  ∑ j, (1 - ‖BorceaVariance.reciprocalFamily a ζ j‖ ^ 2) * ‖(starRingEnd ℂ) (ζ j)‖ ^ 2 =
+    ↑m *
+      (BorceaVariance.secondMoment ζ -
+        BorceaVariance.beta a (BorceaVariance.mean (BorceaVariance.reciprocalFamily a ζ))
+          (BorceaVariance.secondMoment (BorceaVariance.reciprocalFamily a ζ)) 1)
+info: ManuscriptCheck.lean:187:0: BorceaVariance.reciprocal_weighted_identity {m : ℕ} (hm : 0 < m) (a : ℝ) (ζ : Fin m → ℂ) (hcenter : ∑ j, ζ j = 0)
+  (hne : ∀ (j : Fin m), ↑a - ζ j ≠ 0) :
+  ∑ j, ↑(1 - ‖BorceaVariance.reciprocalFamily a ζ j‖ ^ 2) * (starRingEnd ℂ) (ζ j) =
+    ↑m *
+      (BorceaVariance.mean (BorceaVariance.reciprocalFamily a ζ) -
+        ↑(a * BorceaVariance.secondMoment (BorceaVariance.reciprocalFamily a ζ)))
+info: ManuscriptCheck.lean:189:0: BorceaVariance.reciprocal_centered_identity {m : ℕ} (hm : 0 < m) (a : ℝ) (ζ : Fin m → ℂ) (hcenter : ∑ j, ζ j = 0)
+  (hne : ∀ (j : Fin m), ↑a - ζ j ≠ 0) :
+  ∑ j, ζ j * (BorceaVariance.reciprocalFamily a ζ j - BorceaVariance.mean (BorceaVariance.reciprocalFamily a ζ)) =
+    ↑m * (↑a * BorceaVariance.mean (BorceaVariance.reciprocalFamily a ζ) - 1)
+info: ManuscriptCheck.lean:191:0: BorceaVariance.norm_sub_real_sq (z : ℂ) (r : ℝ) : ‖z - ↑r‖ ^ 2 = ‖z‖ ^ 2 - 2 * r * z.re + r ^ 2
+info: ManuscriptCheck.lean:193:0: BorceaVariance.norm_one_sub_real_mul_sq (a : ℝ) (z : ℂ) : ‖1 - ↑a * z‖ ^ 2 = 1 - 2 * a * z.re + a ^ 2 * ‖z‖ ^ 2
+info: ManuscriptCheck.lean:195:0: BorceaVariance.reciprocal_weighted_cauchy {m : ℕ} (hm : 0 < m) (a : ℝ) (ζ : Fin m → ℂ) (hcenter : ∑ j, ζ j = 0)
+  (hfar : ∀ (j : Fin m), 1 < ‖↑a - ζ j‖) :
+  ‖BorceaVariance.mean (BorceaVariance.reciprocalFamily a ζ) -
+          ↑(a * BorceaVariance.secondMoment (BorceaVariance.reciprocalFamily a ζ))‖ ^
+      2 ≤
+    (BorceaVariance.secondMoment ζ -
+        BorceaVariance.beta a (BorceaVariance.mean (BorceaVariance.reciprocalFamily a ζ))
+          (BorceaVariance.secondMoment (BorceaVariance.reciprocalFamily a ζ)) 1) *
+      (1 - BorceaVariance.secondMoment (BorceaVariance.reciprocalFamily a ζ))
+info: ManuscriptCheck.lean:197:0: BorceaVariance.reciprocal_moment_A {m : ℕ} (hm : 0 < m) (a : ℝ) (ζ : Fin m → ℂ) (hcenter : ∑ j, ζ j = 0)
+  (hfar : ∀ (j : Fin m), 1 < ‖↑a - ζ j‖) {V : ℝ} (hV : BorceaVariance.secondMoment ζ ≤ V) :
+  2 * a * (BorceaVariance.mean (BorceaVariance.reciprocalFamily a ζ)).re -
+      a ^ 2 * BorceaVariance.secondMoment (BorceaVariance.reciprocalFamily a ζ) ≥
+    ‖BorceaVariance.mean (BorceaVariance.reciprocalFamily a ζ)‖ ^ 2 +
+      (1 - V) * (1 - BorceaVariance.secondMoment (BorceaVariance.reciprocalFamily a ζ))
+info: ManuscriptCheck.lean:199:0: BorceaVariance.reciprocal_moment_A_distance {m : ℕ} (hm : 0 < m) (a : ℝ) (ζ : Fin m → ℂ) (hcenter : ∑ j, ζ j = 0)
+  (hfar : ∀ (j : Fin m), 1 < ‖↑a - ζ j‖) {V : ℝ} (hV : BorceaVariance.secondMoment ζ ≤ V) :
+  ‖BorceaVariance.mean (BorceaVariance.reciprocalFamily a ζ) - ↑a‖ ^ 2 ≤
+    (a ^ 2 + V - 1) * (1 - BorceaVariance.secondMoment (BorceaVariance.reciprocalFamily a ζ))
+info: ManuscriptCheck.lean:201:0: BorceaVariance.reciprocal_moment_B {m : ℕ} (hm : 0 < m) (a : ℝ) (ζ : Fin m → ℂ) (hcenter : ∑ j, ζ j = 0)
+  (hne : ∀ (j : Fin m), ↑a - ζ j ≠ 0) {V : ℝ} (hV : BorceaVariance.secondMoment ζ ≤ V) :
+  ‖1 - ↑a * BorceaVariance.mean (BorceaVariance.reciprocalFamily a ζ)‖ ^ 2 ≤
+    V * BorceaVariance.centeredVariance (BorceaVariance.reciprocalFamily a ζ)
+info: ManuscriptCheck.lean:203:0: BorceaVariance.reciprocal_inverse_moment {m : ℕ} (hm : 0 < m) (a : ℝ) (ζ : Fin m → ℂ) (hcenter : ∑ j, ζ j = 0)
+  (hne : ∀ (j : Fin m), ↑a - ζ j ≠ 0) {V : ℝ} (hV : BorceaVariance.secondMoment ζ ≤ V) :
+  1 ≤ BorceaVariance.secondMoment (BorceaVariance.reciprocalFamily a ζ) * (a ^ 2 + V)
+info: ManuscriptCheck.lean:205:0: BorceaVariance.reciprocal_moment_endpoint {m : ℕ} (hm : 0 < m) (a : ℝ) (ζ : Fin m → ℂ) (hcenter : ∑ j, ζ j = 0)
+  (hne : ∀ (j : Fin m), ↑a - ζ j ≠ 0) {V : ℝ} (hV : BorceaVariance.secondMoment ζ ≤ V) :
+  BorceaVariance.beta a (BorceaVariance.mean (BorceaVariance.reciprocalFamily a ζ))
+      (BorceaVariance.secondMoment (BorceaVariance.reciprocalFamily a ζ)) 1 ≤
+    (a ^ 2 + V) * BorceaVariance.centeredVariance (BorceaVariance.reciprocalFamily a ζ)
+info: ManuscriptCheck.lean:207:0: BorceaVariance.reciprocal_moments {m : ℕ} (hm : 0 < m) (a : ℝ) (ζ : Fin m → ℂ) (hcenter : ∑ j, ζ j = 0)
+  (hfar : ∀ (j : Fin m), 1 < ‖↑a - ζ j‖) {V : ℝ} (hV : BorceaVariance.secondMoment ζ ≤ V) :
+  have q := BorceaVariance.reciprocalFamily a ζ;
+  have μ := BorceaVariance.mean q;
+  have s := BorceaVariance.secondMoment q;
+  have v := BorceaVariance.centeredVariance q;
+  ‖μ‖ ^ 2 + (1 - V) * (1 - s) ≤ 2 * a * μ.re - a ^ 2 * s ∧
+    ‖μ - ↑a‖ ^ 2 ≤ (a ^ 2 + V - 1) * (1 - s) ∧
+      ‖1 - ↑a * μ‖ ^ 2 ≤ V * v ∧ 1 ≤ s * (a ^ 2 + V) ∧ BorceaVariance.beta a μ s 1 ≤ (a ^ 2 + V) * v
+info: ManuscriptCheck.lean:209:0: BorceaVariance.normalized_degree_bound {n : ℕ} (hn : 2 ≤ n) (Cex : BorceaVariance.NormalizedCounterexample n) :
+  Cex.distinguished ^ 2 ≤ ↑n - 1
+info: ManuscriptCheck.lean:211:0: BorceaVariance.sharpPolynomial_degree {n : ℕ} (hn : 0 < n) : (BorceaVariance.sharpPolynomial n).natDegree = n
+info: ManuscriptCheck.lean:213:0: BorceaVariance.sharpPolynomial_root_norm {n : ℕ} (hn : 0 < n) {z : ℂ}
+  (hz : Polynomial.eval z (BorceaVariance.sharpPolynomial n) = 0) : ‖z‖ = 1
+info: ManuscriptCheck.lean:215:0: BorceaVariance.sharpPolynomial_centroid {n : ℕ} (hn : 2 ≤ n) :
+  BorceaVariance.centroid (BorceaVariance.sharpPolynomial n) = 0
+info: ManuscriptCheck.lean:217:0: BorceaVariance.sharpPolynomial_sigma2 {n : ℕ} (hn : 2 ≤ n) :
+  BorceaVariance.sigma2 (BorceaVariance.sharpPolynomial n) = 1
+info: ManuscriptCheck.lean:219:0: BorceaVariance.sharpPolynomial_critical_iff {n : ℕ} (hn : 2 ≤ n) (z : ℂ) :
+  Polynomial.eval z (Polynomial.derivative (BorceaVariance.sharpPolynomial n)) = 0 ↔ z = 0
+info: ManuscriptCheck.lean:221:0: BorceaVariance.sharpness_family {n : ℕ} (hn : 2 ≤ n) :
+  (BorceaVariance.sharpPolynomial n).natDegree = n ∧
+    BorceaVariance.centroid (BorceaVariance.sharpPolynomial n) = 0 ∧
+      BorceaVariance.sigma2 (BorceaVariance.sharpPolynomial n) = 1 ∧
+        (∀ (z : ℂ), Polynomial.eval z (Polynomial.derivative (BorceaVariance.sharpPolynomial n)) = 0 ↔ z = 0) ∧
+          ∀ (a : ℂ), Polynomial.eval a (BorceaVariance.sharpPolynomial n) = 0 → ‖a - 0‖ = 1
+info: ManuscriptCheck.lean:223:0: BorceaVariance.constant_one_sharp {c : ℝ} (hc : c < 1) :
+  ∃ p,
+    2 ≤ p.natDegree ∧
+      Polynomial.eval 1 p = 0 ∧
+        ∀ (z : ℂ), Polynomial.eval z (Polynomial.derivative p) = 0 → c * BorceaVariance.sigma2 p < ‖1 - z‖
+info: ManuscriptCheck.lean:225:0: BorceaVariance.no_normalized_counterexample_cubic (Cex : BorceaVariance.NormalizedCounterexample 3) : False
+info: ManuscriptCheck.lean:227:0: BorceaVariance.cubic_main (p : Polynomial ℂ) (hn : p.natDegree = 3) (a : ℂ) (ha : Polynomial.eval a p = 0) :
+  ∃ z, Polynomial.eval z (Polynomial.derivative p) = 0 ∧ ‖a - z‖ ≤ BorceaVariance.sigma2 p
+info: ManuscriptCheck.lean:229:0: BorceaVariance.complex_quadratic_norm_identity (a w : ℂ) :
+  ‖4 * w ^ 2 - a ^ 2‖ ^ 2 = (‖a‖ ^ 2 + 4 * ‖w‖ ^ 2) ^ 2 - 16 * (a * (starRingEnd ℂ) w).re ^ 2
+info: ManuscriptCheck.lean:231:0: BorceaVariance.choose_signed_critical_point (a w : ℂ) :
+  ∃ z, (z = w ∨ z = -w) ∧ ‖a - z‖ ^ 2 = ‖a‖ ^ 2 + ‖w‖ ^ 2 - 2 * |(a * (starRingEnd ℂ) w).re|
+info: ManuscriptCheck.lean:233:0: BorceaVariance.cubic_two_point_bound (a w : ℂ) :
+  ∃ z, (z = w ∨ z = -w) ∧ ‖a - z‖ ^ 2 ≤ (‖a‖ ^ 2 + ‖4 * w ^ 2 - a ^ 2‖) / 2
+info: ManuscriptCheck.lean:235:0: BorceaVariance.quadratic_main (p : Polynomial ℂ) (hn : p.natDegree = 2) (a : ℂ) (ha : Polynomial.eval a p = 0) :
+  ∃ z, Polynomial.eval z (Polynomial.derivative p) = 0 ∧ ‖a - z‖ ≤ BorceaVariance.sigma2 p
+info: ManuscriptCheck.lean:237:0: BorceaVariance.bhatia_davis.{u_1} {ι : Type u_1} (s : Finset ι) (w x : ι → ℝ) {L U b : ℝ} (hw : ∀ i ∈ s, 0 ≤ w i)
+  (hx : ∀ i ∈ s, L ≤ x i ∧ x i ≤ U) (hs : ∑ i ∈ s, w i = 1) (hb : ∑ i ∈ s, w i * x i = b) :
+  ∑ i ∈ s, w i * (x i - b) ^ 2 ≤ (U - b) * (b - L)
+Build completed successfully (3497 jobs).

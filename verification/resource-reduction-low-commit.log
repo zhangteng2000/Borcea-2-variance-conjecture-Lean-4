@@ -1,0 +1,7 @@
+Repeated Windows free-commit readings: 371548 KiB and 356712 KiB.
+The four project Lean processes were using approximately 6.4, 7.5, 5.8 and 6.2 GiB of private memory, plus their Lake parents.
+Action: verify the exact command lines for owned Lake PID 16636 (Accepted9Part7) and Lean PID 29632 (Accepted9Part6), then stop only that parent and its matching project child.
+No other application or unrelated Lean process was stopped.
+The unfinished Accepted9Part6 must be compiled again. Completed numerical results are preserved; no source or precision changed.
+Post-stop free commit: 6650668 KiB. Continue with at most three compiler lanes until sufficient resources are available.
+This was an intentional resource stop, not a rejected arithmetic certificate.

@@ -1,0 +1,371 @@
+MODULE Accepted0Part0
+BorceaVariance/Certificate/Generated/Accepted0Part0.lean:392:0: 'BorceaVariance.Certificate.Generated.leafAccepted0_63' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted0Part1
+BorceaVariance/Certificate/Generated/Accepted0Part1.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted0_127' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted0Part2
+BorceaVariance/Certificate/Generated/Accepted0Part2.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted0_191' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted0Part3
+BorceaVariance/Certificate/Generated/Accepted0Part3.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted0_255' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted0Part4
+BorceaVariance/Certificate/Generated/Accepted0Part4.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted0_319' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted0Part5
+BorceaVariance/Certificate/Generated/Accepted0Part5.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted0_383' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted0Part6
+BorceaVariance/Certificate/Generated/Accepted0Part6.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted0_447' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted0Part7
+BorceaVariance/Certificate/Generated/Accepted0Part7.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted0_511' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted0Part8
+BorceaVariance/Certificate/Generated/Accepted0Part8.lean:129:0: 'BorceaVariance.Certificate.Generated.leafAccepted0_531' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted0
+BorceaVariance/Certificate/Generated/Accepted0.lean:1620:0: 'BorceaVariance.Certificate.Generated.certificateBlock0_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+MODULE Accepted1Part0
+BorceaVariance/Certificate/Generated/Accepted1Part0.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted1_63' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted1Part1
+BorceaVariance/Certificate/Generated/Accepted1Part1.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted1_127' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted1Part2
+BorceaVariance/Certificate/Generated/Accepted1Part2.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted1_191' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted1Part3
+BorceaVariance/Certificate/Generated/Accepted1Part3.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted1_255' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted1Part4
+BorceaVariance/Certificate/Generated/Accepted1Part4.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted1_319' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted1Part5
+BorceaVariance/Certificate/Generated/Accepted1Part5.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted1_383' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted1Part6
+BorceaVariance/Certificate/Generated/Accepted1Part6.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted1_447' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted1Part7
+BorceaVariance/Certificate/Generated/Accepted1Part7.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted1_511' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted1Part8
+BorceaVariance/Certificate/Generated/Accepted1Part8.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted1_575' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted1Part9
+BorceaVariance/Certificate/Generated/Accepted1Part9.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted1_639' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted1Part10
+BorceaVariance/Certificate/Generated/Accepted1Part10.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted1_703' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted1Part11
+BorceaVariance/Certificate/Generated/Accepted1Part11.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted1_767' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted1Part12
+BorceaVariance/Certificate/Generated/Accepted1Part12.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted1_831' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted1Part13
+BorceaVariance/Certificate/Generated/Accepted1Part13.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted1_895' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted1Part14
+BorceaVariance/Certificate/Generated/Accepted1Part14.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted1_959' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted1Part15
+BorceaVariance/Certificate/Generated/Accepted1Part15.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted1_1023' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted1Part16
+BorceaVariance/Certificate/Generated/Accepted1Part16.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted1_1087' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted1Part17
+BorceaVariance/Certificate/Generated/Accepted1Part17.lean:99:0: 'BorceaVariance.Certificate.Generated.leafAccepted1_1102' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted1
+BorceaVariance/Certificate/Generated/Accepted1.lean:3342:0: 'BorceaVariance.Certificate.Generated.certificateBlock1_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+MODULE Accepted2Part0
+BorceaVariance/Certificate/Generated/Accepted2Part0.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted2_63' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted2Part1
+BorceaVariance/Certificate/Generated/Accepted2Part1.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted2_127' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted2Part2
+BorceaVariance/Certificate/Generated/Accepted2Part2.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted2_191' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted2Part3
+BorceaVariance/Certificate/Generated/Accepted2Part3.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted2_255' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted2Part4
+BorceaVariance/Certificate/Generated/Accepted2Part4.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted2_319' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted2Part5
+BorceaVariance/Certificate/Generated/Accepted2Part5.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted2_383' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted2Part6
+BorceaVariance/Certificate/Generated/Accepted2Part6.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted2_447' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted2Part7
+BorceaVariance/Certificate/Generated/Accepted2Part7.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted2_511' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted2Part8
+BorceaVariance/Certificate/Generated/Accepted2Part8.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted2_575' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted2Part9
+BorceaVariance/Certificate/Generated/Accepted2Part9.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted2_639' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted2Part10
+BorceaVariance/Certificate/Generated/Accepted2Part10.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted2_703' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted2Part11
+BorceaVariance/Certificate/Generated/Accepted2Part11.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted2_767' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted2Part12
+BorceaVariance/Certificate/Generated/Accepted2Part12.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted2_831' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted2Part13
+BorceaVariance/Certificate/Generated/Accepted2Part13.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted2_895' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted2Part14
+BorceaVariance/Certificate/Generated/Accepted2Part14.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted2_959' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted2Part15
+BorceaVariance/Certificate/Generated/Accepted2Part15.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted2_1023' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted2Part16
+BorceaVariance/Certificate/Generated/Accepted2Part16.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted2_1087' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted2Part17
+BorceaVariance/Certificate/Generated/Accepted2Part17.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted2_1151' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted2Part18
+BorceaVariance/Certificate/Generated/Accepted2Part18.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted2_1215' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted2Part19
+BorceaVariance/Certificate/Generated/Accepted2Part19.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted2_1279' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted2Part20
+BorceaVariance/Certificate/Generated/Accepted2Part20.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted2_1343' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted2Part21
+BorceaVariance/Certificate/Generated/Accepted2Part21.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted2_1407' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted2Part22
+BorceaVariance/Certificate/Generated/Accepted2Part22.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted2_1471' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted2Part23
+BorceaVariance/Certificate/Generated/Accepted2Part23.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted2_1535' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted2Part24
+BorceaVariance/Certificate/Generated/Accepted2Part24.lean:357:0: 'BorceaVariance.Certificate.Generated.leafAccepted2_1593' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted2
+BorceaVariance/Certificate/Generated/Accepted2.lean:4822:0: 'BorceaVariance.Certificate.Generated.certificateBlock2_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+MODULE Accepted3Part0
+BorceaVariance/Certificate/Generated/Accepted3Part0.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted3_63' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted3Part1
+BorceaVariance/Certificate/Generated/Accepted3Part1.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted3_127' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted3Part2
+BorceaVariance/Certificate/Generated/Accepted3Part2.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted3_191' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted10Part0
+BorceaVariance/Certificate/Generated/Accepted10Part0.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted10_63' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted10Part1
+BorceaVariance/Certificate/Generated/Accepted10Part1.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted10_127' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted10Part2
+BorceaVariance/Certificate/Generated/Accepted10Part2.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted10_191' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted10Part3
+BorceaVariance/Certificate/Generated/Accepted10Part3.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted10_255' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted10Part4
+BorceaVariance/Certificate/Generated/Accepted10Part4.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted10_319' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted10Part5
+BorceaVariance/Certificate/Generated/Accepted10Part5.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted10_383' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted10Part6
+BorceaVariance/Certificate/Generated/Accepted10Part6.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted10_447' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted10Part7
+BorceaVariance/Certificate/Generated/Accepted10Part7.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted10_511' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted10Part8
+BorceaVariance/Certificate/Generated/Accepted10Part8.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted10_575' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted10Part9
+BorceaVariance/Certificate/Generated/Accepted10Part9.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted10_639' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted10Part10
+BorceaVariance/Certificate/Generated/Accepted10Part10.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted10_703' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted10Part11
+BorceaVariance/Certificate/Generated/Accepted10Part11.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted10_767' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted10Part12
+BorceaVariance/Certificate/Generated/Accepted10Part12.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted10_831' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted10Part13
+BorceaVariance/Certificate/Generated/Accepted10Part13.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted10_895' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted10Part14
+BorceaVariance/Certificate/Generated/Accepted10Part14.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted10_959' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted10Part15
+BorceaVariance/Certificate/Generated/Accepted10Part15.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted10_1023' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted13Part0
+BorceaVariance/Certificate/Generated/Accepted13Part0.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted13_63' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted13Part1
+BorceaVariance/Certificate/Generated/Accepted13Part1.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted13_127' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted13Part2
+BorceaVariance/Certificate/Generated/Accepted13Part2.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted13_191' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted13Part3
+BorceaVariance/Certificate/Generated/Accepted13Part3.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted13_255' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted13Part4
+BorceaVariance/Certificate/Generated/Accepted13Part4.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted13_319' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted13Part5
+BorceaVariance/Certificate/Generated/Accepted13Part5.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted13_383' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted13Part6
+BorceaVariance/Certificate/Generated/Accepted13Part6.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted13_447' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted13Part7
+BorceaVariance/Certificate/Generated/Accepted13Part7.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted13_511' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted13Part8
+BorceaVariance/Certificate/Generated/Accepted13Part8.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted13_575' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted13Part9
+BorceaVariance/Certificate/Generated/Accepted13Part9.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted13_639' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted13Part10
+BorceaVariance/Certificate/Generated/Accepted13Part10.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted13_703' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted13Part11
+BorceaVariance/Certificate/Generated/Accepted13Part11.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted13_767' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted13Part12
+BorceaVariance/Certificate/Generated/Accepted13Part12.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted13_831' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted13Part13
+BorceaVariance/Certificate/Generated/Accepted13Part13.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted13_895' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted13Part14
+BorceaVariance/Certificate/Generated/Accepted13Part14.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted13_959' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted13Part15
+BorceaVariance/Certificate/Generated/Accepted13Part15.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted13_1023' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted13Part16
+BorceaVariance/Certificate/Generated/Accepted13Part16.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted13_1087' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted13Part17
+BorceaVariance/Certificate/Generated/Accepted13Part17.lean:345:0: 'BorceaVariance.Certificate.Generated.leafAccepted13_1143' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted13
+BorceaVariance/Certificate/Generated/Accepted13.lean:3465:0: 'BorceaVariance.Certificate.Generated.certificateBlock13_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+MODULE Accepted14Part0
+BorceaVariance/Certificate/Generated/Accepted14Part0.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted14_63' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted14Part1
+BorceaVariance/Certificate/Generated/Accepted14Part1.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted14_127' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted14Part2
+BorceaVariance/Certificate/Generated/Accepted14Part2.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted14_191' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted14Part3
+BorceaVariance/Certificate/Generated/Accepted14Part3.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted14_255' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted14Part4
+BorceaVariance/Certificate/Generated/Accepted14Part4.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted14_319' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted14Part5
+BorceaVariance/Certificate/Generated/Accepted14Part5.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted14_383' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted14Part6
+BorceaVariance/Certificate/Generated/Accepted14Part6.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted14_447' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted14Part7
+BorceaVariance/Certificate/Generated/Accepted14Part7.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted14_511' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted14Part8
+BorceaVariance/Certificate/Generated/Accepted14Part8.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted14_575' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted14Part9
+BorceaVariance/Certificate/Generated/Accepted14Part9.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted14_639' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted14Part10
+BorceaVariance/Certificate/Generated/Accepted14Part10.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted14_703' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted14Part11
+BorceaVariance/Certificate/Generated/Accepted14Part11.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted14_767' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted14Part12
+BorceaVariance/Certificate/Generated/Accepted14Part12.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted14_831' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted14Part13
+BorceaVariance/Certificate/Generated/Accepted14Part13.lean:297:0: 'BorceaVariance.Certificate.Generated.leafAccepted14_879' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted14
+BorceaVariance/Certificate/Generated/Accepted14.lean:2669:0: 'BorceaVariance.Certificate.Generated.certificateBlock14_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+MODULE Accepted15Part0
+BorceaVariance/Certificate/Generated/Accepted15Part0.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted15_63' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted15Part1
+BorceaVariance/Certificate/Generated/Accepted15Part1.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted15_127' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted15Part2
+BorceaVariance/Certificate/Generated/Accepted15Part2.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted15_191' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted15Part3
+BorceaVariance/Certificate/Generated/Accepted15Part3.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted15_255' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted15Part4
+BorceaVariance/Certificate/Generated/Accepted15Part4.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted15_319' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted15Part5
+BorceaVariance/Certificate/Generated/Accepted15Part5.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted15_383' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted15Part6
+BorceaVariance/Certificate/Generated/Accepted15Part6.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted15_447' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted15Part7
+BorceaVariance/Certificate/Generated/Accepted15Part7.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted15_511' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted15Part8
+BorceaVariance/Certificate/Generated/Accepted15Part8.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted15_575' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted15Part9
+BorceaVariance/Certificate/Generated/Accepted15Part9.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted15_639' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted15Part10
+BorceaVariance/Certificate/Generated/Accepted15Part10.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted15_703' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted15Part11
+BorceaVariance/Certificate/Generated/Accepted15Part11.lean:195:0: 'BorceaVariance.Certificate.Generated.leafAccepted15_734' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted15
+BorceaVariance/Certificate/Generated/Accepted15.lean:2232:0: 'BorceaVariance.Certificate.Generated.certificateBlock15_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+MODULE Accepted16Part0
+BorceaVariance/Certificate/Generated/Accepted16Part0.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted16_63' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted16Part1
+BorceaVariance/Certificate/Generated/Accepted16Part1.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted16_127' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted16Part2
+BorceaVariance/Certificate/Generated/Accepted16Part2.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted16_191' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted16Part3
+BorceaVariance/Certificate/Generated/Accepted16Part3.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted16_255' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted16Part4
+BorceaVariance/Certificate/Generated/Accepted16Part4.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted16_319' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted16Part5
+BorceaVariance/Certificate/Generated/Accepted16Part5.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted16_383' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted16Part6
+BorceaVariance/Certificate/Generated/Accepted16Part6.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted16_447' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted27Part0
+BorceaVariance/Certificate/Generated/Accepted27Part0.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted27_63' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted27Part1
+BorceaVariance/Certificate/Generated/Accepted27Part1.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted27_127' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted27Part2
+BorceaVariance/Certificate/Generated/Accepted27Part2.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted27_191' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted27Part3
+BorceaVariance/Certificate/Generated/Accepted27Part3.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted27_255' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted27Part4
+BorceaVariance/Certificate/Generated/Accepted27Part4.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted27_319' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted27Part5
+BorceaVariance/Certificate/Generated/Accepted27Part5.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted27_383' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted27Part6
+BorceaVariance/Certificate/Generated/Accepted27Part6.lean:123:0: 'BorceaVariance.Certificate.Generated.leafAccepted27_402' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted27
+BorceaVariance/Certificate/Generated/Accepted27.lean:1231:0: 'BorceaVariance.Certificate.Generated.certificateBlock27_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+MODULE Accepted28Part0
+BorceaVariance/Certificate/Generated/Accepted28Part0.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted28_63' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted28Part1
+BorceaVariance/Certificate/Generated/Accepted28Part1.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted28_127' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted28Part2
+BorceaVariance/Certificate/Generated/Accepted28Part2.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted28_191' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted28Part3
+BorceaVariance/Certificate/Generated/Accepted28Part3.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted28_255' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted28Part4
+BorceaVariance/Certificate/Generated/Accepted28Part4.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted28_319' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted28Part5
+BorceaVariance/Certificate/Generated/Accepted28Part5.lean:111:0: 'BorceaVariance.Certificate.Generated.leafAccepted28_336' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted28
+BorceaVariance/Certificate/Generated/Accepted28.lean:1032:0: 'BorceaVariance.Certificate.Generated.certificateBlock28_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+MODULE Accepted29Part0
+BorceaVariance/Certificate/Generated/Accepted29Part0.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted29_63' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted29Part1
+BorceaVariance/Certificate/Generated/Accepted29Part1.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted29_127' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted29Part2
+BorceaVariance/Certificate/Generated/Accepted29Part2.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted29_191' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted29Part3
+BorceaVariance/Certificate/Generated/Accepted29Part3.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted29_255' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted29Part4
+BorceaVariance/Certificate/Generated/Accepted29Part4.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted29_319' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted29Part5
+BorceaVariance/Certificate/Generated/Accepted29Part5.lean:93:0: 'BorceaVariance.Certificate.Generated.leafAccepted29_333' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted29
+BorceaVariance/Certificate/Generated/Accepted29.lean:1023:0: 'BorceaVariance.Certificate.Generated.certificateBlock29_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+MODULE Accepted30Part0
+BorceaVariance/Certificate/Generated/Accepted30Part0.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted30_63' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted30Part1
+BorceaVariance/Certificate/Generated/Accepted30Part1.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted30_127' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted30Part2
+BorceaVariance/Certificate/Generated/Accepted30Part2.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted30_191' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted30Part3
+BorceaVariance/Certificate/Generated/Accepted30Part3.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted30_255' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted30Part4
+BorceaVariance/Certificate/Generated/Accepted30Part4.lean:225:0: 'BorceaVariance.Certificate.Generated.leafAccepted30_291' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted30
+BorceaVariance/Certificate/Generated/Accepted30.lean:896:0: 'BorceaVariance.Certificate.Generated.certificateBlock30_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+MODULE Accepted31Part0
+BorceaVariance/Certificate/Generated/Accepted31Part0.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted31_63' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted31Part1
+BorceaVariance/Certificate/Generated/Accepted31Part1.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted31_127' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted31Part2
+BorceaVariance/Certificate/Generated/Accepted31Part2.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted31_191' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted31Part3
+BorceaVariance/Certificate/Generated/Accepted31Part3.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted31_255' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted31
+BorceaVariance/Certificate/Generated/Accepted31.lean:787:0: 'BorceaVariance.Certificate.Generated.certificateBlock31_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+MODULE Accepted32Part0
+BorceaVariance/Certificate/Generated/Accepted32Part0.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted32_63' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted32Part1
+BorceaVariance/Certificate/Generated/Accepted32Part1.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted32_127' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted32Part2
+BorceaVariance/Certificate/Generated/Accepted32Part2.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted32_191' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted32Part3
+BorceaVariance/Certificate/Generated/Accepted32Part3.lean:327:0: 'BorceaVariance.Certificate.Generated.leafAccepted32_244' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted32
+BorceaVariance/Certificate/Generated/Accepted32.lean:754:0: 'BorceaVariance.Certificate.Generated.certificateBlock32_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+MODULE Accepted33Part0
+BorceaVariance/Certificate/Generated/Accepted33Part0.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted33_63' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted33Part1
+BorceaVariance/Certificate/Generated/Accepted33Part1.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted33_127' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted33Part2
+BorceaVariance/Certificate/Generated/Accepted33Part2.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted33_191' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted33Part3
+BorceaVariance/Certificate/Generated/Accepted33Part3.lean:153:0: 'BorceaVariance.Certificate.Generated.leafAccepted33_215' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE Accepted33
+BorceaVariance/Certificate/Generated/Accepted33.lean:667:0: 'BorceaVariance.Certificate.Generated.certificateBlock33_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+MODULE Accepted34Part0
+BorceaVariance/Certificate/Generated/Accepted34Part0.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted34_63' depends on axioms: [propext, Classical.choice, Quot.sound]
+

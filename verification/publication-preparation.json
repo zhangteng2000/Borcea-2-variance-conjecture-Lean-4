@@ -1,0 +1,95 @@
+{
+  "status": "PASS",
+  "purpose": "GitHub publication preparation",
+  "repository": "https://github.com/zhangteng2000/Borcea-2-variance-conjecture-Lean-4",
+  "branch": "main",
+  "language": "English",
+  "portable_packages_directory": ".lake/packages",
+  "local_cache_override": ".lake/package-overrides.json (ignored and not uploaded)",
+  "lean_source_comparison": {
+    "status": "PASS",
+    "lean_files": 877,
+    "lean_sources_sha256": "68734f17e58088655b67172abc13c1bb771d79687b9390fc02d9347791bef946",
+    "lean_sources_unchanged": true,
+    "publishable_files_so_far": 1005,
+    "chinese_text_files": [],
+    "credential_pattern_files": [],
+    "non_utf8_files": []
+  },
+  "dependency_pins": [
+    {
+      "name": "mathlib",
+      "expected": "de5ce8a9a66a4aa68a9bdbb35b63a06d34d9ca11",
+      "actual": "de5ce8a9a66a4aa68a9bdbb35b63a06d34d9ca11",
+      "matches": true
+    },
+    {
+      "name": "plausible",
+      "expected": "38e9c3ce15cbb63c92e90bb9a92e4eb82131f669",
+      "actual": "38e9c3ce15cbb63c92e90bb9a92e4eb82131f669",
+      "matches": true
+    },
+    {
+      "name": "LeanSearchClient",
+      "expected": "2bc7cf064315b26bc38dac2e9612fb581be9b75f",
+      "actual": "2bc7cf064315b26bc38dac2e9612fb581be9b75f",
+      "matches": true
+    },
+    {
+      "name": "importGraph",
+      "expected": "978b7ec9fbbf9a535114f1de8fe5b3778b358870",
+      "actual": "978b7ec9fbbf9a535114f1de8fe5b3778b358870",
+      "matches": true
+    },
+    {
+      "name": "proofwidgets",
+      "expected": "99e8adeea3c3cd86b6b79ba01a1383bf2d31d055",
+      "actual": "99e8adeea3c3cd86b6b79ba01a1383bf2d31d055",
+      "matches": true
+    },
+    {
+      "name": "aesop",
+      "expected": "c1c4362a130f12e632d252180a6c2a31d8fd4726",
+      "actual": "c1c4362a130f12e632d252180a6c2a31d8fd4726",
+      "matches": true
+    },
+    {
+      "name": "Qq",
+      "expected": "3b55e9d00c6b0018e5d984eb011b6f93c09bd163",
+      "actual": "3b55e9d00c6b0018e5d984eb011b6f93c09bd163",
+      "matches": true
+    },
+    {
+      "name": "batteries",
+      "expected": "01bc479e7432594821ba3fb0ca465211941de86d",
+      "actual": "01bc479e7432594821ba3fb0ca465211941de86d",
+      "matches": true
+    },
+    {
+      "name": "Cli",
+      "expected": "af8bc067a4cc6c6df472a68909a3f40b1c76c43e",
+      "actual": "af8bc067a4cc6c6df472a68909a3f40b1c76c43e",
+      "matches": true
+    }
+  ],
+  "build": {
+    "command": "lake --log-level=warning build",
+    "exit_code": 0,
+    "jobs": 4319,
+    "log": "publication-build.log"
+  },
+  "axiom_accounting": {
+    "status": "PASS",
+    "expected_declarations": 978,
+    "reported_declarations": 978,
+    "with_allowed_foundational_axioms": 972,
+    "axiom_independent": 6,
+    "missing": [],
+    "unexpected": [],
+    "forbidden_axioms": {},
+    "duplicate_reports": [],
+    "error_lines": [],
+    "note": "Requires a separately successful Lean invocation; this script checks its captured report."
+  },
+  "unchanged_manuscript_sha256": "03b6757519440d2f1b4796a48d984ce1475174c536e0aaff181aae66d1940612"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "expected_declarations": 978,
+  "reported_declarations": 978,
+  "with_allowed_foundational_axioms": 972,
+  "axiom_independent": 6,
+  "missing": [],
+  "unexpected": [],
+  "forbidden_axioms": {},
+  "duplicate_reports": [],
+  "error_lines": [],
+  "note": "Requires a separately successful Lean invocation; this script checks its captured report."
+}

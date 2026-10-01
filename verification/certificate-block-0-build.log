@@ -1,0 +1,627 @@
+⚠ [3438/3603] Replayed QuadraticTangZhang.CenteredRemainder
+warning: QuadraticTangZhang/CenteredRemainder.lean:84:58: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: QuadraticTangZhang/CenteredRemainder.lean:84:58: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: QuadraticTangZhang/CenteredRemainder.lean:84:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: QuadraticTangZhang/CenteredRemainder.lean:84:39: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: QuadraticTangZhang/CenteredRemainder.lean:100:24: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: QuadraticTangZhang/CenteredRemainder.lean:100:38: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: QuadraticTangZhang/CenteredRemainder.lean:190:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: QuadraticTangZhang/CenteredRemainder.lean:190:34: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3439/3603] Replayed BorceaVariance.FiniteMoments
+warning: BorceaVariance/FiniteMoments.lean:49:14: `Finset.sum_sq_le_sum_mul_sum_of_sq_eq_mul` has been deprecated: Use `Finset.sum_sq_le_sum_mul_sum_of_sq_le_mul` instead
+
+Note: The updated constant has a different type:
+  ∀ {ι : Type u_1} {R : Type u_2} [inst : CommSemiring R] [inst_1 : LinearOrder R] [IsStrictOrderedRing R]
+    [ExistsAddOfLE R] (s : Finset ι) {r f g : ι → R},
+    (∀ i ∈ s, 0 ≤ f i) →
+      (∀ i ∈ s, 0 ≤ g i) → (∀ i ∈ s, r i ^ 2 ≤ f i * g i) → (∑ i ∈ s, r i) ^ 2 ≤ (∑ i ∈ s, f i) * ∑ i ∈ s, g i
+instead of
+  ∀ {ι : Type u_1} {R : Type u_2} [inst : CommSemiring R] [inst_1 : LinearOrder R] [IsStrictOrderedRing R]
+    [ExistsAddOfLE R] (s : Finset ι) {r f g : ι → R},
+    (∀ i ∈ s, 0 ≤ f i) →
+      (∀ i ∈ s, 0 ≤ g i) → (∀ i ∈ s, r i ^ 2 = f i * g i) → (∑ i ∈ s, r i) ^ 2 ≤ (∑ i ∈ s, f i) * ∑ i ∈ s, g i
+warning: BorceaVariance/FiniteMoments.lean:48:14: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Complex.norm_real, Real.norm_eq_abs, abs_of_nonneg (hw i hi)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3441/3603] Replayed BorceaVariance.ReciprocalAlgebra
+warning: BorceaVariance/ReciprocalAlgebra.lean:50:65: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: BorceaVariance/ReciprocalAlgebra.lean:51:81: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3446/3603] Replayed BorceaVariance.LinearAlgebra.Compression
+warning: BorceaVariance/LinearAlgebra/Compression.lean:33:36: This simp argument is unused:
+  norm_div
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [centeredCompression, hij, norm_mul, div_pow]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: BorceaVariance/LinearAlgebra/Compression.lean:33:46: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [centeredCompression, hij, norm_div, div_pow]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: BorceaVariance/LinearAlgebra/Compression.lean:50:13: This simp argument is unused:
+  Finset.sum_add_distrib
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Finset.sum_sub_distrib, ← Finset.mul_sum, ← Finset.sum_div, Finset.sum_const, Finset.card_univ,
+    Fintype.card_fin, nsmul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: BorceaVariance/LinearAlgebra/Compression.lean:75:28: This simp argument is unused:
+  Finset.sum_add_distrib
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.mul_apply, uniformProjection, sub_mul, mul_sub, Finset.sum_sub_distrib]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: BorceaVariance/LinearAlgebra/Compression.lean:86:31: This simp argument is unused:
+  Matrix.mul_diagonal
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.mul_apply, uniformProjection, centeredCompression, sub_mul, mul_sub, Finset.sum_sub_distrib,
+    Finset.sum_add_distrib]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: BorceaVariance/LinearAlgebra/Compression.lean:88:4: This simp argument is unused:
+  Finset.sum_add_distrib
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.mul_apply, Matrix.mul_diagonal, uniformProjection, centeredCompression, sub_mul, mul_sub,
+    Finset.sum_sub_distrib]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: BorceaVariance/LinearAlgebra/Compression.lean:91:40: This simp argument is unused:
+  hcenter
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [ite_mul, one_mul, zero_mul, mul_ite, mul_one, mul_zero, Finset.sum_ite_eq, Finset.sum_ite_eq',
+    Finset.mem_univ, ite_true, ← Finset.sum_mul, ← Finset.mul_sum]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: BorceaVariance/LinearAlgebra/Compression.lean:93:50: This simp argument is unused:
+  sub_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.diagonal_apply, Finset.sum_ite_eq, Finset.sum_ite_eq', Finset.mem_univ, ite_true, hcenter,
+    mul_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3453/3603] Replayed BorceaVariance.LinearAlgebra.SchurStep
+warning: BorceaVariance/LinearAlgebra/SchurStep.lean:17:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: BorceaVariance/LinearAlgebra/SchurStep.lean:50:21: This simp argument is unused:
+  eq_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [smul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: BorceaVariance/LinearAlgebra/SchurStep.lean:92:8: This simp argument is unused:
+  Matrix.charmatrix_apply_ne _ _ _ (Fin.succ_ne_zero i)
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hcol]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3456/3603] Replayed BorceaVariance.LinearAlgebra.CompressionCharpoly
+warning: BorceaVariance/LinearAlgebra/CompressionCharpoly.lean:22:28: This simp argument is unused:
+  zero_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [eval_zero, zero_sub, neg_div, sub_neg_eq_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: BorceaVariance/LinearAlgebra/CompressionCharpoly.lean:22:48: This simp argument is unused:
+  neg_div
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [eval_zero, zero_mul, zero_sub, sub_neg_eq_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: BorceaVariance/LinearAlgebra/CompressionCharpoly.lean:22:57: This simp argument is unused:
+  sub_neg_eq_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [eval_zero, zero_mul, zero_sub, neg_div]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: BorceaVariance/LinearAlgebra/CompressionCharpoly.lean:33:42: `Polynomial.eval_finset_sum` has been deprecated: Use `Polynomial.eval_finsetSum` instead
+warning: BorceaVariance/LinearAlgebra/CompressionCharpoly.lean:49:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+⚠ [3462/3603] Replayed QuadraticTangZhang.CenteredScalar
+warning: QuadraticTangZhang/CenteredScalar.lean:39:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: QuadraticTangZhang/CenteredScalar.lean:40:74: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: QuadraticTangZhang/CenteredScalar.lean:113:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: QuadraticTangZhang/CenteredScalar.lean:113:53: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: QuadraticTangZhang/CenteredScalar.lean:165:40: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [U, r, abs_of_nonneg ha]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3465/3603] Replayed QuadraticTangZhang.ConvexQuadrature
+warning: QuadraticTangZhang/ConvexQuadrature.lean:140:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: QuadraticTangZhang/ConvexQuadrature.lean:149:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3466/3603] Replayed QuadraticTangZhang.DyadicSoundness
+warning: QuadraticTangZhang/DyadicSoundness.lean:37:5: Variable name `hn` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hn
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: QuadraticTangZhang/DyadicSoundness.lean:45:5: Variable name `hn` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hn
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: QuadraticTangZhang/DyadicSoundness.lean:64:27: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+warning: QuadraticTangZhang/DyadicSoundness.lean:67:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: QuadraticTangZhang/DyadicSoundness.lean:71:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: QuadraticTangZhang/DyadicSoundness.lean:93:27: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+warning: QuadraticTangZhang/DyadicSoundness.lean:96:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: QuadraticTangZhang/DyadicSoundness.lean:100:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: QuadraticTangZhang/DyadicSoundness.lean:187:45: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: QuadraticTangZhang/DyadicSoundness.lean:189:45: `if_neg` has been deprecated: Use `ite_eq_right` instead
+⚠ [3468/3603] Replayed BorceaVariance.FiniteCoordinates
+warning: BorceaVariance/FiniteCoordinates.lean:40:26: This simp argument is unused:
+  derivative_X_sub_C
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [derivative_mul, eval_prod]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3469/3603] Replayed BorceaVariance.BasicProduct
+warning: BorceaVariance/BasicProduct.lean:30:49: Variable name `ha` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ha
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3476/3603] Replayed BorceaVariance.SmallDegree.InverseRoots
+warning: BorceaVariance/SmallDegree/InverseRoots.lean:58:64: This simp argument is unused:
+  derivative_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [derivative_mul, derivative_add, derivative_X_sub_C, zero_mul, zero_add, one_mul, eval_add,
+    eval_mul, eval_X, eval_sub, eval_C, sub_self, mul_zero, add_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: BorceaVariance/SmallDegree/InverseRoots.lean:59:15: This simp argument is unused:
+  zero_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [derivative_mul, derivative_add, derivative_X_sub_C, derivative_one, zero_mul, one_mul, eval_add,
+    eval_mul, eval_X, eval_sub, eval_C, sub_self, mul_zero, add_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: BorceaVariance/SmallDegree/InverseRoots.lean:59:82: This simp argument is unused:
+  mul_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [derivative_mul, derivative_add, derivative_X_sub_C, derivative_one, zero_mul, zero_add, one_mul,
+    eval_add, eval_mul, eval_X, eval_sub, eval_C, sub_self, add_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3477/3603] Replayed BorceaVariance.SmallDegree.RootParameters
+warning: BorceaVariance/SmallDegree/RootParameters.lean:20:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: BorceaVariance/SmallDegree/RootParameters.lean:45:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3478/3603] Replayed BorceaVariance.SmallDegree.Symmetric
+warning: BorceaVariance/SmallDegree/Symmetric.lean:25:4: This simp argument is unused:
+  Nat.reduceSub
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [cofactorSum, Multiset.map_cons, Multiset.prod_cons, add_mul, Polynomial.coeff_add,
+    Polynomial.coeff_X_mul, Polynomial.coeff_C_mul, constantCoeff_linear_product]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: BorceaVariance/SmallDegree/Symmetric.lean:79:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: BorceaVariance/SmallDegree/Symmetric.lean:81:6: Try `simp at hlt` instead of `simpa using hlt`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: BorceaVariance/SmallDegree/Symmetric.lean:107:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [3479/3603] Replayed BorceaVariance.SmallDegree.SymmetricProduct
+warning: BorceaVariance/SmallDegree/SymmetricProduct.lean:18:8: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: BorceaVariance/SmallDegree/SymmetricProduct.lean:18:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: BorceaVariance/SmallDegree/SymmetricProduct.lean:20:43: Variable name `hm` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hm
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: BorceaVariance/SmallDegree/SymmetricProduct.lean:57:25: This simp argument is unused:
+  inv_div
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [ξ, norm_inv, div_eq_mul_inv, inv_pow]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3480/3603] Replayed BorceaVariance.SmallDegree.RootProduct
+warning: BorceaVariance/SmallDegree/RootProduct.lean:61:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3481/3603] Replayed BorceaVariance.SmallDegree.RootProductBounds
+warning: BorceaVariance/SmallDegree/RootProductBounds.lean:16:57: This simp argument is unused:
+  Finset.prod_pow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Finset.card_univ, Fintype.card_fin, norm_prod] at hu
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: BorceaVariance/SmallDegree/RootProductBounds.lean:29:13: Variable name `hCpos` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hCpos
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3482/3603] Replayed BorceaVariance.Certificate.RootBounds
+warning: BorceaVariance/Certificate/RootBounds.lean:143:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: BorceaVariance/Certificate/RootBounds.lean:153:25: `if_neg` has been deprecated: Use `ite_eq_right` instead
+⚠ [3485/3603] Replayed BorceaVariance.PhiShape
+warning: BorceaVariance/PhiShape.lean:23:47: This simp argument is unused:
+  phiSquareKernel
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3498/3603] Replayed BorceaVariance.SmallDegree.ConvexPacking
+warning: BorceaVariance/SmallDegree/ConvexPacking.lean:26:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: BorceaVariance/SmallDegree/ConvexPacking.lean:112:35: This simp argument is unused:
+  Multiset.map_const
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [g, Multiset.sum_map_sub, Multiset.sum_replicate]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3499/3603] Replayed BorceaVariance.SmallDegree.PackingPointwise
+warning: BorceaVariance/SmallDegree/PackingPointwise.lean:34:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3505/3603] Replayed BorceaVariance.SmallDegree.Packing
+warning: BorceaVariance/SmallDegree/Packing.lean:38:8: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: BorceaVariance/SmallDegree/Packing.lean:38:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: BorceaVariance/SmallDegree/Packing.lean:43:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: BorceaVariance/SmallDegree/Packing.lean:66:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3506/3603] Replayed BorceaVariance.Certificate.PackingWitness
+warning: BorceaVariance/Certificate/PackingWitness.lean:34:54: Variable name `hx1` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hx1
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3511/3603] Replayed BorceaVariance.Certificate.BetaMajorant
+warning: BorceaVariance/Certificate/BetaMajorant.lean:13:35: Variable name `hn` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hn
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3512/3603] Replayed BorceaVariance.Certificate.RefinedBeta
+warning: BorceaVariance/Certificate/RefinedBeta.lean:60:36: Variable name `hn` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hn
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3516/3603] Replayed BorceaVariance.SmallDegree.CoefficientBounds
+warning: BorceaVariance/SmallDegree/CoefficientBounds.lean:67:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3518/3603] Replayed BorceaVariance.Integral.RetainedProducts
+warning: BorceaVariance/Integral/RetainedProducts.lean:7:25: Variable name `hL` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hL
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3519/3603] Replayed BorceaVariance.Integral.DirectRetained
+warning: BorceaVariance/Integral/DirectRetained.lean:65:8: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [norm_pow, norm_prod]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3521/3603] Replayed BorceaVariance.Integral.OmissionBounds
+warning: BorceaVariance/Integral/OmissionBounds.lean:40:44: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: BorceaVariance/Integral/OmissionBounds.lean:40:44: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: BorceaVariance/Integral/OmissionBounds.lean:40:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: BorceaVariance/Integral/OmissionBounds.lean:56:44: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: BorceaVariance/Integral/OmissionBounds.lean:56:44: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: BorceaVariance/Integral/OmissionBounds.lean:56:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3524/3603] Replayed BorceaVariance.Integral.InterpolationMoments
+warning: BorceaVariance/Integral/InterpolationMoments.lean:6:46: Variable name `hm` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hm
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3525/3603] Replayed BorceaVariance.Integral.CenteredFirst
+warning: BorceaVariance/Integral/CenteredFirst.lean:9:62: Variable name `hU` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hU
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: BorceaVariance/Integral/CenteredFirst.lean:41:56: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: BorceaVariance/Integral/CenteredFirst.lean:41:56: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: BorceaVariance/Integral/CenteredFirst.lean:41:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: BorceaVariance/Integral/CenteredFirst.lean:41:37: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: BorceaVariance/Integral/CenteredFirst.lean:57:21: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: BorceaVariance/Integral/CenteredFirst.lean:57:35: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: BorceaVariance/Integral/CenteredFirst.lean:107:81: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3527/3603] Replayed BorceaVariance.Integral.CenteredSecond
+warning: BorceaVariance/Integral/CenteredSecond.lean:68:21: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: BorceaVariance/Integral/CenteredSecond.lean:68:35: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: BorceaVariance/Integral/CenteredSecond.lean:120:87: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3528/3603] Replayed BorceaVariance.Integral.AbsoluteTest
+warning: BorceaVariance/Integral/AbsoluteTest.lean:24:40: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3530/3603] Replayed BorceaVariance.Integral.BetaPolynomial
+warning: BorceaVariance/Integral/BetaPolynomial.lean:16:25: This simp argument is unused:
+  Nat.add_sub_cancel
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Nat.cast_add, Nat.cast_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3531/3603] Replayed BorceaVariance.Integral.IntegralPolynomial
+warning: BorceaVariance/Integral/IntegralPolynomial.lean:45:10: `intervalIntegral.integral_finset_sum` has been deprecated: Use `intervalIntegral.integral_finsetSum` instead
+⚠ [3536/3603] Replayed BorceaVariance.SmallDegree.RealCoordinateVariance
+warning: BorceaVariance/SmallDegree/RealCoordinateVariance.lean:79:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3538/3603] Replayed BorceaVariance.SmallDegree.QuadraticReal
+warning: BorceaVariance/SmallDegree/QuadraticReal.lean:18:21: This simp argument is unused:
+  map_sub
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [map_mul, map_add, map_pow, map_neg, map_one, map_ofNat, MvPolynomial.aeval_esymm_eq_multiset_esymm,
+    MvPolynomial.psum, MvPolynomial.aeval_sum, MvPolynomial.aeval_X] at he
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3543/3603] Replayed BorceaVariance.SmallDegree.CoefficientIntegral
+warning: BorceaVariance/SmallDegree/CoefficientIntegral.lean:23:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3544/3603] Replayed BorceaVariance.SmallDegree.CoefficientTail
+warning: BorceaVariance/SmallDegree/CoefficientTail.lean:26:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3546/3603] Replayed BorceaVariance.Integral.RatioTest
+warning: BorceaVariance/Integral/RatioTest.lean:9:5: Variable name `hr` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hr
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3548/3603] Replayed BorceaVariance.SmallDegree.CoefficientTest
+warning: BorceaVariance/SmallDegree/CoefficientTest.lean:34:24: This simp argument is unused:
+  Complex.norm_natCast
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [norm_mul, Complex.norm_real, Real.norm_eq_abs, abs_of_nonneg ha, Nat.cast_add, Nat.cast_one,
+    hmnorm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3549/3603] Replayed BorceaVariance.SmallDegree.QuadraticSplit
+warning: BorceaVariance/SmallDegree/QuadraticSplit.lean:76:33: This simp argument is unused:
+  Complex.norm_natCast
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [norm_neg, norm_mul, Complex.norm_real, Real.norm_eq_abs, abs_of_nonneg ha, Nat.cast_add,
+    Nat.cast_one, hmnorm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3556/3603] Replayed BorceaVariance.Certificate.RefinedEndpoint
+warning: BorceaVariance/Certificate/RefinedEndpoint.lean:95:50: Variable name `hE` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hE
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3560/3603] Replayed BorceaVariance.Integral.ConvexMesh
+warning: BorceaVariance/Integral/ConvexMesh.lean:20:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: BorceaVariance/Integral/ConvexMesh.lean:37:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3567/3603] Replayed BorceaVariance.Integral.Constants
+warning: BorceaVariance/Integral/Constants.lean:39:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [3568/3603] Replayed BorceaVariance.Certificate.RoundedConstants
+warning: BorceaVariance/Certificate/RoundedConstants.lean:35:49: Unused tactic linter: `norm_num` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: BorceaVariance/Certificate/RoundedConstants.lean:38:16: Unused tactic linter: `norm_num` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: BorceaVariance/Certificate/RoundedConstants.lean:38:42: Unused tactic linter: `norm_num` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [3571/3603] Replayed BorceaVariance.Certificate.ScaledMesh
+warning: BorceaVariance/Certificate/ScaledMesh.lean:23:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: BorceaVariance/Certificate/ScaledMesh.lean:23:34: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: BorceaVariance/Certificate/ScaledMesh.lean:23:73: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: BorceaVariance/Certificate/ScaledMesh.lean:23:87: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: BorceaVariance/Certificate/ScaledMesh.lean:41:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: BorceaVariance/Certificate/ScaledMesh.lean:41:34: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: BorceaVariance/Certificate/ScaledMesh.lean:41:73: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: BorceaVariance/Certificate/ScaledMesh.lean:41:87: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3578/3603] Replayed BorceaVariance.Certificate.CenterFirstPointwise
+warning: BorceaVariance/Certificate/CenterFirstPointwise.lean:86:14: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: BorceaVariance/Certificate/CenterFirstPointwise.lean:96:14: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3579/3603] Replayed BorceaVariance.Certificate.RealScaledMesh
+warning: BorceaVariance/Certificate/RealScaledMesh.lean:64:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: BorceaVariance/Certificate/RealScaledMesh.lean:64:34: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: BorceaVariance/Certificate/RealScaledMesh.lean:64:73: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: BorceaVariance/Certificate/RealScaledMesh.lean:64:87: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3585/3603] Replayed BorceaVariance.Certificate.PositiveGeometry
+warning: BorceaVariance/Certificate/PositiveGeometry.lean:24:20: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: BorceaVariance/Certificate/PositiveGeometry.lean:25:16: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+✔ [3593/3603] Built BorceaVariance.Certificate.Checker (10s)
+ℹ [3594/3603] Built BorceaVariance.Certificate.Generated.Accepted0Part0 (13s)
+info: BorceaVariance/Certificate/Generated/Accepted0Part0.lean:392:0: 'BorceaVariance.Certificate.Generated.leafAccepted0_63' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3595/3603] Built BorceaVariance.Certificate.Generated.Accepted0Part1 (16s)
+info: BorceaVariance/Certificate/Generated/Accepted0Part1.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted0_127' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3596/3603] Built BorceaVariance.Certificate.Generated.Accepted0Part2 (16s)
+info: BorceaVariance/Certificate/Generated/Accepted0Part2.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted0_191' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3597/3603] Built BorceaVariance.Certificate.Generated.Accepted0Part3 (16s)
+info: BorceaVariance/Certificate/Generated/Accepted0Part3.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted0_255' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3598/3603] Built BorceaVariance.Certificate.Generated.Accepted0Part4 (17s)
+info: BorceaVariance/Certificate/Generated/Accepted0Part4.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted0_319' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3599/3603] Built BorceaVariance.Certificate.Generated.Accepted0Part5 (17s)
+info: BorceaVariance/Certificate/Generated/Accepted0Part5.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted0_383' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3600/3603] Built BorceaVariance.Certificate.Generated.Accepted0Part6 (14s)
+info: BorceaVariance/Certificate/Generated/Accepted0Part6.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted0_447' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3601/3603] Built BorceaVariance.Certificate.Generated.Accepted0Part7 (18s)
+info: BorceaVariance/Certificate/Generated/Accepted0Part7.lean:393:0: 'BorceaVariance.Certificate.Generated.leafAccepted0_511' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3602/3603] Built BorceaVariance.Certificate.Generated.Accepted0Part8 (11s)
+info: BorceaVariance/Certificate/Generated/Accepted0Part8.lean:129:0: 'BorceaVariance.Certificate.Generated.leafAccepted0_531' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3603/3603] Built BorceaVariance.Certificate.Generated.Accepted0 (30s)
+info: BorceaVariance/Certificate/Generated/Accepted0.lean:1620:0: 'BorceaVariance.Certificate.Generated.certificateBlock0_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Build completed successfully (3603 jobs).

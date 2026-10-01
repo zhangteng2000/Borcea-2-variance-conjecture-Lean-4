@@ -1,0 +1,3437 @@
+{
+  "79": {
+    "refs": [
+      "BorceaVariance.sigma2_eq_infimum"
+    ],
+    "status": "p2-definition-proved; general-p-background",
+    "note": "The project concerns p=2. The introductory definitions for other p are background."
+  },
+  "87": {
+    "refs": [],
+    "status": "background-conjecture-context",
+    "note": "The monotonicity and conjectures for general p are introductory context, not inputs to the p=2 proof."
+  },
+  "96": {
+    "refs": [
+      "BorceaVariance.sigma2_sq",
+      "BorceaVariance.sigma2_eq_infimum",
+      "BorceaVariance.centroid_unique_minimizer"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "113": {
+    "refs": [],
+    "status": "background-conjecture-context",
+    "note": "The monotonicity and conjectures for general p are introductory context, not inputs to the p=2 proof."
+  },
+  "137": {
+    "refs": [
+      "BorceaVariance.main_theorem"
+    ],
+    "status": "proved",
+    "note": "Exact polynomial theorem for every degree at least two, assembled from the quadratic, cubic, finite-certificate and large-degree proofs."
+  },
+  "156": {
+    "refs": [
+      "BorceaVariance.toeplitzMatrix"
+    ],
+    "status": "definition",
+    "note": "Matrix order in Lean is n+1; the leading submatrix has order n."
+  },
+  "166": {
+    "refs": [
+      "BorceaVariance.toeplitz_corollary"
+    ],
+    "status": "proved",
+    "note": "The circulant derivative identity and variance estimate are combined with main_theorem; the conclusion supplies a nonzero Toeplitz eigenvector."
+  },
+  "180": {
+    "refs": [
+      "BorceaVariance.reciprocalFamily",
+      "BorceaVariance.mean",
+      "BorceaVariance.secondMoment"
+    ],
+    "status": "definition",
+    "note": ""
+  },
+  "253": {
+    "refs": [
+      "BorceaVariance.normalize_counterexample",
+      "BorceaVariance.normalized_root_factorization"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "267": {
+    "refs": [
+      "BorceaVariance.schoenberg_centered",
+      "BorceaVariance.schoenberg_centered_equality"
+    ],
+    "status": "proved-including-collinearity-equality",
+    "note": ""
+  },
+  "276": {
+    "refs": [
+      "BorceaVariance.critical_root_sum_zero",
+      "BorceaVariance.normalized_critical_secondMoment_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "346": {
+    "refs": [
+      "BorceaVariance.reciprocal_weighted_cauchy",
+      "BorceaVariance.reciprocal_weighted_energy",
+      "BorceaVariance.reciprocal_weight_sum"
+    ],
+    "status": "proved-scaled-finite-sum-form",
+    "note": "The finite sum formulation multiplies both sides by m or m², with m=n-1>0."
+  },
+  "370": {
+    "refs": [
+      "BorceaVariance.reciprocal_moment_A_distance"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "379": {
+    "refs": [
+      "BorceaVariance.reciprocal_centered_identity"
+    ],
+    "status": "proved-scaled-finite-sum-form",
+    "note": ""
+  },
+  "385": {
+    "refs": [
+      "BorceaVariance.reciprocal_moment_B"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "401": {
+    "refs": [
+      "BorceaVariance.reciprocal_inverse_moment",
+      "BorceaVariance.centered_shift_energy"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "424": {
+    "refs": [
+      "BorceaVariance.reciprocal_moment_endpoint",
+      "BorceaVariance.beta_decomposition"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "440": {
+    "refs": [
+      "BorceaVariance.originRemainder"
+    ],
+    "status": "definition",
+    "note": ""
+  },
+  "448": {
+    "refs": [
+      "BorceaVariance.normalized_origin_identity_fin"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "453": {
+    "refs": [
+      "BorceaVariance.differential_identity"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "459": {
+    "refs": [
+      "BorceaVariance.normalized_center_identity_fin",
+      "BorceaVariance.center_identity"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "475": {
+    "refs": [
+      "BorceaVariance.center_power_integral"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "481": {
+    "refs": [
+      "BorceaVariance.normalized_center_identity_fin",
+      "BorceaVariance.center_identity"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "499": {
+    "refs": [
+      "BorceaVariance.Phi",
+      "BorceaVariance.Psi"
+    ],
+    "status": "definition",
+    "note": ""
+  },
+  "504": {
+    "refs": [
+      "BorceaVariance.normalized_core_product"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "512": {
+    "refs": [
+      "BorceaVariance.normalized_basic_product"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": "The AM-GM product comparison is an internal step in the polynomial-level proof."
+  },
+  "527": {
+    "refs": [
+      "BorceaVariance.root_product_upper",
+      "BorceaVariance.normalized_root_product_upper"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "537": {
+    "refs": [
+      "BorceaVariance.root_product_upper",
+      "BorceaVariance.normalized_root_product_upper"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "549": {
+    "refs": [
+      "BorceaVariance.phi_le_one"
+    ],
+    "status": "proved-by-AM-GM",
+    "note": "The displayed list is the AM-GM witness, not a separate theorem."
+  },
+  "555": {
+    "refs": [
+      "BorceaVariance.phi_le_one"
+    ],
+    "status": "proved-by-AM-GM",
+    "note": "The displayed list is the AM-GM witness, not a separate theorem."
+  },
+  "571": {
+    "refs": [
+      "BorceaVariance.phi_le_psi"
+    ],
+    "status": "alternate-proof-of-consequence",
+    "note": "The formal proof bounds the power by exp directly; the manuscript's logarithmic calculation is not a proof dependency."
+  },
+  "589": {
+    "refs": [
+      "BorceaVariance.phi_le_one",
+      "BorceaVariance.phi_le_psi"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "595": {
+    "refs": [
+      "BorceaVariance.normalized_core_product"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "603": {
+    "refs": [
+      "BorceaVariance.normalized_core_product"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "613": {
+    "refs": [
+      "BorceaVariance.normalized_other_shift_energy"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "618": {
+    "refs": [
+      "BorceaVariance.normalized_other_shift_energy"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "624": {
+    "refs": [
+      "BorceaVariance.normalized_basic_product"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": "The AM-GM product comparison is an internal step in the polynomial-level proof."
+  },
+  "637": {
+    "refs": [
+      "BorceaVariance.normalized_product_identity",
+      "BorceaVariance.normalized_derivative_factorization"
+    ],
+    "status": "proved-scaled-product-form",
+    "note": "The cancellation identity handles the nonzero reciprocal factors and is equivalent to the displayed quotient."
+  },
+  "645": {
+    "refs": [
+      "BorceaVariance.normalized_product_identity",
+      "BorceaVariance.normalized_derivative_factorization"
+    ],
+    "status": "proved-scaled-product-form",
+    "note": "The cancellation identity handles the nonzero reciprocal factors and is equivalent to the displayed quotient."
+  },
+  "653": {
+    "refs": [
+      "BorceaVariance.normalized_product_identity",
+      "BorceaVariance.normalized_derivative_factorization"
+    ],
+    "status": "proved-scaled-product-form",
+    "note": "The cancellation identity handles the nonzero reciprocal factors and is equivalent to the displayed quotient."
+  },
+  "660": {
+    "refs": [
+      "BorceaVariance.reciprocal_product_amgm"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "671": {
+    "refs": [
+      "BorceaVariance.normalized_basic_product"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": "The AM-GM product comparison is an internal step in the polynomial-level proof."
+  },
+  "683": {
+    "refs": [
+      "BorceaVariance.normalized_basic_product"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": "The AM-GM product comparison is an internal step in the polynomial-level proof."
+  },
+  "700": {
+    "refs": [
+      "BorceaVariance.phi_succ_mono",
+      "BorceaVariance.phi_mono_degree"
+    ],
+    "status": "alternate-integer-degree-proof",
+    "note": "Degree monotonicity is proved by AM-GM and induction; no derivative in a continuous degree parameter is needed."
+  },
+  "706": {
+    "refs": [
+      "BorceaVariance.phi_succ_mono",
+      "BorceaVariance.phi_mono_degree"
+    ],
+    "status": "alternate-integer-degree-proof",
+    "note": "Degree monotonicity is proved by AM-GM and induction; no derivative in a continuous degree parameter is needed."
+  },
+  "717": {
+    "refs": [
+      "BorceaVariance.phi_succ_mono",
+      "BorceaVariance.phi_mono_degree"
+    ],
+    "status": "alternate-integer-degree-proof",
+    "note": "Degree monotonicity is proved by AM-GM and induction; no derivative in a continuous degree parameter is needed."
+  },
+  "721": {
+    "refs": [
+      "BorceaVariance.phi_succ_mono",
+      "BorceaVariance.phi_mono_degree"
+    ],
+    "status": "alternate-integer-degree-proof",
+    "note": "Degree monotonicity is proved by AM-GM and induction; no derivative in a continuous degree parameter is needed."
+  },
+  "728": {
+    "refs": [
+      "BorceaVariance.hasDerivAt_phiSquareKernel",
+      "BorceaVariance.phi_mono_before_one",
+      "BorceaVariance.phi_antitone_after_one"
+    ],
+    "status": "alternate-proof-of-consequence",
+    "note": "The proof differentiates Phi squared, covering both monotonicity intervals and endpoints without log singularities."
+  },
+  "742": {
+    "refs": [
+      "BorceaVariance.omission_one_constant_bounds",
+      "BorceaVariance.omission_two_constant_bounds"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "754": {
+    "refs": [
+      "BorceaVariance.sum_beta"
+    ],
+    "status": "majorant-hypothesis-with-exact-moment-identity",
+    "note": "b is an arbitrary supplied upper bound; concrete b is proved valid by the interval and large-degree lemmas."
+  },
+  "761": {
+    "refs": [
+      "BorceaVariance.sum_beta"
+    ],
+    "status": "majorant-hypothesis-with-exact-moment-identity",
+    "note": "b is an arbitrary supplied upper bound; concrete b is proved valid by the interval and large-degree lemmas."
+  },
+  "769": {
+    "refs": [
+      "BorceaVariance.factorMean_linear_majorant"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "777": {
+    "refs": [
+      "BorceaVariance.factorMean_sq_le_beta"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "791": {
+    "refs": [
+      "BorceaVariance.factorMean_endpoint_sq_le"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "810": {
+    "refs": [
+      "BorceaVariance.factorMean_endpoint_sqrt_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "818": {
+    "refs": [
+      "BorceaVariance.factorMean_endpoint_le_kappa"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "822": {
+    "refs": [
+      "BorceaVariance.factorMean_endpoint_le_kappa"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "834": {
+    "refs": [
+      "BorceaVariance.factorMean_linear_majorant"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "844": {
+    "refs": [
+      "BorceaVariance.factorMean_linear_majorant"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "874": {
+    "refs": [
+      "BorceaVariance.direct_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "881": {
+    "refs": [
+      "BorceaVariance.direct_retained_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "892": {
+    "refs": [
+      "BorceaVariance.sum_deleted_prod_le_mean"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "903": {
+    "refs": [
+      "BorceaVariance.direct_unit_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "920": {
+    "refs": [
+      "BorceaVariance.norm_subproduct_le_second_moment"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "936": {
+    "refs": [
+      "BorceaVariance.norm_subproduct_le_first_moment"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "957": {
+    "refs": [
+      "BorceaVariance.direct_second_moment_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "971": {
+    "refs": [
+      "BorceaVariance.retained_factor_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "978": {
+    "refs": [
+      "BorceaVariance.retained_deleted_second_moment"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "984": {
+    "refs": [
+      "BorceaVariance.retained_deleted_first_moment"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "991": {
+    "refs": [
+      "BorceaVariance.retained_deleted_second_moment"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "999": {
+    "refs": [
+      "BorceaVariance.retained_deleted_first_moment"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1027": {
+    "refs": [
+      "BorceaVariance.centered_interpolation_first"
+    ],
+    "status": "proved-with-stated-nonzero-denominator",
+    "note": ""
+  },
+  "1033": {
+    "refs": [
+      "BorceaVariance.centered_interpolation_second"
+    ],
+    "status": "proved-without-denominator-condition",
+    "note": "This estimate covers 1-a*mu*t=0."
+  },
+  "1050": {
+    "refs": [
+      "BorceaVariance.interpolationPolynomial_derivative",
+      "BorceaVariance.centered_interpolation_first"
+    ],
+    "status": "proved-in-polynomial-interpolation",
+    "note": ""
+  },
+  "1055": {
+    "refs": [
+      "BorceaVariance.interpolationPolynomial_derivative",
+      "BorceaVariance.centered_interpolation_first"
+    ],
+    "status": "proved-in-polynomial-interpolation",
+    "note": ""
+  },
+  "1062": {
+    "refs": [
+      "BorceaVariance.centered_interpolation_second_moment",
+      "BorceaVariance.beta_decomposition"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1077": {
+    "refs": [
+      "BorceaVariance.centered_interpolation_first_moment",
+      "BorceaVariance.centered_norm_le_factor_mean"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1092": {
+    "refs": [
+      "BorceaVariance.interpolationPolynomial_derivative",
+      "BorceaVariance.centered_interpolation_first"
+    ],
+    "status": "proved-in-polynomial-interpolation",
+    "note": ""
+  },
+  "1101": {
+    "refs": [
+      "QuadraticTangZhang.centered_interpolation_polynomial",
+      "BorceaVariance.centered_first_remainder_general"
+    ],
+    "status": "proved-polynomial-identity",
+    "note": ""
+  },
+  "1107": {
+    "refs": [
+      "QuadraticTangZhang.centered_interpolation_polynomial",
+      "BorceaVariance.centered_first_remainder_general"
+    ],
+    "status": "proved-polynomial-identity",
+    "note": ""
+  },
+  "1119": {
+    "refs": [
+      "BorceaVariance.norm_subproduct_le_second_moment",
+      "BorceaVariance.centered_first_remainder_moments"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1126": {
+    "refs": [
+      "BorceaVariance.norm_subproduct_le_first_moment",
+      "BorceaVariance.centered_first_remainder_moments"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1137": {
+    "refs": [
+      "BorceaVariance.centered_first_remainder_general"
+    ],
+    "status": "proved-local-derivative-and-FTC-steps",
+    "note": ""
+  },
+  "1147": {
+    "refs": [
+      "BorceaVariance.centered_first_remainder_general"
+    ],
+    "status": "proved-local-derivative-and-FTC-steps",
+    "note": ""
+  },
+  "1168": {
+    "refs": [
+      "BorceaVariance.polynomial_taylor_second",
+      "BorceaVariance.interpolationPolynomial_derivative_zero"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1175": {
+    "refs": [
+      "BorceaVariance.interpolationPolynomial_second_derivative"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1186": {
+    "refs": [
+      "BorceaVariance.ordered_pair_norm_sum_bound",
+      "BorceaVariance.centered_variance_sum"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1200": {
+    "refs": [
+      "BorceaVariance.centered_second_remainder_moments"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1207": {
+    "refs": [
+      "BorceaVariance.centered_second_remainder_moments"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1214": {
+    "refs": [
+      "BorceaVariance.centered_second_remainder_moments"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1228": {
+    "refs": [
+      "BorceaVariance.centered_interpolation_second"
+    ],
+    "status": "proved-without-denominator-condition",
+    "note": "This estimate covers 1-a*mu*t=0."
+  },
+  "1251": {
+    "refs": [
+      "BorceaVariance.centered_error_integral_bound"
+    ],
+    "status": "supplied-envelope-and-proved-integral-bound",
+    "note": "U is an integrable upper envelope. K is represented by its explicit defining expression."
+  },
+  "1258": {
+    "refs": [
+      "BorceaVariance.centered_error_integral_bound"
+    ],
+    "status": "supplied-envelope-and-proved-integral-bound",
+    "note": "U is an integrable upper envelope. K is represented by its explicit defining expression."
+  },
+  "1265": {
+    "refs": [
+      "BorceaVariance.normalized_direct_integral_test"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1273": {
+    "refs": [
+      "BorceaVariance.normalized_absolute_integral_test"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1279": {
+    "refs": [
+      "BorceaVariance.normalized_ratio_integral_test",
+      "BorceaVariance.ratio_scalar_test"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1292": {
+    "refs": [
+      "BorceaVariance.direct_norm_test",
+      "BorceaVariance.differential_identity"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1302": {
+    "refs": [
+      "BorceaVariance.originProduct_endpoint_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1316": {
+    "refs": [
+      "BorceaVariance.origin_core_integral_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1325": {
+    "refs": [
+      "BorceaVariance.originRemainder_norm_le_direct_integral"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1341": {
+    "refs": [
+      "BorceaVariance.absolute_integral_test"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1356": {
+    "refs": [
+      "BorceaVariance.centered_error_integral_bound"
+    ],
+    "status": "supplied-envelope-and-proved-integral-bound",
+    "note": "U is an integrable upper envelope. K is represented by its explicit defining expression."
+  },
+  "1363": {
+    "refs": [
+      "BorceaVariance.normalized_absolute_integral_test"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1372": {
+    "refs": [
+      "BorceaVariance.normalized_core_product_le_mean"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1378": {
+    "refs": [
+      "BorceaVariance.normalized_ratio_integral_test"
+    ],
+    "status": "proved-in-preliminary-bound",
+    "note": ""
+  },
+  "1387": {
+    "refs": [
+      "BorceaVariance.normalized_ratio_integral_test",
+      "BorceaVariance.ratio_scalar_test"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1403": {
+    "refs": [
+      "BorceaVariance.normalized_ratio_integral_test",
+      "BorceaVariance.ratio_scalar_test"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1428": {
+    "refs": [
+      "BorceaVariance.chord_one",
+      "BorceaVariance.chord_two"
+    ],
+    "status": "proved-continuous-convex-quadrature",
+    "note": "The two displayed inequalities are separate theorems. Numerical majorants supply continuity and convexity."
+  },
+  "1438": {
+    "refs": [
+      "BorceaVariance.chord_one",
+      "BorceaVariance.chord_two"
+    ],
+    "status": "proved-continuous-convex-quadrature",
+    "note": "The two displayed inequalities are separate theorems. Numerical majorants supply continuity and convexity."
+  },
+  "1462": {
+    "refs": [
+      "BorceaVariance.convex_nonnegative_rpow",
+      "BorceaVariance.convex_retained_block_powers"
+    ],
+    "status": "convexity-exponent-domain",
+    "note": "For the applicable degrees the exponents are at least one. Minima are taken after separate integral estimates."
+  },
+  "1503": {
+    "refs": [
+      "BorceaVariance.reciprocal_real_part_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1512": {
+    "refs": [
+      "BorceaVariance.reciprocal_real_part_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1516": {
+    "refs": [
+      "BorceaVariance.reciprocal_real_part_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1522": {
+    "refs": [
+      "BorceaVariance.reciprocal_real_part_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1537": {
+    "refs": [
+      "BorceaVariance.reciprocal_beta_linear_gap",
+      "BorceaVariance.reciprocal_beta_largeDegreeGap"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1547": {
+    "refs": [
+      "BorceaVariance.reciprocal_beta_linear_gap",
+      "BorceaVariance.reciprocal_beta_largeDegreeGap"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1552": {
+    "refs": [
+      "BorceaVariance.originProduct_exp_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1570": {
+    "refs": [
+      "BorceaVariance.originRemainder_exp_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1578": {
+    "refs": [
+      "BorceaVariance.originRemainder_exp_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1592": {
+    "refs": [
+      "BorceaVariance.originProduct_exp_bound",
+      "BorceaVariance.originRemainder_exp_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1599": {
+    "refs": [
+      "BorceaVariance.normalized_large_direct"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1611": {
+    "refs": [
+      "BorceaVariance.normalized_large_direct"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1618": {
+    "refs": [
+      "BorceaVariance.normalized_degree_log_bound",
+      "BorceaVariance.normalized_product_identity"
+    ],
+    "status": "proved-degree-product-and-log-bound",
+    "note": "Some intermediate strict bounds are only used through their stated lower bound on degree*a²."
+  },
+  "1629": {
+    "refs": [
+      "BorceaVariance.normalized_degree_log_bound",
+      "BorceaVariance.normalized_product_identity"
+    ],
+    "status": "proved-degree-product-and-log-bound",
+    "note": "Some intermediate strict bounds are only used through their stated lower bound on degree*a²."
+  },
+  "1635": {
+    "refs": [
+      "BorceaVariance.normalized_degree_log_bound",
+      "BorceaVariance.normalized_product_identity"
+    ],
+    "status": "proved-degree-product-and-log-bound",
+    "note": "Some intermediate strict bounds are only used through their stated lower bound on degree*a²."
+  },
+  "1643": {
+    "refs": [
+      "BorceaVariance.normalized_degree_log_bound",
+      "BorceaVariance.normalized_product_identity"
+    ],
+    "status": "proved-degree-product-and-log-bound",
+    "note": "Some intermediate strict bounds are only used through their stated lower bound on degree*a²."
+  },
+  "1654": {
+    "refs": [
+      "BorceaVariance.normalized_small_a_degree",
+      "BorceaVariance.log_degree_gt_ten"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1659": {
+    "refs": [
+      "BorceaVariance.small_a_real_part_lower",
+      "BorceaVariance.no_normalized_counterexample_large_small_a"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1665": {
+    "refs": [
+      "BorceaVariance.small_a_real_part_lower",
+      "BorceaVariance.no_normalized_counterexample_large_small_a"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1669": {
+    "refs": [
+      "BorceaVariance.small_a_real_part_lower",
+      "BorceaVariance.no_normalized_counterexample_large_small_a"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1674": {
+    "refs": [
+      "BorceaVariance.exp_neg_small_a_lt",
+      "BorceaVariance.no_normalized_counterexample_large_small_a"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1682": {
+    "refs": [
+      "BorceaVariance.small_a_remainder_coefficient",
+      "BorceaVariance.small_a_remainder_algebra"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1693": {
+    "refs": [
+      "BorceaVariance.psi_table_endpoints",
+      "BorceaVariance.no_normalized_counterexample_large_small_a"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1697": {
+    "refs": [
+      "BorceaVariance.no_normalized_counterexample_large_small_a"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1716": {
+    "refs": [
+      "BorceaVariance.exp_neg_hundred_lt",
+      "BorceaVariance.normalized_away_estimates"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1729": {
+    "refs": [
+      "BorceaVariance.large_degree_remainder_coefficient",
+      "BorceaVariance.remainder_gap_to_H"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1757": {
+    "refs": [
+      "BorceaVariance.largeDegreeH_interval_bound",
+      "BorceaVariance.largeDegreeH_table"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1763": {
+    "refs": [
+      "BorceaVariance.large_degree_exponential_comparisons"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1776": {
+    "refs": [
+      "BorceaVariance.no_normalized_counterexample_large_away"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1788": {
+    "refs": [
+      "BorceaVariance.central_real_part_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1796": {
+    "refs": [
+      "BorceaVariance.central_beta_bounds"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1802": {
+    "refs": [
+      "BorceaVariance.central_beta_bounds"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1806": {
+    "refs": [
+      "BorceaVariance.central_beta_bounds"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1815": {
+    "refs": [
+      "BorceaVariance.central_beta_bounds"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1829": {
+    "refs": [
+      "BorceaVariance.central_beta_bounds"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1840": {
+    "refs": [
+      "BorceaVariance.central_beta_bounds"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1845": {
+    "refs": [
+      "BorceaVariance.central_center_factor_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1856": {
+    "refs": [
+      "BorceaVariance.central_centered_integral_bound"
+    ],
+    "status": "explicit-integral-expression",
+    "note": ""
+  },
+  "1870": {
+    "refs": [
+      "BorceaVariance.central_first_pointwise",
+      "BorceaVariance.central_first_integral_bound",
+      "BorceaVariance.central_first_coefficient"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1876": {
+    "refs": [
+      "BorceaVariance.central_first_pointwise",
+      "BorceaVariance.central_first_integral_bound",
+      "BorceaVariance.central_first_coefficient"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1899": {
+    "refs": [
+      "BorceaVariance.central_second_pointwise",
+      "BorceaVariance.central_second_integral_bound",
+      "BorceaVariance.central_second_coefficient"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1912": {
+    "refs": [
+      "BorceaVariance.central_B_power"
+    ],
+    "status": "direct-exponential-power-proof",
+    "note": "The logarithmic comparison is replaced by the standard 1-u<=exp(-u) power estimate."
+  },
+  "1922": {
+    "refs": [
+      "BorceaVariance.central_B_power"
+    ],
+    "status": "direct-exponential-power-proof",
+    "note": "The logarithmic comparison is replaced by the standard 1-u<=exp(-u) power estimate."
+  },
+  "1928": {
+    "refs": [
+      "BorceaVariance.central_second_coefficient"
+    ],
+    "status": "proved-using-exponential-series",
+    "note": ""
+  },
+  "1940": {
+    "refs": [
+      "BorceaVariance.central_endpoint_bound",
+      "BorceaVariance.central_endpoint_power"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1955": {
+    "refs": [
+      "BorceaVariance.no_normalized_counterexample_large_central"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1978": {
+    "refs": [
+      "BorceaVariance.large_a_moment_bounds",
+      "BorceaVariance.compact_moment_bounds"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1982": {
+    "refs": [
+      "BorceaVariance.large_a_moment_bounds",
+      "BorceaVariance.compact_moment_bounds"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1993": {
+    "refs": [
+      "BorceaVariance.large_a_moment_bounds",
+      "BorceaVariance.compact_moment_bounds"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "1998": {
+    "refs": [
+      "BorceaVariance.large_a_moment_bounds",
+      "BorceaVariance.compact_moment_bounds"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2006": {
+    "refs": [
+      "BorceaVariance.large_a_moment_bounds",
+      "BorceaVariance.compact_moment_bounds"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2029": {
+    "refs": [
+      "BorceaVariance.no_normalized_counterexample_large_a_ge_two",
+      "BorceaVariance.direct_linear_integral_bound"
+    ],
+    "status": "proved-in-large-a-exclusion",
+    "note": ""
+  },
+  "2045": {
+    "refs": [
+      "BorceaVariance.no_normalized_counterexample_large_a_ge_two",
+      "BorceaVariance.direct_linear_integral_bound"
+    ],
+    "status": "proved-in-large-a-exclusion",
+    "note": ""
+  },
+  "2051": {
+    "refs": [
+      "BorceaVariance.no_normalized_counterexample_large_a_ge_two",
+      "BorceaVariance.direct_linear_integral_bound"
+    ],
+    "status": "proved-in-large-a-exclusion",
+    "note": ""
+  },
+  "2065": {
+    "refs": [
+      "BorceaVariance.no_normalized_counterexample_large_a_ge_two",
+      "BorceaVariance.direct_linear_integral_bound"
+    ],
+    "status": "proved-in-large-a-exclusion",
+    "note": ""
+  },
+  "2071": {
+    "refs": [
+      "BorceaVariance.no_normalized_counterexample_large_a_ge_two",
+      "BorceaVariance.direct_linear_integral_bound"
+    ],
+    "status": "proved-in-large-a-exclusion",
+    "note": ""
+  },
+  "2081": {
+    "refs": [
+      "BorceaVariance.no_normalized_counterexample_large_a_ge_two",
+      "BorceaVariance.direct_linear_integral_bound"
+    ],
+    "status": "proved-in-large-a-exclusion",
+    "note": ""
+  },
+  "2116": {
+    "refs": [
+      "BorceaVariance.symmetric_inequality"
+    ],
+    "status": "proved-by-smoothing",
+    "note": ""
+  },
+  "2132": {
+    "refs": [
+      "BorceaVariance.cofactorSum_smoothing",
+      "BorceaVariance.cofactorSum_tangent_lower",
+      "BorceaVariance.cofactorSum_le_normalized",
+      "BorceaVariance.symmetric_inequality"
+    ],
+    "status": "alternate-proof-of-lemma",
+    "note": "The formal proof uses two-coordinate smoothing and induction, including zero coordinates. The manuscript's optimization, gradient and stationary-point argument is not used or assumed."
+  },
+  "2144": {
+    "refs": [
+      "BorceaVariance.cofactorSum_smoothing",
+      "BorceaVariance.cofactorSum_tangent_lower",
+      "BorceaVariance.cofactorSum_le_normalized",
+      "BorceaVariance.symmetric_inequality"
+    ],
+    "status": "alternate-proof-of-lemma",
+    "note": "The formal proof uses two-coordinate smoothing and induction, including zero coordinates. The manuscript's optimization, gradient and stationary-point argument is not used or assumed."
+  },
+  "2154": {
+    "refs": [
+      "BorceaVariance.cofactorSum_smoothing",
+      "BorceaVariance.cofactorSum_tangent_lower",
+      "BorceaVariance.cofactorSum_le_normalized",
+      "BorceaVariance.symmetric_inequality"
+    ],
+    "status": "alternate-proof-of-lemma",
+    "note": "The formal proof uses two-coordinate smoothing and induction, including zero coordinates. The manuscript's optimization, gradient and stationary-point argument is not used or assumed."
+  },
+  "2166": {
+    "refs": [
+      "BorceaVariance.cofactorSum_smoothing",
+      "BorceaVariance.cofactorSum_tangent_lower",
+      "BorceaVariance.cofactorSum_le_normalized",
+      "BorceaVariance.symmetric_inequality"
+    ],
+    "status": "alternate-proof-of-lemma",
+    "note": "The formal proof uses two-coordinate smoothing and induction, including zero coordinates. The manuscript's optimization, gradient and stationary-point argument is not used or assumed."
+  },
+  "2179": {
+    "refs": [
+      "BorceaVariance.cofactorSum_smoothing",
+      "BorceaVariance.cofactorSum_tangent_lower",
+      "BorceaVariance.cofactorSum_le_normalized",
+      "BorceaVariance.symmetric_inequality"
+    ],
+    "status": "alternate-proof-of-lemma",
+    "note": "The formal proof uses two-coordinate smoothing and induction, including zero coordinates. The manuscript's optimization, gradient and stationary-point argument is not used or assumed."
+  },
+  "2185": {
+    "refs": [
+      "BorceaVariance.cofactorSum_smoothing",
+      "BorceaVariance.cofactorSum_tangent_lower",
+      "BorceaVariance.cofactorSum_le_normalized",
+      "BorceaVariance.symmetric_inequality"
+    ],
+    "status": "alternate-proof-of-lemma",
+    "note": "The formal proof uses two-coordinate smoothing and induction, including zero coordinates. The manuscript's optimization, gradient and stationary-point argument is not used or assumed."
+  },
+  "2198": {
+    "refs": [
+      "BorceaVariance.cofactorSum_smoothing",
+      "BorceaVariance.cofactorSum_tangent_lower",
+      "BorceaVariance.cofactorSum_le_normalized",
+      "BorceaVariance.symmetric_inequality"
+    ],
+    "status": "alternate-proof-of-lemma",
+    "note": "The formal proof uses two-coordinate smoothing and induction, including zero coordinates. The manuscript's optimization, gradient and stationary-point argument is not used or assumed."
+  },
+  "2206": {
+    "refs": [
+      "BorceaVariance.cofactorSum_smoothing",
+      "BorceaVariance.cofactorSum_tangent_lower",
+      "BorceaVariance.cofactorSum_le_normalized",
+      "BorceaVariance.symmetric_inequality"
+    ],
+    "status": "alternate-proof-of-lemma",
+    "note": "The formal proof uses two-coordinate smoothing and induction, including zero coordinates. The manuscript's optimization, gradient and stationary-point argument is not used or assumed."
+  },
+  "2222": {
+    "refs": [
+      "BorceaVariance.cofactorSum_smoothing",
+      "BorceaVariance.cofactorSum_tangent_lower",
+      "BorceaVariance.cofactorSum_le_normalized",
+      "BorceaVariance.symmetric_inequality"
+    ],
+    "status": "alternate-proof-of-lemma",
+    "note": "The formal proof uses two-coordinate smoothing and induction, including zero coordinates. The manuscript's optimization, gradient and stationary-point argument is not used or assumed."
+  },
+  "2233": {
+    "refs": [
+      "BorceaVariance.cofactorSum_smoothing",
+      "BorceaVariance.cofactorSum_tangent_lower",
+      "BorceaVariance.cofactorSum_le_normalized",
+      "BorceaVariance.symmetric_inequality"
+    ],
+    "status": "alternate-proof-of-lemma",
+    "note": "The formal proof uses two-coordinate smoothing and induction, including zero coordinates. The manuscript's optimization, gradient and stationary-point argument is not used or assumed."
+  },
+  "2251": {
+    "refs": [
+      "BorceaVariance.cofactorSum_smoothing",
+      "BorceaVariance.cofactorSum_tangent_lower",
+      "BorceaVariance.cofactorSum_le_normalized",
+      "BorceaVariance.symmetric_inequality"
+    ],
+    "status": "alternate-proof-of-lemma",
+    "note": "The formal proof uses two-coordinate smoothing and induction, including zero coordinates. The manuscript's optimization, gradient and stationary-point argument is not used or assumed."
+  },
+  "2264": {
+    "refs": [
+      "BorceaVariance.cofactorSum_smoothing",
+      "BorceaVariance.cofactorSum_tangent_lower",
+      "BorceaVariance.cofactorSum_le_normalized",
+      "BorceaVariance.symmetric_inequality"
+    ],
+    "status": "alternate-proof-of-lemma",
+    "note": "The formal proof uses two-coordinate smoothing and induction, including zero coordinates. The manuscript's optimization, gradient and stationary-point argument is not used or assumed."
+  },
+  "2272": {
+    "refs": [
+      "BorceaVariance.cofactorSum_smoothing",
+      "BorceaVariance.cofactorSum_tangent_lower",
+      "BorceaVariance.cofactorSum_le_normalized",
+      "BorceaVariance.symmetric_inequality"
+    ],
+    "status": "alternate-proof-of-lemma",
+    "note": "The formal proof uses two-coordinate smoothing and induction, including zero coordinates. The manuscript's optimization, gradient and stationary-point argument is not used or assumed."
+  },
+  "2280": {
+    "refs": [
+      "BorceaVariance.cofactorSum_smoothing",
+      "BorceaVariance.cofactorSum_tangent_lower",
+      "BorceaVariance.cofactorSum_le_normalized",
+      "BorceaVariance.symmetric_inequality"
+    ],
+    "status": "alternate-proof-of-lemma",
+    "note": "The formal proof uses two-coordinate smoothing and induction, including zero coordinates. The manuscript's optimization, gradient and stationary-point argument is not used or assumed."
+  },
+  "2285": {
+    "refs": [
+      "BorceaVariance.cofactorSum_smoothing",
+      "BorceaVariance.cofactorSum_tangent_lower",
+      "BorceaVariance.cofactorSum_le_normalized",
+      "BorceaVariance.symmetric_inequality"
+    ],
+    "status": "alternate-proof-of-lemma",
+    "note": "The formal proof uses two-coordinate smoothing and induction, including zero coordinates. The manuscript's optimization, gradient and stationary-point argument is not used or assumed."
+  },
+  "2294": {
+    "refs": [
+      "BorceaVariance.cofactorSum_smoothing",
+      "BorceaVariance.cofactorSum_tangent_lower",
+      "BorceaVariance.cofactorSum_le_normalized",
+      "BorceaVariance.symmetric_inequality"
+    ],
+    "status": "alternate-proof-of-lemma",
+    "note": "The formal proof uses two-coordinate smoothing and induction, including zero coordinates. The manuscript's optimization, gradient and stationary-point argument is not used or assumed."
+  },
+  "2299": {
+    "refs": [
+      "BorceaVariance.cofactorSum_smoothing",
+      "BorceaVariance.cofactorSum_tangent_lower",
+      "BorceaVariance.cofactorSum_le_normalized",
+      "BorceaVariance.symmetric_inequality"
+    ],
+    "status": "alternate-proof-of-lemma",
+    "note": "The formal proof uses two-coordinate smoothing and induction, including zero coordinates. The manuscript's optimization, gradient and stationary-point argument is not used or assumed."
+  },
+  "2307": {
+    "refs": [
+      "BorceaVariance.cofactorSum_smoothing",
+      "BorceaVariance.cofactorSum_tangent_lower",
+      "BorceaVariance.cofactorSum_le_normalized",
+      "BorceaVariance.symmetric_inequality"
+    ],
+    "status": "alternate-proof-of-lemma",
+    "note": "The formal proof uses two-coordinate smoothing and induction, including zero coordinates. The manuscript's optimization, gradient and stationary-point argument is not used or assumed."
+  },
+  "2325": {
+    "refs": [
+      "BorceaVariance.normalized_root_mean",
+      "BorceaVariance.normalized_root_secondMoment",
+      "BorceaVariance.normalized_root_variance"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2336": {
+    "refs": [
+      "BorceaVariance.normalized_inverse_root_mean"
+    ],
+    "status": "proved-mean-identity; auxiliary-moments-defined",
+    "note": "T is the second moment of reciprocal root distances; M is their mean."
+  },
+  "2343": {
+    "refs": [
+      "BorceaVariance.normalized_root_product",
+      "BorceaVariance.normalized_root_product_zero"
+    ],
+    "status": "proved-including-zero-variance-case",
+    "note": ""
+  },
+  "2359": {
+    "refs": [
+      "BorceaVariance.normalized_inverse_root_mean"
+    ],
+    "status": "proved-mean-identity; auxiliary-moments-defined",
+    "note": "T is the second moment of reciprocal root distances; M is their mean."
+  },
+  "2374": {
+    "refs": [
+      "BorceaVariance.centered_variance_sum",
+      "BorceaVariance.normalized_root_variance"
+    ],
+    "status": "proved-scaled-finite-sum-form",
+    "note": ""
+  },
+  "2381": {
+    "refs": [
+      "BorceaVariance.centered_variance_sum",
+      "BorceaVariance.normalized_root_variance"
+    ],
+    "status": "proved-scaled-finite-sum-form",
+    "note": ""
+  },
+  "2390": {
+    "refs": [
+      "BorceaVariance.inverse_root_centered_sum"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2400": {
+    "refs": [
+      "BorceaVariance.inverse_root_cauchy"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2408": {
+    "refs": [
+      "BorceaVariance.real_sub_mul_norm_identity",
+      "BorceaVariance.inverse_root_covariance"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2414": {
+    "refs": [
+      "BorceaVariance.real_sub_mul_norm_identity",
+      "BorceaVariance.inverse_root_covariance"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2420": {
+    "refs": [
+      "BorceaVariance.real_sub_mul_norm_identity",
+      "BorceaVariance.inverse_root_covariance"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2427": {
+    "refs": [
+      "BorceaVariance.normalized_norm_product_improvement",
+      "BorceaVariance.cofactorSum_eq_product_inverse_sum",
+      "BorceaVariance.symmetric_inverse_product"
+    ],
+    "status": "proved-normalized-product-argument",
+    "note": ""
+  },
+  "2434": {
+    "refs": [
+      "BorceaVariance.normalized_norm_product_improvement",
+      "BorceaVariance.cofactorSum_eq_product_inverse_sum",
+      "BorceaVariance.symmetric_inverse_product"
+    ],
+    "status": "proved-normalized-product-argument",
+    "note": ""
+  },
+  "2438": {
+    "refs": [
+      "BorceaVariance.normalized_norm_product_improvement",
+      "BorceaVariance.cofactorSum_eq_product_inverse_sum",
+      "BorceaVariance.symmetric_inverse_product"
+    ],
+    "status": "proved-normalized-product-argument",
+    "note": ""
+  },
+  "2453": {
+    "refs": [
+      "BorceaVariance.normalized_norm_product_improvement",
+      "BorceaVariance.cofactorSum_eq_product_inverse_sum",
+      "BorceaVariance.symmetric_inverse_product"
+    ],
+    "status": "proved-normalized-product-argument",
+    "note": ""
+  },
+  "2459": {
+    "refs": [
+      "BorceaVariance.normalized_norm_product_improvement",
+      "BorceaVariance.cofactorSum_eq_product_inverse_sum",
+      "BorceaVariance.symmetric_inverse_product"
+    ],
+    "status": "proved-normalized-product-argument",
+    "note": ""
+  },
+  "2476": {
+    "refs": [
+      "BorceaVariance.normalized_norm_product_improvement",
+      "BorceaVariance.cofactorSum_eq_product_inverse_sum",
+      "BorceaVariance.symmetric_inverse_product"
+    ],
+    "status": "proved-normalized-product-argument",
+    "note": ""
+  },
+  "2481": {
+    "refs": [
+      "BorceaVariance.normalized_norm_product_improvement",
+      "BorceaVariance.cofactorSum_eq_product_inverse_sum",
+      "BorceaVariance.symmetric_inverse_product"
+    ],
+    "status": "proved-normalized-product-argument",
+    "note": ""
+  },
+  "2495": {
+    "refs": [
+      "BorceaVariance.normalized_root_product_identity",
+      "BorceaVariance.normalized_product_identity"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2503": {
+    "refs": [
+      "BorceaVariance.normalized_root_product_identity",
+      "BorceaVariance.normalized_product_identity"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2513": {
+    "refs": [
+      "BorceaVariance.constant_of_centeredVariance_zero"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2522": {
+    "refs": [
+      "BorceaVariance.constant_of_centeredVariance_zero"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2528": {
+    "refs": [
+      "BorceaVariance.inverse_root_covariance_zero",
+      "BorceaVariance.normalized_root_product_zero"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2532": {
+    "refs": [
+      "BorceaVariance.inverse_root_covariance_zero",
+      "BorceaVariance.normalized_root_product_zero"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2540": {
+    "refs": [
+      "BorceaVariance.inverse_root_covariance_zero",
+      "BorceaVariance.normalized_root_product_zero"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2555": {
+    "refs": [
+      "BorceaVariance.reciprocal_radial_loss"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2572": {
+    "refs": [
+      "BorceaVariance.log_loss"
+    ],
+    "status": "proved-local-differentiation",
+    "note": ""
+  },
+  "2579": {
+    "refs": [
+      "BorceaVariance.log_loss"
+    ],
+    "status": "proved-local-differentiation",
+    "note": ""
+  },
+  "2586": {
+    "refs": [
+      "BorceaVariance.log_loss"
+    ],
+    "status": "proved-local-differentiation",
+    "note": ""
+  },
+  "2602": {
+    "refs": [
+      "BorceaVariance.finite_log_loss"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2611": {
+    "refs": [
+      "BorceaVariance.reciprocal_radial_covariance"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2619": {
+    "refs": [
+      "BorceaVariance.reciprocal_radial_variance_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2642": {
+    "refs": [
+      "BorceaVariance.reciprocal_radial_variance_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2649": {
+    "refs": [
+      "BorceaVariance.reciprocal_radial_loss"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2660": {
+    "refs": [
+      "BorceaVariance.reciprocal_product_amgm"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2676": {
+    "refs": [
+      "BorceaVariance.tao_product"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2687": {
+    "refs": [
+      "BorceaVariance.finite_radial_mean_bound",
+      "BorceaVariance.finite_radial_variance_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2692": {
+    "refs": [
+      "BorceaVariance.product_radial_sqrt_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2709": {
+    "refs": [
+      "BorceaVariance.reciprocal_sq_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2725": {
+    "refs": [
+      "BorceaVariance.reciprocal_inverse_error_norm"
+    ],
+    "status": "proved-scaled-inverse-coordinate-identity",
+    "note": ""
+  },
+  "2729": {
+    "refs": [
+      "BorceaVariance.reciprocal_inverse_error_norm"
+    ],
+    "status": "proved-scaled-inverse-coordinate-identity",
+    "note": ""
+  },
+  "2748": {
+    "refs": [
+      "BorceaVariance.finite_radial_mean_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2763": {
+    "refs": [
+      "BorceaVariance.finite_radial_variance_bound"
+    ],
+    "status": "proved-local-inverse-energy-estimate",
+    "note": ""
+  },
+  "2780": {
+    "refs": [
+      "BorceaVariance.finite_radial_variance_bound"
+    ],
+    "status": "proved-local-inverse-energy-estimate",
+    "note": ""
+  },
+  "2789": {
+    "refs": [
+      "BorceaVariance.finite_radial_variance_bound"
+    ],
+    "status": "proved-local-inverse-energy-estimate",
+    "note": ""
+  },
+  "2796": {
+    "refs": [
+      "BorceaVariance.finite_radial_variance_bound"
+    ],
+    "status": "proved-local-inverse-energy-estimate",
+    "note": ""
+  },
+  "2808": {
+    "refs": [
+      "BorceaVariance.tao_product"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2818": {
+    "refs": [
+      "BorceaVariance.reciprocal_inverse_error_norm"
+    ],
+    "status": "proved-scaled-inverse-coordinate-identity",
+    "note": ""
+  },
+  "2829": {
+    "refs": [
+      "BorceaVariance.reciprocal_inverse_error_norm"
+    ],
+    "status": "proved-scaled-inverse-coordinate-identity",
+    "note": ""
+  },
+  "2839": {
+    "refs": [
+      "BorceaVariance.product_radial_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2847": {
+    "refs": [
+      "BorceaVariance.product_radial_sqrt_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2874": {
+    "refs": [
+      "BorceaVariance.packing_pointwise_lower",
+      "BorceaVariance.Certificate.packing_box_bounds"
+    ],
+    "status": "checked-strict-witness-hypothesis",
+    "note": "The eta inequality is a hypothesis in the analytic lemma and checked rationally for each concrete packed witness."
+  },
+  "2878": {
+    "refs": [
+      "BorceaVariance.packing_pointwise_lower",
+      "BorceaVariance.reciprocal_packing_pointwise"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2892": {
+    "refs": [
+      "BorceaVariance.reciprocal_packing_distance",
+      "BorceaVariance.reciprocal_packing_variance"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2915": {
+    "refs": [
+      "BorceaVariance.packing_product_upper"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2922": {
+    "refs": [
+      "BorceaVariance.packing_product_upper"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2930": {
+    "refs": [
+      "BorceaVariance.hasDerivAt_packingKernel",
+      "BorceaVariance.packingKernel_monotone"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2942": {
+    "refs": [
+      "BorceaVariance.packing_pointwise_lower",
+      "BorceaVariance.reciprocal_packing_pointwise"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2953": {
+    "refs": [
+      "BorceaVariance.packing_pointwise_lower",
+      "BorceaVariance.reciprocal_packing_pointwise"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2959": {
+    "refs": [
+      "BorceaVariance.packing_pointwise_lower",
+      "BorceaVariance.reciprocal_packing_pointwise"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2968": {
+    "refs": [
+      "BorceaVariance.packing_power_interval_exists"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2972": {
+    "refs": [
+      "BorceaVariance.packing_residual_bounds"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "2983": {
+    "refs": [
+      "BorceaVariance.logarithmic_convex_packing"
+    ],
+    "status": "proved-logarithmic-substitution-and-convex-bound",
+    "note": ""
+  },
+  "2987": {
+    "refs": [
+      "BorceaVariance.logarithmic_convex_packing"
+    ],
+    "status": "proved-logarithmic-substitution-and-convex-bound",
+    "note": ""
+  },
+  "2995": {
+    "refs": [
+      "BorceaVariance.logarithmic_convex_packing"
+    ],
+    "status": "proved-logarithmic-substitution-and-convex-bound",
+    "note": ""
+  },
+  "3012": {
+    "refs": [
+      "BorceaVariance.convex_pair_sum_upper",
+      "BorceaVariance.convex_packing_exists"
+    ],
+    "status": "proved-pair-merging-and-induction",
+    "note": ""
+  },
+  "3018": {
+    "refs": [
+      "BorceaVariance.convex_pair_sum_upper",
+      "BorceaVariance.convex_packing_exists"
+    ],
+    "status": "proved-pair-merging-and-induction",
+    "note": ""
+  },
+  "3031": {
+    "refs": [
+      "BorceaVariance.logarithmic_convex_packing"
+    ],
+    "status": "proved-logarithmic-substitution-and-convex-bound",
+    "note": ""
+  },
+  "3039": {
+    "refs": [
+      "BorceaVariance.logarithmic_convex_packing"
+    ],
+    "status": "proved-logarithmic-substitution-and-convex-bound",
+    "note": ""
+  },
+  "3045": {
+    "refs": [
+      "BorceaVariance.logarithmic_convex_packing"
+    ],
+    "status": "proved-logarithmic-substitution-and-convex-bound",
+    "note": ""
+  },
+  "3051": {
+    "refs": [
+      "BorceaVariance.logarithmic_convex_packing"
+    ],
+    "status": "proved-logarithmic-substitution-and-convex-bound",
+    "note": ""
+  },
+  "3070": {
+    "refs": [
+      "BorceaVariance.inverse_conjugate_eq_defect_mul_inv",
+      "BorceaVariance.finite_packing_distance_sum",
+      "BorceaVariance.reciprocal_packing_distance"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3080": {
+    "refs": [
+      "BorceaVariance.reciprocal_inverse_error_norm"
+    ],
+    "status": "proved-scaled-inverse-coordinate-identity",
+    "note": ""
+  },
+  "3089": {
+    "refs": [
+      "BorceaVariance.inverse_conjugate_eq_defect_mul_inv",
+      "BorceaVariance.finite_packing_distance_sum",
+      "BorceaVariance.reciprocal_packing_distance"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3095": {
+    "refs": [
+      "BorceaVariance.packingDefect_neg_log"
+    ],
+    "status": "equivalent-exponential-defect-form",
+    "note": "The function exp(t/2)-exp(-t/2) is used in place of the notation 2*sinh(t/2)."
+  },
+  "3106": {
+    "refs": [
+      "BorceaVariance.reciprocal_packing_distance",
+      "BorceaVariance.reciprocal_packing_variance"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3129": {
+    "refs": [
+      "BorceaVariance.finite_packing_inverse_sum",
+      "BorceaVariance.reciprocal_packing_variance"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3141": {
+    "refs": [
+      "BorceaVariance.finite_packing_inverse_sum",
+      "BorceaVariance.reciprocal_packing_variance"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3157": {
+    "refs": [
+      "BorceaVariance.elementarySymmetric"
+    ],
+    "status": "finite-family-definition-context",
+    "note": ""
+  },
+  "3165": {
+    "refs": [
+      "BorceaVariance.centered_coefficients",
+      "BorceaVariance.centered_family_esymm_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3196": {
+    "refs": [
+      "BorceaVariance.iterated_schoenberg"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3210": {
+    "refs": [
+      "BorceaVariance.iterated_schoenberg"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3217": {
+    "refs": [
+      "BorceaVariance.finite_product_expansion",
+      "BorceaVariance.iterated_derivative_root_product"
+    ],
+    "status": "proved-elementary-symmetric-expansion",
+    "note": ""
+  },
+  "3232": {
+    "refs": [
+      "BorceaVariance.iterated_derivative_root_product"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3238": {
+    "refs": [
+      "BorceaVariance.iterated_derivative_root_product"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3245": {
+    "refs": [
+      "BorceaVariance.centered_coefficients",
+      "BorceaVariance.centered_family_esymm_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3265": {
+    "refs": [
+      "BorceaVariance.centered_coefficients",
+      "BorceaVariance.centered_family_esymm_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3278": {
+    "refs": [
+      "BorceaVariance.integral_polynomial_identity",
+      "BorceaVariance.power_sum_integral_relation"
+    ],
+    "status": "proved-finite-polynomial-and-integral-identity",
+    "note": ""
+  },
+  "3291": {
+    "refs": [
+      "BorceaVariance.binomial_linear_factor_expansion"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3298": {
+    "refs": [
+      "BorceaVariance.integral_nat_beta",
+      "BorceaVariance.integral_polynomial_identity"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3315": {
+    "refs": [
+      "BorceaVariance.normalized_coefficient_integral_test"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3325": {
+    "refs": [
+      "BorceaVariance.origin_centered_product_expansion"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3336": {
+    "refs": [
+      "BorceaVariance.center_linear_factor_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3343": {
+    "refs": [
+      "BorceaVariance.center_linear_factor_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3353": {
+    "refs": [
+      "BorceaVariance.center_integral_norm_test"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3365": {
+    "refs": [
+      "BorceaVariance.centered_error_coefficient_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3376": {
+    "refs": [
+      "BorceaVariance.coefficient_error_integral_bound",
+      "BorceaVariance.centered_error_integral_coefficient_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3391": {
+    "refs": [
+      "BorceaVariance.power_sum_integral_relation"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3398": {
+    "refs": [
+      "BorceaVariance.coefficient_error_integral_bound",
+      "BorceaVariance.centered_error_integral_coefficient_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3428": {
+    "refs": [
+      "BorceaVariance.rotateToMean",
+      "BorceaVariance.meanPhase"
+    ],
+    "status": "equivalent-unit-complex-phase-definition",
+    "note": "The unit complex number mu/|mu| is used instead of choosing an angle theta."
+  },
+  "3440": {
+    "refs": [
+      "BorceaVariance.rotateToMean_sum",
+      "BorceaVariance.rotateToMean_centered"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3450": {
+    "refs": [
+      "BorceaVariance.rotated_centered_energy"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3455": {
+    "refs": [
+      "BorceaVariance.realCoordinateVariance"
+    ],
+    "status": "definition",
+    "note": ""
+  },
+  "3467": {
+    "refs": [
+      "BorceaVariance.centered_elementarySymmetric_two"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3473": {
+    "refs": [
+      "BorceaVariance.centered_elementarySymmetric_two_real"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3487": {
+    "refs": [
+      "BorceaVariance.rotated_quadratic_real"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3503": {
+    "refs": [
+      "BorceaVariance.bhatia_davis"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3520": {
+    "refs": [
+      "BorceaVariance.rotated_real_variance_bound",
+      "BorceaVariance.finite_real_coordinate_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3531": {
+    "refs": [
+      "BorceaVariance.rotated_real_variance_bound",
+      "BorceaVariance.finite_real_coordinate_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3554": {
+    "refs": [
+      "BorceaVariance.finite_real_coordinate_lower"
+    ],
+    "status": "proved-coordinate-lower-bounds",
+    "note": ""
+  },
+  "3569": {
+    "refs": [
+      "BorceaVariance.finite_real_coordinate_lower"
+    ],
+    "status": "proved-coordinate-lower-bounds",
+    "note": ""
+  },
+  "3577": {
+    "refs": [
+      "BorceaVariance.finite_real_coordinate_lower"
+    ],
+    "status": "proved-coordinate-lower-bounds",
+    "note": ""
+  },
+  "3585": {
+    "refs": [
+      "BorceaVariance.finite_real_coordinate_lower"
+    ],
+    "status": "proved-coordinate-lower-bounds",
+    "note": ""
+  },
+  "3598": {
+    "refs": [
+      "BorceaVariance.finite_real_coordinate_lower"
+    ],
+    "status": "proved-coordinate-lower-bounds",
+    "note": ""
+  },
+  "3603": {
+    "refs": [
+      "BorceaVariance.finite_real_variance_of_bounds"
+    ],
+    "status": "uniform-weight-Bhatia-Davis-application",
+    "note": ""
+  },
+  "3609": {
+    "refs": [
+      "BorceaVariance.finite_real_variance_of_bounds"
+    ],
+    "status": "uniform-weight-Bhatia-Davis-application",
+    "note": ""
+  },
+  "3619": {
+    "refs": [
+      "BorceaVariance.finite_real_variance_of_bounds"
+    ],
+    "status": "uniform-weight-Bhatia-Davis-application",
+    "note": ""
+  },
+  "3630": {
+    "refs": [
+      "BorceaVariance.finite_real_variance_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3636": {
+    "refs": [
+      "BorceaVariance.finite_real_variance_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3648": {
+    "refs": [
+      "BorceaVariance.finite_real_variance_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3654": {
+    "refs": [
+      "BorceaVariance.finite_real_variance_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3664": {
+    "refs": [
+      "BorceaVariance.quadraticKernel"
+    ],
+    "status": "definition",
+    "note": "Lean uses degree m=n-1, so the exponent is m-2."
+  },
+  "3685": {
+    "refs": [
+      "BorceaVariance.mean_phase_integral_bound",
+      "BorceaVariance.phase_integral_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3691": {
+    "refs": [
+      "BorceaVariance.mean_phase_integral_bound",
+      "BorceaVariance.phase_integral_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3708": {
+    "refs": [
+      "BorceaVariance.normalized_signed_coefficient_test",
+      "BorceaVariance.signed_coefficient_integral_test"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3723": {
+    "refs": [
+      "BorceaVariance.quadraticKernel_real",
+      "BorceaVariance.phase_integral_bound"
+    ],
+    "status": "proved-explicit-kernel-identities",
+    "note": ""
+  },
+  "3731": {
+    "refs": [
+      "BorceaVariance.quadraticKernel_real",
+      "BorceaVariance.phase_integral_bound"
+    ],
+    "status": "proved-explicit-kernel-identities",
+    "note": ""
+  },
+  "3739": {
+    "refs": [
+      "BorceaVariance.phase_integrand_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3751": {
+    "refs": [
+      "BorceaVariance.center_linear_factor_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3764": {
+    "refs": [
+      "BorceaVariance.phase_integrand_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3773": {
+    "refs": [
+      "BorceaVariance.unit_cube_difference_bound",
+      "BorceaVariance.phase_integrand_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3781": {
+    "refs": [
+      "BorceaVariance.phase_integrand_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3787": {
+    "refs": [
+      "BorceaVariance.unit_cube_difference_bound",
+      "BorceaVariance.phase_integrand_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3795": {
+    "refs": [
+      "BorceaVariance.complex_pow_difference_bound",
+      "BorceaVariance.phase_integrand_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3808": {
+    "refs": [
+      "BorceaVariance.phase_integrand_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3818": {
+    "refs": [
+      "BorceaVariance.mean_phase_integral_bound",
+      "BorceaVariance.phase_integral_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3839": {
+    "refs": [
+      "BorceaVariance.elementarySymmetric_meanPhase"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3845": {
+    "refs": [
+      "BorceaVariance.real_product_perturbation_lower",
+      "BorceaVariance.quadratic_phase_signed_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3865": {
+    "refs": [
+      "BorceaVariance.rotated_quadratic_norm"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3871": {
+    "refs": [
+      "BorceaVariance.quadratic_phase_signed_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3879": {
+    "refs": [
+      "BorceaVariance.signed_integral_norm_test",
+      "BorceaVariance.coefficient_tail_integral_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3900": {
+    "refs": [
+      "BorceaVariance.normalized_signed_coefficient_test",
+      "BorceaVariance.signed_coefficient_integral_test"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3916": {
+    "refs": [
+      "BorceaVariance.normalized_signed_coefficient_test",
+      "BorceaVariance.signed_coefficient_integral_test"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3951": {
+    "refs": [
+      "BorceaVariance.near_mean_variance_bounds"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3975": {
+    "refs": [
+      "BorceaVariance.near_radial_distance",
+      "BorceaVariance.reciprocal_sq_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3986": {
+    "refs": [
+      "BorceaVariance.near_radial_distance",
+      "BorceaVariance.reciprocal_sq_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "3991": {
+    "refs": [
+      "BorceaVariance.near_radial_distance",
+      "BorceaVariance.reciprocal_sq_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4007": {
+    "refs": [
+      "BorceaVariance.near_complex_controls"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4026": {
+    "refs": [
+      "BorceaVariance.near_complex_controls"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4032": {
+    "refs": [
+      "BorceaVariance.near_complex_controls"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4043": {
+    "refs": [
+      "BorceaVariance.near_complex_controls"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4053": {
+    "refs": [
+      "BorceaVariance.near_complex_controls"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4062": {
+    "refs": [
+      "BorceaVariance.near_complex_controls"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4076": {
+    "refs": [
+      "BorceaVariance.near_kernel_integrand"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4086": {
+    "refs": [
+      "BorceaVariance.quadraticKernel_one"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4095": {
+    "refs": [
+      "BorceaVariance.quadraticKernel_near_one"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4113": {
+    "refs": [
+      "BorceaVariance.quadraticKernel_near_one"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4120": {
+    "refs": [
+      "BorceaVariance.near_kernel_phase_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4128": {
+    "refs": [
+      "BorceaVariance.near_kernel_one_bounds"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4136": {
+    "refs": [
+      "BorceaVariance.near_kernel_phase_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4149": {
+    "refs": [
+      "BorceaVariance.near_quadratic_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4159": {
+    "refs": [
+      "BorceaVariance.rotated_quadratic_real"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4165": {
+    "refs": [
+      "BorceaVariance.finite_real_variance_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4169": {
+    "refs": [
+      "BorceaVariance.near_quadratic_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4180": {
+    "refs": [
+      "BorceaVariance.rotated_quadratic_norm"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4186": {
+    "refs": [
+      "BorceaVariance.near_quadratic_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4197": {
+    "refs": [
+      "BorceaVariance.near_quadratic_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4217": {
+    "refs": [
+      "BorceaVariance.near_tau_bounds"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4229": {
+    "refs": [
+      "BorceaVariance.near_integralPowerSum"
+    ],
+    "status": "finite-sum-bound",
+    "note": "The finite polynomial is bounded directly; the infinite binomial-series identity is not required."
+  },
+  "4247": {
+    "refs": [
+      "BorceaVariance.near_coefficient_sum"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4251": {
+    "refs": [
+      "BorceaVariance.near_coefficient_sum",
+      "BorceaVariance.near_tail_integral"
+    ],
+    "status": "stronger-bound-proved",
+    "note": "The formal bound is 40*delta*sqrt(delta), which implies the manuscript's 128*delta^(3/2) bound for delta>0."
+  },
+  "4267": {
+    "refs": [
+      "BorceaVariance.near_coefficient_sum",
+      "BorceaVariance.near_tail_integral"
+    ],
+    "status": "stronger-bound-proved",
+    "note": "The formal bound is 40*delta*sqrt(delta), which implies the manuscript's 128*delta^(3/2) bound for delta>0."
+  },
+  "4287": {
+    "refs": [
+      "BorceaVariance.no_normalized_counterexample_near_uniform"
+    ],
+    "status": "proved-final-assembly-estimates",
+    "note": ""
+  },
+  "4296": {
+    "refs": [
+      "BorceaVariance.no_normalized_counterexample_near_uniform"
+    ],
+    "status": "proved-final-assembly-estimates",
+    "note": ""
+  },
+  "4304": {
+    "refs": [
+      "BorceaVariance.near_final_impossible",
+      "BorceaVariance.no_normalized_counterexample_near_uniform"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4313": {
+    "refs": [
+      "BorceaVariance.near_final_impossible",
+      "BorceaVariance.no_normalized_counterexample_near_uniform"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4321": {
+    "refs": [
+      "BorceaVariance.near_final_impossible",
+      "BorceaVariance.no_normalized_counterexample_near_uniform"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4350": {
+    "refs": [
+      "BorceaVariance.compact_moment_bounds"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4354": {
+    "refs": [
+      "BorceaVariance.compact_moment_bounds"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4362": {
+    "refs": [
+      "BorceaVariance.compact_moment_bounds"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4366": {
+    "refs": [
+      "BorceaVariance.compact_moment_bounds"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4374": {
+    "refs": [
+      "BorceaVariance.compact_moment_bounds"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4380": {
+    "refs": [
+      "BorceaVariance.compact_moment_bounds"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4388": {
+    "refs": [
+      "BorceaVariance.compact_moment_bounds"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4401": {
+    "refs": [
+      "BorceaVariance.normalized_compact",
+      "BorceaVariance.factorMean_endpoint_sq_le",
+      "BorceaVariance.originProduct_endpoint_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4409": {
+    "refs": [
+      "BorceaVariance.normalized_compact",
+      "BorceaVariance.factorMean_endpoint_sq_le",
+      "BorceaVariance.originProduct_endpoint_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4415": {
+    "refs": [
+      "BorceaVariance.normalized_compact",
+      "BorceaVariance.factorMean_endpoint_sq_le",
+      "BorceaVariance.originProduct_endpoint_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4426": {
+    "refs": [
+      "BorceaVariance.direct_linear_integral_bound",
+      "BorceaVariance.normalized_compact"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4442": {
+    "refs": [
+      "BorceaVariance.direct_linear_integral_bound",
+      "BorceaVariance.normalized_compact"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4463": {
+    "refs": [
+      "BorceaVariance.norm_product_bound_of_secondMoment",
+      "BorceaVariance.normalized_compact"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4476": {
+    "refs": [
+      "BorceaVariance.normalized_compact"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4497": {
+    "refs": [
+      "BorceaVariance.Certificate.CounterexampleParameters.in_initialBox",
+      "BorceaVariance.Certificate.admissible_in_initialBox"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4578": {
+    "refs": [
+      "BorceaVariance.Certificate.leaf_check_sound"
+    ],
+    "status": "reproduction-metadata-not-proof-input",
+    "note": "The two minimum-margin integers are reproduced at 100 bits in verification/exact-replay-100-and-160.json. Lean checks each strict inequality directly and does not assume the aggregate margin."
+  },
+  "4610": {
+    "refs": [
+      "BorceaVariance.normalized_critical_secondMoment_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4853": {
+    "refs": [
+      "BorceaVariance.Certificate.Box",
+      "BorceaVariance.Certificate.Box.Contains"
+    ],
+    "status": "definition",
+    "note": ""
+  },
+  "4859": {
+    "refs": [
+      "BorceaVariance.Certificate.Box",
+      "BorceaVariance.Certificate.Box.Contains"
+    ],
+    "status": "definition",
+    "note": ""
+  },
+  "4865": {
+    "refs": [
+      "BorceaVariance.Certificate.varianceBox_upper",
+      "BorceaVariance.Certificate.varianceBoxLower_bound",
+      "BorceaVariance.Certificate.distanceA_lower",
+      "BorceaVariance.Certificate.distanceB_lower"
+    ],
+    "status": "definitions-with-enclosure-proofs",
+    "note": ""
+  },
+  "4879": {
+    "refs": [
+      "BorceaVariance.Certificate.varianceBox_upper",
+      "BorceaVariance.Certificate.varianceBoxLower_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4918": {
+    "refs": [
+      "BorceaVariance.Certificate.radial_denominator_lower",
+      "BorceaVariance.Certificate.radial_mean_box_bound",
+      "BorceaVariance.Certificate.radial_variance_box_bound",
+      "BorceaVariance.Certificate.initial_variance_box_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4931": {
+    "refs": [
+      "BorceaVariance.Certificate.radial_denominator_lower",
+      "BorceaVariance.Certificate.radial_mean_box_bound",
+      "BorceaVariance.Certificate.radial_variance_box_bound",
+      "BorceaVariance.Certificate.initial_variance_box_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4939": {
+    "refs": [
+      "BorceaVariance.Certificate.radial_denominator_lower",
+      "BorceaVariance.Certificate.radial_mean_box_bound",
+      "BorceaVariance.Certificate.radial_variance_box_bound",
+      "BorceaVariance.Certificate.initial_variance_box_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4953": {
+    "refs": [
+      "BorceaVariance.Certificate.rootBUpper_bound",
+      "BorceaVariance.Certificate.rootCUpper_bound",
+      "BorceaVariance.Certificate.rootGap_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4971": {
+    "refs": [
+      "BorceaVariance.Certificate.rootProductLower_bound"
+    ],
+    "status": "proved-including-zero-upper-variance-branch",
+    "note": ""
+  },
+  "4984": {
+    "refs": [
+      "BorceaVariance.Certificate.rootProductLower_bound"
+    ],
+    "status": "proved-including-zero-upper-variance-branch",
+    "note": ""
+  },
+  "4990": {
+    "refs": [
+      "BorceaVariance.Certificate.rootBUpper_bound",
+      "BorceaVariance.Certificate.rootCUpper_bound",
+      "BorceaVariance.Certificate.rootGap_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "4994": {
+    "refs": [
+      "BorceaVariance.Certificate.root_defect_factor",
+      "BorceaVariance.Certificate.rootGap_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5005": {
+    "refs": [
+      "BorceaVariance.Certificate.rootProductLower_bound"
+    ],
+    "status": "proved-including-zero-upper-variance-branch",
+    "note": ""
+  },
+  "5016": {
+    "refs": [
+      "BorceaVariance.Certificate.radialDistance_lower"
+    ],
+    "status": "definition-and-distance-enclosure",
+    "note": ""
+  },
+  "5031": {
+    "refs": [
+      "BorceaVariance.Certificate.stableBoxLoss_lower",
+      "BorceaVariance.Certificate.product_stable_sound",
+      "BorceaVariance.reciprocal_radial_loss"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5037": {
+    "refs": [
+      "BorceaVariance.Certificate.stableBoxLoss_lower",
+      "BorceaVariance.Certificate.product_stable_sound",
+      "BorceaVariance.reciprocal_radial_loss"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5055": {
+    "refs": [
+      "BorceaVariance.Certificate.packed_variance_box_bound",
+      "BorceaVariance.Certificate.packed_distance_box_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5077": {
+    "refs": [
+      "BorceaVariance.Certificate.taylor32_le_exp",
+      "BorceaVariance.Certificate.taylor32_one_le"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5084": {
+    "refs": [
+      "BorceaVariance.Certificate.taylor32_le_exp",
+      "BorceaVariance.Certificate.taylor32_one_le"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5148": {
+    "refs": [
+      "BorceaVariance.Certificate.radial_denominator_lower",
+      "BorceaVariance.Certificate.radial_mean_box_bound",
+      "BorceaVariance.Certificate.radial_variance_box_bound",
+      "BorceaVariance.Certificate.initial_variance_box_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5159": {
+    "refs": [
+      "BorceaVariance.Certificate.refined_rho_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5170": {
+    "refs": [
+      "BorceaVariance.Certificate.refined_rho_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5175": {
+    "refs": [
+      "BorceaVariance.Certificate.refined_rho_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5179": {
+    "refs": [
+      "BorceaVariance.Certificate.rho_distance_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5191": {
+    "refs": [
+      "BorceaVariance.Certificate.refined_beta_majorant"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5201": {
+    "refs": [
+      "BorceaVariance.Certificate.refined_rho_nonneg",
+      "BorceaVariance.Certificate.refined_beta_negative_sound",
+      "BorceaVariance.Certificate.beta_box_unit_bounds"
+    ],
+    "status": "nonnegativity-or-proved-exclusion",
+    "note": "Negative endpoint or interior beta bounds trigger a sound exclusion; admissible boxes satisfy the remaining inequalities."
+  },
+  "5218": {
+    "refs": [
+      "BorceaVariance.Certificate.refined_endpoint_square_upper",
+      "BorceaVariance.Certificate.refined_kappa_bound",
+      "BorceaVariance.Certificate.linear_majorant_box"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5244": {
+    "refs": [
+      "BorceaVariance.Certificate.refined_endpoint_square_upper",
+      "BorceaVariance.Certificate.refined_kappa_bound",
+      "BorceaVariance.Certificate.linear_majorant_box"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5267": {
+    "refs": [
+      "BorceaVariance.Certificate.stable_core_rounded"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5290": {
+    "refs": [
+      "BorceaVariance.Certificate.center_denominator_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5296": {
+    "refs": [
+      "BorceaVariance.Certificate.center_denominator_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5315": {
+    "refs": [
+      "BorceaVariance.Certificate.center_integral_factor_bounds",
+      "BorceaVariance.Certificate.center_integral_term_upper"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5321": {
+    "refs": [
+      "BorceaVariance.Certificate.center_integral_factor_bounds",
+      "BorceaVariance.Certificate.center_integral_term_upper"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5333": {
+    "refs": [
+      "BorceaVariance.Certificate.positive_sound",
+      "BorceaVariance.Certificate.positive_h_bounds"
+    ],
+    "status": "checked-domain-guards",
+    "note": "The positive test explicitly checks positive r_lower and h_upper<=1 before applying its estimates."
+  },
+  "5345": {
+    "refs": [
+      "BorceaVariance.Certificate.positive_pointwise_lower",
+      "BorceaVariance.Certificate.positive_real_variance_upper",
+      "BorceaVariance.Certificate.positive_quadratic_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5372": {
+    "refs": [
+      "BorceaVariance.Certificate.positive_pointwise_lower",
+      "BorceaVariance.Certificate.positive_real_variance_upper",
+      "BorceaVariance.Certificate.positive_quadratic_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5381": {
+    "refs": [
+      "BorceaVariance.Certificate.positive_mean_real_lower",
+      "BorceaVariance.Certificate.positive_phase_rounded_upper",
+      "BorceaVariance.Certificate.positive_kernel_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5414": {
+    "refs": [
+      "BorceaVariance.Certificate.positive_kernel_lower",
+      "BorceaVariance.Certificate.integral_polynomial_mono"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5425": {
+    "refs": [
+      "BorceaVariance.Certificate.positive_kernel_lower",
+      "BorceaVariance.Certificate.integral_polynomial_mono"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5441": {
+    "refs": [
+      "BorceaVariance.Certificate.DegreeBlock.Contains"
+    ],
+    "status": "degree-block-definition",
+    "note": "Stored endpoints are polynomial degrees. M and N in the manuscript are one less than the respective stored endpoints."
+  },
+  "5456": {
+    "refs": [
+      "BorceaVariance.Certificate.refined_rho_lower",
+      "BorceaVariance.Certificate.refined_beta_majorant"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5467": {
+    "refs": [
+      "BorceaVariance.Certificate.varianceUpper_bounds",
+      "BorceaVariance.normalized_critical_secondMoment_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5489": {
+    "refs": [
+      "BorceaVariance.Certificate.phi_box_upper",
+      "BorceaVariance.Certificate.core_box_upper",
+      "BorceaVariance.Certificate.coreRounded_upper"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5502": {
+    "refs": [
+      "BorceaVariance.Certificate.product_sound"
+    ],
+    "status": "degree-block-product-exclusion",
+    "note": ""
+  },
+  "5513": {
+    "refs": [
+      "BorceaVariance.Certificate.product_sound"
+    ],
+    "status": "degree-block-product-exclusion",
+    "note": ""
+  },
+  "5520": {
+    "refs": [
+      "BorceaVariance.Certificate.direct_coefficients_bounds",
+      "BorceaVariance.Certificate.direct_box_pointwise"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5526": {
+    "refs": [
+      "BorceaVariance.Certificate.direct_coefficients_bounds",
+      "BorceaVariance.Certificate.direct_box_pointwise"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5533": {
+    "refs": [
+      "BorceaVariance.Certificate.refined_endpoint_power_upper",
+      "BorceaVariance.Certificate.direct_sound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5539": {
+    "refs": [
+      "BorceaVariance.Certificate.beta_box_unit_bounds",
+      "BorceaVariance.Certificate.refined_kappa_bound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5548": {
+    "refs": [
+      "BorceaVariance.retained_factor_lower",
+      "BorceaVariance.Certificate.retained_factor_moment_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5555": {
+    "refs": [
+      "BorceaVariance.retained_factor_lower",
+      "BorceaVariance.Certificate.retained_factor_moment_lower"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5561": {
+    "refs": [
+      "BorceaVariance.retained_base_antitone_degree",
+      "BorceaVariance.retained_block_power_bound",
+      "BorceaVariance.retained_block_nat_power_bound"
+    ],
+    "status": "proved-with-both-degree-endpoint-powers",
+    "note": "Bases above one are covered by the maximum of both endpoint powers."
+  },
+  "5568": {
+    "refs": [
+      "BorceaVariance.retained_base_antitone_degree",
+      "BorceaVariance.retained_block_power_bound",
+      "BorceaVariance.retained_block_nat_power_bound"
+    ],
+    "status": "proved-with-both-degree-endpoint-powers",
+    "note": "Bases above one are covered by the maximum of both endpoint powers."
+  },
+  "5578": {
+    "refs": [
+      "BorceaVariance.retained_base_antitone_degree",
+      "BorceaVariance.retained_block_power_bound",
+      "BorceaVariance.retained_block_nat_power_bound"
+    ],
+    "status": "proved-with-both-degree-endpoint-powers",
+    "note": "Bases above one are covered by the maximum of both endpoint powers."
+  },
+  "5590": {
+    "refs": [
+      "BorceaVariance.Certificate.center_first_coefficients_bounds",
+      "BorceaVariance.Certificate.center_second_coefficients_bounds",
+      "BorceaVariance.Certificate.center_first_box_pointwise",
+      "BorceaVariance.Certificate.center_second_box_pointwise"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5600": {
+    "refs": [
+      "BorceaVariance.Certificate.center_first_coefficients_bounds",
+      "BorceaVariance.Certificate.center_second_coefficients_bounds",
+      "BorceaVariance.Certificate.center_first_box_pointwise",
+      "BorceaVariance.Certificate.center_second_box_pointwise"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5611": {
+    "refs": [
+      "BorceaVariance.Certificate.center_integral_factor_bounds",
+      "BorceaVariance.Certificate.center_integral_term_upper"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5621": {
+    "refs": [
+      "BorceaVariance.Certificate.center_endpoint_power_upper",
+      "BorceaVariance.Certificate.half_power_unit_box"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5627": {
+    "refs": [
+      "BorceaVariance.Certificate.center_ratio_sound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5674": {
+    "refs": [
+      "BorceaVariance.Certificate.dyadicMesh",
+      "BorceaVariance.Certificate.dyadicMeshSegments",
+      "BorceaVariance.Certificate.meshCheck_sound"
+    ],
+    "status": "concrete-mesh-checked-with-each-test",
+    "note": "The generator transports the chosen level and refinement; mesh endpoints, ordering and range are checked inside the certified test."
+  },
+  "5684": {
+    "refs": [
+      "BorceaVariance.Certificate.dyadicMesh",
+      "BorceaVariance.Certificate.dyadicMeshSegments",
+      "BorceaVariance.Certificate.meshCheck_sound"
+    ],
+    "status": "concrete-mesh-checked-with-each-test",
+    "note": "The generator transports the chosen level and refinement; mesh endpoints, ordering and range are checked inside the certified test."
+  },
+  "5714": {
+    "refs": [
+      "BorceaVariance.Certificate.multiplyUp_sound",
+      "BorceaVariance.Certificate.subtractDown_sound",
+      "QuadraticTangZhang.cast_le_roundUp"
+    ],
+    "status": "proved-directed-rational-enclosures",
+    "note": ""
+  },
+  "5730": {
+    "refs": [
+      "BorceaVariance.Certificate.upperSqrt_sound",
+      "BorceaVariance.Certificate.upperHalfPower_sound"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5832": {
+    "refs": [
+      "BorceaVariance.Certificate.Generated.concrete_low_leaf_count",
+      "BorceaVariance.Certificate.Generated.concrete_mid_leaf_count",
+      "BorceaVariance.Certificate.Generated.concrete_total_leaf_count"
+    ],
+    "status": "proved-counts-of-original-typed-trees",
+    "note": "The 12821 low-degree and 20850 mid-degree leaves (33671 total) are counted directly in the original typed Lean certificate trees by kernel reduction."
+  },
+  "5852": {
+    "refs": [
+      "BorceaVariance.exponential_series_bounds"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": "General x>=0 and x<k+2; this identity is independently proved, while earlier numerical comparisons already have kernel proofs."
+  },
+  "5870": {
+    "refs": [
+      "QuadraticTangZhang.exp_one_bounds",
+      "BorceaVariance.omission_one_constant_bounds",
+      "BorceaVariance.omission_two_constant_bounds"
+    ],
+    "status": "proved-in-listed-declaration",
+    "note": ""
+  },
+  "5876": {
+    "refs": [
+      "Real.add_one_le_exp"
+    ],
+    "status": "mathlib-theorem",
+    "note": "Apply at -u and rewrite -u+1=1-u."
+  },
+  "5880": {
+    "refs": [
+      "BorceaVariance.central_second_coefficient"
+    ],
+    "status": "proved-exponential-series-term-lower-bound",
+    "note": ""
+  }
+}

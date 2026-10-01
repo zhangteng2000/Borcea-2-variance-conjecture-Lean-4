@@ -1,0 +1,5 @@
+Command: lake build Audit
+Exit code: 0
+Output below is a build summary (build completion and error lines); full Lean diagnostics are in module traces and the independent final check/audit logs.
+ℹ [4315/4316] Built Audit (20s)
+Build completed successfully (4316 jobs).

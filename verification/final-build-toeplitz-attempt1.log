@@ -1,0 +1,5 @@
+Command: lake build BorceaVariance.ToeplitzCorollary
+Exit code: 0
+Output below is a build summary (build completion and error lines); full Lean diagnostics are in module traces and the independent final check/audit logs.
+✔ [4291/4291] Built BorceaVariance.ToeplitzCorollary (21s)
+Build completed successfully (4291 jobs).

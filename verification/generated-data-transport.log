@@ -1,0 +1,10 @@
+Trees0.lean: matches transport; SHA256 9a003a4aecd90f23d52a17a1fe4cff52c54f0ad1d35cda554516795e8d0003bd
+Trees1.lean: matches transport; SHA256 9c702cabb8d913745a3673b3fc51fdc6858765a3c92e3ec4b9a33919a0566067
+Trees2.lean: matches transport; SHA256 73b66847659791c73e825a759f93d14de7f84e24610dc249126336a88abb850d
+Trees3.lean: matches transport; SHA256 59cf0d1e76eceed4fdf04b2dd37f16a30b31c1caf4dec3cc9b1a38e64b48350c
+Trees4.lean: matches transport; SHA256 63ca2708f253256327716e920c3e8f9e827b2e4977401c377eaf5e1b068dd374
+Trees5.lean: matches transport; SHA256 4a1ae53afa1c399e93f5a6c30d70fab155422e386284834f95cc269c4b404630
+Trees6.lean: matches transport; SHA256 3da7abbcaf8124f0d78f1fbb688c23f298179b9691ea186dd852d7c5198b823f
+Trees7.lean: matches transport; SHA256 d7766c6a6a4b44637fd9bf2ef74e4be777738deefe6f78b88e2a540d66ddf178
+Trees8.lean: matches transport; SHA256 e860daca9a3b79b1d1b041fb16701c3b3b153fdcac4b6c2fe853558819ab7560
+All path validations and generated-source comparisons passed. Not a leaf-exclusion proof.

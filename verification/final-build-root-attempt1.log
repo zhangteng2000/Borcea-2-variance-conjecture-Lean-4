@@ -1,0 +1,5 @@
+Command: lake build BorceaVariance
+Exit code: 0
+Output below is a build summary (build completion and error lines); full Lean diagnostics are in module traces and the independent final check/audit logs.
+✔ [4311/4312] Built BorceaVariance (15s)
+Build completed successfully (4312 jobs).

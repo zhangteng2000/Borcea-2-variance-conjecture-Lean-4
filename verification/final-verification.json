@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "project": "Borcea's 2-variance conjecture",
+  "lean": "leanprover/lean4:v4.34.0-rc1",
+  "mathlib": "de5ce8a9a66a4aa68a9bdbb35b63a06d34d9ca11",
+  "final_default_build": {
+    "command": "lake build",
+    "exit_code": 0,
+    "jobs": 4319,
+    "log": "final-build-default-attempt1.log"
+  },
+  "manuscript_check": {
+    "command": "lake env lean ManuscriptCheck.lean",
+    "exit_code": 0,
+    "checks": 806,
+    "complete_output": true,
+    "log": "manuscript-check-final.log"
+  },
+  "axiom_audit": {
+    "command": "lake env lean Audit.lean",
+    "exit_code": 0,
+    "status": "PASS",
+    "expected_declarations": 978,
+    "reported_declarations": 978,
+    "with_allowed_foundational_axioms": 972,
+    "axiom_independent": 6,
+    "missing": [],
+    "unexpected": [],
+    "forbidden_axioms": {},
+    "duplicate_reports": [],
+    "error_lines": [],
+    "note": "Requires a separately successful Lean invocation; this script checks its captured report.",
+    "log": "axioms-final.log"
+  },
+  "certificate": {
+    "blocks": 72,
+    "leaves": 33671,
+    "accepted_leaves": 33671,
+    "expected_modules": 640,
+    "built_modules": 640,
+    "log": "certificate-kernel-logs.log",
+    "accounting": "certificate-verification.json"
+  },
+  "source_audit": {
+    "project_vendor_tool_files": 872,
+    "scratch_files": 8,
+    "own_named_theorems": 68102,
+    "status": "PASS"
+  },
+  "correspondence": {
+    "named_results": 25,
+    "displayed_formulas": 453,
+    "missing": [],
+    "unknown": []
+  },
+  "reuse": {
+    "modules": 27,
+    "audited_declarations": 217,
+    "reached": 65,
+    "unreached_support": 152,
+    "report": "reuse-usage-and-types-final.json"
+  },
+  "provenance": {
+    "status": "PASS",
+    "original_manuscript_byte_match": true,
+    "log": "provenance-final.json"
+  },
+  "cache_cleanup": {
+    "removed_final_entry_artifacts": 15,
+    "retained": "Freshly kernel-verified concrete certificate modules and pinned dependency cache",
+    "log": "final-clean-cache.log"
+  },
+  "scope_note": "All logical conclusions are proved in Lean. Python tooling and this JSON are untrusted reporting and reproduction only. Historical failed or partial attempts are retained separately."
+}

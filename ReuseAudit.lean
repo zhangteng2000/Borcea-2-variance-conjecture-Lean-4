@@ -1,0 +1,244 @@
+import QuadraticTangZhang.Moments
+import QuadraticTangZhang.Reciprocal
+import QuadraticTangZhang.Statement
+import Sendov.Counterexample.Identities
+import Sendov.Counterexample.Factor
+import QuadraticTangZhang.CenteredIdentity
+import QuadraticTangZhang.CenteredRemainder
+import QuadraticTangZhang.DeletedProducts
+import QuadraticTangZhang.AnalyticConstants
+import Sendov.Analytic.Maclaurin
+import QuadraticTangZhang.Scalar
+import QuadraticTangZhang.ConvexQuadrature
+import QuadraticTangZhang.RectangleExclusion
+import QuadraticTangZhang.DirectScalar
+import QuadraticTangZhang.CenteredScalar
+import QuadraticTangZhang.FiniteQuadrature
+import QuadraticTangZhang.DyadicSoundness
+import QuadraticTangZhang.ExponentialIntegrals
+import QuadraticTangZhang.UniformBounds
+import QuadraticTangZhang.RectangleBounds
+import QuadraticTangZhang.BetaBounds
+import QuadraticTangZhang.Polar
+import Sendov.Analytic.PolarBase
+import QuadraticTangZhang.SmallDegrees
+import Sendov.Reduction.BetaBound
+import Sendov.Common.Sinh
+import QuadraticTangZhang.RhoBounds
+#print axioms QuadraticTangZhang.normSq_sub_coordinates
+#print axioms QuadraticTangZhang.sum_normSq_sub
+#print axioms QuadraticTangZhang.variance_identity
+#print axioms QuadraticTangZhang.mean_sq_le_secondMoment
+#print axioms QuadraticTangZhang.secondMoment_nonneg
+#print axioms QuadraticTangZhang.meanRe_bounds
+#print axioms QuadraticTangZhang.sum_centered_re
+#print axioms QuadraticTangZhang.sum_centered_im
+#print axioms QuadraticTangZhang.boundary_secondMoment
+#print axioms QuadraticTangZhang.boundary_rigidity
+#print axioms QuadraticTangZhang.boundary_equality_iff
+#print axioms QuadraticTangZhang.affine_normSq
+#print axioms QuadraticTangZhang.affine_secondMoment
+#print axioms QuadraticTangZhang.criticalReciprocals_card
+#print axioms QuadraticTangZhang.criticalReciprocals_ne_zero
+#print axioms QuadraticTangZhang.criticalReciprocals_factorization
+#print axioms QuadraticTangZhang.reciprocalEnergy_of_ne
+#print axioms QuadraticTangZhang.ofReal_multiset_sum
+#print axioms QuadraticTangZhang.criticalEnergy_eq_ofReal
+#print axioms QuadraticTangZhang.reciprocal_sum_le_of_energy_le
+#print axioms QuadraticTangZhang.multiset_variance_real
+#print axioms QuadraticTangZhang.multiset_mean_sq_le
+#print axioms QuadraticTangZhang.reciprocalEnergy_self
+#print axioms QuadraticTangZhang.reciprocalEnergy_eq_top_iff
+#print axioms QuadraticTangZhang.criticalEnergy_eq_top_of_mem
+#print axioms QuadraticTangZhang.main_at_common_zero
+#print axioms Sendov.prod_cons_eq
+#print axioms Sendov.centroid_identity
+#print axioms Sendov.sumEraseProd_zero
+#print axioms Sendov.sumEraseProd_cons
+#print axioms Sendov.prod_map_neg
+#print axioms Sendov.eval_prod_zero
+#print axioms Sendov.eval_deriv_prod_zero
+#print axioms Sendov.prod_inv_sub_mul
+#print axioms Sendov.second_origin_identity
+#print axioms Sendov.continuous_deriv_seg
+#print axioms Sendov.eval_eq_integral
+#print axioms Sendov.first_origin_identity
+#print axioms Sendov.prod_map_mul_const
+#print axioms Sendov.prod_inv_mul
+#print axioms Sendov.prod_sub_mul_prod
+#print axioms Sendov.polar_identity
+#print axioms Sendov.exists_root_multiset
+#print axioms Sendov.exists_crit_multiset
+#print axioms QuadraticTangZhang.weighted_product_split
+#print axioms QuadraticTangZhang.centered_interpolation_polynomial
+#print axioms QuadraticTangZhang.origin_derivative_polynomial
+#print axioms QuadraticTangZhang.centered_sum_norm_sq
+#print axioms QuadraticTangZhang.centered_remainder_general
+#print axioms QuadraticTangZhang.norm_meanComplex_sq
+#print axioms QuadraticTangZhang.sum_sub_meanComplex
+#print axioms QuadraticTangZhang.centered_variance_sum
+#print axioms QuadraticTangZhang.norm_meanComplex_le_one
+#print axioms QuadraticTangZhang.one_sub_meanComplex_ne_zero
+#print axioms QuadraticTangZhang.sum_origin_norm_sq
+#print axioms QuadraticTangZhang.centered_remainder_estimate
+#print axioms QuadraticTangZhang.prod_norm_sq_le_mean
+#print axioms QuadraticTangZhang.norm_prod_le_moment
+#print axioms QuadraticTangZhang.deleted_amgm_coefficient
+#print axioms QuadraticTangZhang.norm_deleted_prod_le
+#print axioms QuadraticTangZhang.exp_one_bounds
+#print axioms QuadraticTangZhang.sqrt_exp_one_lt
+#print axioms QuadraticTangZhang.log_million_bounds
+#print axioms QuadraticTangZhang.log_three_eighths_million
+#print axioms QuadraticTangZhang.log_fifty_thousand
+#print axioms QuadraticTangZhang.near_coefficient_base
+#print axioms QuadraticTangZhang.decreasing_coefficient_base
+#print axioms QuadraticTangZhang.near_endpoint_coefficient_base
+#print axioms QuadraticTangZhang.near_total_base
+#print axioms QuadraticTangZhang.near_exponent_base
+#print axioms QuadraticTangZhang.polar_log_exponent_base
+#print axioms QuadraticTangZhang.small_alpha_base
+#print axioms QuadraticTangZhang.large_alpha_base
+#print axioms QuadraticTangZhang.sigma_base
+#print axioms QuadraticTangZhang.degree_correction_base
+#print axioms QuadraticTangZhang.small_a_power_base
+#print axioms QuadraticTangZhang.small_a_increasing_coefficient
+#print axioms QuadraticTangZhang.small_a_decreasing_coefficient
+#print axioms QuadraticTangZhang.small_a_total
+#print axioms QuadraticTangZhang.cube_root_base
+#print axioms QuadraticTangZhang.large_a_correction_base
+#print axioms QuadraticTangZhang.large_a_increasing_coefficient
+#print axioms QuadraticTangZhang.large_a_total
+#print axioms QuadraticTangZhang.boundary_gap_base
+#print axioms Sendov.amgm_step
+#print axioms Sendov.maclaurin_step
+#print axioms Sendov.Multiset.prod_le_mean_pow
+#print axioms Sendov.esymm_card_cons
+#print axioms Sendov.Multiset.esymm_card_pred_le
+#print axioms QuadraticTangZhang.beta_decomposition
+#print axioms QuadraticTangZhang.betaS_le_beta
+#print axioms QuadraticTangZhang.beta_one_pos
+#print axioms QuadraticTangZhang.x_gt_half_of_beta_lt_one
+#print axioms QuadraticTangZhang.rho_identity
+#print axioms QuadraticTangZhang.rho_le_gap
+#print axioms QuadraticTangZhang.rho_le_sq
+#print axioms QuadraticTangZhang.betaS_endpoint
+#print axioms QuadraticTangZhang.betaS_endpoint_le
+#print axioms QuadraticTangZhang.polar_chord_gap
+#print axioms QuadraticTangZhang.polar_le_chord
+#print axioms QuadraticTangZhang.cubic_le_a
+#print axioms QuadraticTangZhang.cubic_discriminant_identity
+#print axioms QuadraticTangZhang.cubic_discriminant_nonneg
+#print axioms QuadraticTangZhang.exclude_center_cubic
+#print axioms QuadraticTangZhang.exclude_center_monotone
+#print axioms QuadraticTangZhang.boundary_margin
+#print axioms QuadraticTangZhang.exclude_center_boundary
+#print axioms QuadraticTangZhang.exclude_direct
+#print axioms QuadraticTangZhang.small_degree_factor_pos
+#print axioms QuadraticTangZhang.small_degree_deficit_pos
+#print axioms QuadraticTangZhang.boxEnvelope_nonneg
+#print axioms QuadraticTangZhang.boxEnvelope_le_one
+#print axioms QuadraticTangZhang.boxEnvelope_convex
+#print axioms QuadraticTangZhang.boxEnvelope_rpow_convex
+#print axioms QuadraticTangZhang.weighted_sq_div
+#print axioms QuadraticTangZhang.convexOn_sq_div_affine
+#print axioms QuadraticTangZhang.boxEnvelope_rpow_div_convex
+#print axioms QuadraticTangZhang.convex_chord_bound
+#print axioms QuadraticTangZhang.weighted_chord_integral
+#print axioms QuadraticTangZhang.weighted_convex_integral_le_chord
+#print axioms QuadraticTangZhang.convex_quadrature_weight_one
+#print axioms QuadraticTangZhang.convex_quadrature_weight_two
+#print axioms QuadraticTangZhang.degree_term_mono
+#print axioms QuadraticTangZhang.abstract_rectangle_exclusion
+#print axioms QuadraticTangZhang.abstract_rectangle_exclusion_basic
+#print axioms QuadraticTangZhang.sum_eq_card_mul_mean
+#print axioms QuadraticTangZhang.differential_origin_identity
+#print axioms QuadraticTangZhang.originProduct_norm_le_beta
+#print axioms QuadraticTangZhang.originErrorSum_norm_bound
+#print axioms QuadraticTangZhang.originRemainder_norm_bound
+#print axioms QuadraticTangZhang.direct_scalar_inequality
+#print axioms QuadraticTangZhang.origin_gap_pos
+#print axioms QuadraticTangZhang.beta_pos_on_unit
+#print axioms QuadraticTangZhang.centerFactor_norm_lower
+#print axioms QuadraticTangZhang.centerIntegral_integrable
+#print axioms QuadraticTangZhang.centerIntegral_nonneg
+#print axioms QuadraticTangZhang.centerCoefficient_nonneg
+#print axioms QuadraticTangZhang.centerFactor_integral
+#print axioms QuadraticTangZhang.centered_integral_remainder
+#print axioms QuadraticTangZhang.norm_centerFactor_sq_le_beta
+#print axioms QuadraticTangZhang.norm_pow_le_rpow_of_sq_le
+#print axioms QuadraticTangZhang.centered_scalar_inequality
+#print axioms QuadraticTangZhang.segment_quadrature_one
+#print axioms QuadraticTangZhang.segment_quadrature_two
+#print axioms QuadraticTangZhang.finite_quadrature_one_sound
+#print axioms QuadraticTangZhang.finite_quadrature_two_sound
+#print axioms QuadraticTangZhang.roundDown_nonneg
+#print axioms QuadraticTangZhang.roundUp_nonneg
+#print axioms QuadraticTangZhang.roundDown_le
+#print axioms QuadraticTangZhang.le_roundUp
+#print axioms QuadraticTangZhang.roundDown_cast_le
+#print axioms QuadraticTangZhang.cast_le_roundUp
+#print axioms QuadraticTangZhang.roundedPowLower_sound
+#print axioms QuadraticTangZhang.roundedPowUpper_sound
+#print axioms QuadraticTangZhang.roundedSqrtLower_nonneg
+#print axioms QuadraticTangZhang.roundedSqrtUpper_nonneg
+#print axioms QuadraticTangZhang.roundedSqrtLower_sq
+#print axioms QuadraticTangZhang.le_roundedSqrtUpper_sq
+#print axioms QuadraticTangZhang.roundedSqrt_sound
+#print axioms QuadraticTangZhang.rpow_half_nat_even
+#print axioms QuadraticTangZhang.rpow_half_nat_odd
+#print axioms QuadraticTangZhang.halfPower_sound
+#print axioms QuadraticTangZhang.integral_t_exp_neg_le
+#print axioms QuadraticTangZhang.integral_sq_exp_neg_le
+#print axioms QuadraticTangZhang.rpow_le_exp_gap
+#print axioms QuadraticTangZhang.beta_power_split_bound
+#print axioms QuadraticTangZhang.direct_integral_split_bound
+#print axioms QuadraticTangZhang.affine_denominator_pos
+#print axioms QuadraticTangZhang.envelope_quotient_continuous
+#print axioms QuadraticTangZhang.uniform_integral_bounds
+#print axioms QuadraticTangZhang.uniform_coefficient_bounds
+#print axioms QuadraticTangZhang.uniform_endpoint_bound
+#print axioms QuadraticTangZhang.beta_gap_form
+#print axioms QuadraticTangZhang.denominator_gap_form
+#print axioms QuadraticTangZhang.rpow_div_mono_pair
+#print axioms QuadraticTangZhang.beta_quotient_gap_mono
+#print axioms QuadraticTangZhang.rectangle_envelope_power_bound
+#print axioms QuadraticTangZhang.rectangle_envelope_quotient_bound
+#print axioms QuadraticTangZhang.polar_le_linear
+#print axioms QuadraticTangZhang.polar_exponential
+#print axioms QuadraticTangZhang.beta_rational_bound
+#print axioms QuadraticTangZhang.beta_log_bound
+#print axioms QuadraticTangZhang.prod_norm_le_exact_moment
+#print axioms QuadraticTangZhang.exact_polar_inequality
+#print axioms QuadraticTangZhang.polarQuadratic_nonneg
+#print axioms QuadraticTangZhang.polarQuadratic_le_square
+#print axioms QuadraticTangZhang.small_degree_polar_contradiction
+#print axioms Sendov.norm_sub_le_norm_one_sub_mul
+#print axioms Sendov.norm_multiset_prod
+#print axioms Sendov.prod_map_le_of_le
+#print axioms Sendov.norm_prod_map
+#print axioms Sendov.prod_map_norm_nonneg
+#print axioms Sendov.one_le_integral_prod_norm
+#print axioms Sendov.norm_sq_add_real_mul
+#print axioms Sendov.prod_map_sq
+#print axioms Sendov.sum_norm_sq_split
+#print axioms Sendov.sum_norm_sq_le_card
+#print axioms Sendov.continuous_prod_norm
+#print axioms QuadraticTangZhang.smallIntegral_mul
+#print axioms QuadraticTangZhang.smallIntegral_one
+#print axioms QuadraticTangZhang.smallIntegral_two
+#print axioms QuadraticTangZhang.smallIntegral_three
+#print axioms QuadraticTangZhang.smallIntegral_four
+#print axioms QuadraticTangZhang.smallIntegral_lt_one
+#print axioms Sendov.integral_exp_mul
+#print axioms Sendov.integral_exp_eq
+#print axioms Sendov.integral_exp_eq'
+#print axioms Sendov.beta_lt_two
+#print axioms Sendov.beta_le
+#print axioms Sendov.log_le_alpha_mul
+#print axioms Sendov.sinh_sq_le
+#print axioms Sendov.sqrt_mul_sub_le
+#print axioms Sendov.log_sinh_div_le
+#print axioms Sendov.sinh_le_mul_exp
+#print axioms QuadraticTangZhang.rho_pos_of_polar
+#print axioms QuadraticTangZhang.chord_polar_bound
+#print axioms QuadraticTangZhang.rho_log_lower_bound

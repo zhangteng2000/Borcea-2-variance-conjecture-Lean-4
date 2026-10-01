@@ -1,0 +1,7 @@
+ℹ [3750/3751] Built BorceaVariance.Certificate.Generated.Accepted26Part5 (27s)
+info: BorceaVariance/Certificate/Generated/Accepted26Part5.lean:123:0: 'BorceaVariance.Certificate.Generated.leafAccepted26_338' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3751/3751] Built BorceaVariance.Certificate.Generated.Accepted26 (33s)
+info: BorceaVariance/Certificate/Generated/Accepted26.lean:1038:0: 'BorceaVariance.Certificate.Generated.certificateBlock26_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Build completed successfully (3751 jobs).

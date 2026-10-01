@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "required_files": 19,
+  "missing": [],
+  "broken_document_links": [],
+  "truncated_final_logs": [],
+  "manuscript_check_commands": 806,
+  "axiom_commands": 978
+}

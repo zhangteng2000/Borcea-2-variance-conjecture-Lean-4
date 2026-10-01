@@ -1,0 +1,5 @@
+Command: lake --log-level=warning build
+Exit code: 0
+Configuration: portable .lake/packages default, with ignored local package overrides pointing to the same nine locked dependency checkouts.
+Output below is the successful build summary. Replayed linter warnings are omitted; the complete prior proof audit and certificate logs remain under verification/.
+Build completed successfully (4319 jobs).

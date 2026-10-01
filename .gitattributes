@@ -1,0 +1,3 @@
+# Preserve verified source, manuscript, certificate and log bytes on every platform.
+# This disables checkout line-ending conversion without disabling text diffs.
+* -text

@@ -1,0 +1,3 @@
+PASS: 872 project and vendored Lean source files scanned; no forbidden proof token.
+Own named theorem/lemma declarations: 68102.
+This scan does not establish any unfinished theorem; run Audit.lean for dependency closures.

@@ -1,0 +1,2172 @@
+[
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.normSq_sub_coordinates",
+    "type": "∀ (q : ℂ) (x y : ℝ),\n  Complex.normSq (q - { re := x, im := y }) = Complex.normSq q - 2 * x * q.re - 2 * y * q.im + (x ^ 2 + y ^ 2)",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.sum_normSq_sub",
+    "type": "∀ {m : ℕ} (q : Fin m → ℂ) (x y : ℝ),\n  ∑ i, Complex.normSq (q i - { re := x, im := y }) =\n    ∑ i, Complex.normSq (q i) - 2 * x * ∑ i, (q i).re - 2 * y * ∑ i, (q i).im + ↑m * (x ^ 2 + y ^ 2)",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.variance_identity",
+    "type": "∀ {m : ℕ},\n  0 < m →\n    ∀ (q : Fin m → ℂ),\n      (∑ i, Complex.normSq (q i - { re := QuadraticTangZhang.meanRe q, im := QuadraticTangZhang.meanIm q })) / ↑m =\n        QuadraticTangZhang.secondMoment q - (QuadraticTangZhang.meanRe q ^ 2 + QuadraticTangZhang.meanIm q ^ 2)",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.mean_sq_le_secondMoment",
+    "type": "∀ {m : ℕ},\n  0 < m →\n    ∀ (q : Fin m → ℂ),\n      QuadraticTangZhang.meanRe q ^ 2 + QuadraticTangZhang.meanIm q ^ 2 ≤ QuadraticTangZhang.secondMoment q",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.secondMoment_nonneg",
+    "type": "∀ {m : ℕ} (q : Fin m → ℂ), 0 ≤ QuadraticTangZhang.secondMoment q",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.meanRe_bounds",
+    "type": "∀ {m : ℕ},\n  0 < m →\n    ∀ (q : Fin m → ℂ),\n      QuadraticTangZhang.secondMoment q ≤ 1 → -1 ≤ QuadraticTangZhang.meanRe q ∧ QuadraticTangZhang.meanRe q ≤ 1",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.sum_centered_re",
+    "type": "∀ {m : ℕ}, 0 < m → ∀ (q : Fin m → ℂ), ∑ i, ((q i).re - QuadraticTangZhang.meanRe q) = 0",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.sum_centered_im",
+    "type": "∀ {m : ℕ}, 0 < m → ∀ (q : Fin m → ℂ), ∑ i, ((q i).im - QuadraticTangZhang.meanIm q) = 0",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.boundary_secondMoment",
+    "type": "∀ {m : ℕ}, 0 < m → ∀ (q : Fin m → ℂ), ↑m ≤ ∑ i, (q i).re → 1 ≤ QuadraticTangZhang.secondMoment q",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.boundary_rigidity",
+    "type": "∀ {m : ℕ},\n  0 < m → ∀ (q : Fin m → ℂ), ↑m ≤ ∑ i, (q i).re → QuadraticTangZhang.secondMoment q = 1 → ∀ (i : Fin m), q i = 1",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.boundary_equality_iff",
+    "type": "∀ {m : ℕ},\n  0 < m → ∀ (q : Fin m → ℂ), ↑m ≤ ∑ i, (q i).re → (QuadraticTangZhang.secondMoment q = 1 ↔ ∀ (i : Fin m), q i = 1)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.affine_normSq",
+    "type": "∀ (q : ℂ) (a b : ℝ), Complex.normSq (↑a + ↑b * q) = a ^ 2 + 2 * a * b * q.re + b ^ 2 * Complex.normSq q",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.affine_secondMoment",
+    "type": "∀ {m : ℕ},\n  0 < m →\n    ∀ (q : Fin m → ℂ) (a b : ℝ),\n      (QuadraticTangZhang.secondMoment fun i => ↑a + ↑b * q i) =\n        a ^ 2 + 2 * a * b * QuadraticTangZhang.meanRe q + b ^ 2 * QuadraticTangZhang.secondMoment q",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.criticalReciprocals_card",
+    "type": "∀ (p : Polynomial ℂ) (a : ℂ), (QuadraticTangZhang.criticalReciprocals p a).card = p.natDegree - 1",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.criticalReciprocals_ne_zero",
+    "type": "∀ (p : Polynomial ℂ) (a : ℂ),\n  Polynomial.eval a (Polynomial.derivative p) ≠ 0 → ∀ v ∈ QuadraticTangZhang.criticalReciprocals p a, v ≠ 0",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.criticalReciprocals_factorization",
+    "type": "∀ (p : Polynomial ℂ) (a : ℂ),\n  Polynomial.derivative p =\n    Polynomial.C (↑p.natDegree * p.leadingCoeff) *\n      (Multiset.map (fun z => Polynomial.X - Polynomial.C z)\n          (Multiset.map (fun v => a - v⁻¹) (QuadraticTangZhang.criticalReciprocals p a))).prod",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.reciprocalEnergy_of_ne",
+    "type": "∀ {a z : ℂ}, a ≠ z → QuadraticTangZhang.reciprocalEnergy a z = ENNReal.ofReal (Complex.normSq (a - z)⁻¹)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.ofReal_multiset_sum",
+    "type": "∀ {S : Multiset ℝ}, (∀ x ∈ S, 0 ≤ x) → ENNReal.ofReal S.sum = (Multiset.map ENNReal.ofReal S).sum",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.criticalEnergy_eq_ofReal",
+    "type": "∀ (p : Polynomial ℂ) (a : ℂ),\n  Polynomial.eval a (Polynomial.derivative p) ≠ 0 →\n    QuadraticTangZhang.criticalEnergy p a =\n      ENNReal.ofReal (Multiset.map (⇑Complex.normSq) (QuadraticTangZhang.criticalReciprocals p a)).sum",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.reciprocal_sum_le_of_energy_le",
+    "type": "∀ (p : Polynomial ℂ) (a : ℂ),\n  Polynomial.eval a (Polynomial.derivative p) ≠ 0 →\n    QuadraticTangZhang.criticalEnergy p a ≤ ↑(p.natDegree - 1) →\n      (Multiset.map (fun v => ‖v‖ ^ 2) (QuadraticTangZhang.criticalReciprocals p a)).sum ≤ ↑(p.natDegree - 1)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.multiset_variance_real",
+    "type": "∀ (q : Multiset ℂ) (x : ℝ),\n  (Multiset.map (fun v => Complex.normSq (v - ↑x)) q).sum =\n    (Multiset.map (fun v => ‖v‖ ^ 2) q).sum - 2 * x * (Multiset.map Complex.re q).sum + ↑q.card * x ^ 2",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.multiset_mean_sq_le",
+    "type": "∀ {q : Multiset ℂ},\n  0 < q.card →\n    ∀ {x s : ℝ},\n      (Multiset.map Complex.re q).sum = ↑q.card * x → (Multiset.map (fun v => ‖v‖ ^ 2) q).sum = ↑q.card * s → x ^ 2 ≤ s",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.reciprocalEnergy_self",
+    "type": "∀ (a : ℂ), QuadraticTangZhang.reciprocalEnergy a a = ⊤",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.reciprocalEnergy_eq_top_iff",
+    "type": "∀ (a z : ℂ), QuadraticTangZhang.reciprocalEnergy a z = ⊤ ↔ a = z",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.criticalEnergy_eq_top_of_mem",
+    "type": "∀ {p : Polynomial ℂ} {a : ℂ}, a ∈ (Polynomial.derivative p).roots → QuadraticTangZhang.criticalEnergy p a = ⊤",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.main_at_common_zero",
+    "type": "∀ {p : Polynomial ℂ} {a : ℂ},\n  a ∈ (Polynomial.derivative p).roots → ↑(p.natDegree - 1) < QuadraticTangZhang.criticalEnergy p a",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.prod_cons_eq",
+    "type": "∀ (a : ℂ) (z : Multiset ℂ),\n  (Polynomial.X - Polynomial.C a) * (Multiset.map (fun w => Polynomial.X - Polynomial.C w) z).prod =\n    (Multiset.map (fun w => Polynomial.X - Polynomial.C w) (a ::ₘ z)).prod",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.centroid_identity",
+    "type": "∀ {n : ℕ} {a c : ℂ} {z q : Multiset ℂ},\n  2 ≤ n →\n    ∀ {p : Polynomial ℂ},\n      c ≠ 0 →\n        z.card = n - 1 →\n          q.card = n - 1 →\n            p =\n                Polynomial.C c *\n                  ((Polynomial.X - Polynomial.C a) * (Multiset.map (fun w => Polynomial.X - Polynomial.C w) z).prod) →\n              Polynomial.derivative p =\n                  Polynomial.C (↑n * c) *\n                    (Multiset.map (fun w => Polynomial.X - Polynomial.C w) (Multiset.map (fun v => a - v⁻¹) q)).prod →\n                (↑n - 1) * (a + z.sum) = ↑n * (Multiset.map (fun v => a - v⁻¹) q).sum",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.sumEraseProd_zero",
+    "type": "Sendov.sumEraseProd 0 = 0",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.sumEraseProd_cons",
+    "type": "∀ (v : ℂ) (t : Multiset ℂ), Sendov.sumEraseProd (v ::ₘ t) = t.prod + v * Sendov.sumEraseProd t",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.prod_map_neg",
+    "type": "∀ (s : Multiset ℂ), (Multiset.map (fun w => -w) s).prod = (-1) ^ s.card * s.prod",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.eval_prod_zero",
+    "type": "∀ (z : Multiset ℂ),\n  Polynomial.eval 0 (Multiset.map (fun w => Polynomial.X - Polynomial.C w) z).prod = (-1) ^ z.card * z.prod",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.eval_deriv_prod_zero",
+    "type": "∀ (z : Multiset ℂ),\n  Polynomial.eval 0 (Polynomial.derivative (Multiset.map (fun w => Polynomial.X - Polynomial.C w) z).prod) =\n    -((-1) ^ z.card * Sendov.sumEraseProd z)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.prod_inv_sub_mul",
+    "type": "∀ {a : ℂ} (q : Multiset ℂ),\n  (∀ v ∈ q, v ≠ 0) → (Multiset.map (fun v => v⁻¹ - a) q).prod * q.prod = (Multiset.map (fun v => 1 - a * v) q).prod",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.second_origin_identity",
+    "type": "∀ {n : ℕ} {a c : ℂ} {z q : Multiset ℂ} {p : Polynomial ℂ},\n  c ≠ 0 →\n    z.card = n - 1 →\n      (∀ v ∈ q, v ≠ 0) →\n        p =\n            Polynomial.C c *\n              ((Polynomial.X - Polynomial.C a) * (Multiset.map (fun w => Polynomial.X - Polynomial.C w) z).prod) →\n          Polynomial.derivative p =\n              Polynomial.C (↑n * c) *\n                (Multiset.map (fun w => Polynomial.X - Polynomial.C w) (Multiset.map (fun v => a - v⁻¹) q)).prod →\n            ↑n * (Multiset.map (fun v => 1 - a * v) q).prod =\n              (-1) ^ (n - 1) * q.prod * (z.prod + a * Sendov.sumEraseProd z)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.continuous_deriv_seg",
+    "type": "∀ (p : Polynomial ℂ) (a w : ℂ), Continuous fun t => Polynomial.eval (a + ↑t * (w - a)) (Polynomial.derivative p)",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.eval_eq_integral",
+    "type": "∀ {p : Polynomial ℂ} {a : ℂ},\n  Polynomial.eval a p = 0 →\n    ∀ (w : ℂ),\n      Polynomial.eval w p = (w - a) * ∫ (t : ℝ) in 0..1, Polynomial.eval (a + ↑t * (w - a)) (Polynomial.derivative p)",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.first_origin_identity",
+    "type": "∀ {n : ℕ} {a c : ℂ} {z q : Multiset ℂ} {p : Polynomial ℂ},\n  c ≠ 0 →\n    a ≠ 0 →\n      z.card = n - 1 →\n        (∀ v ∈ q, v ≠ 0) →\n          Polynomial.eval a p = 0 →\n            p =\n                Polynomial.C c *\n                  ((Polynomial.X - Polynomial.C a) * (Multiset.map (fun w => Polynomial.X - Polynomial.C w) z).prod) →\n              Polynomial.derivative p =\n                  Polynomial.C (↑n * c) *\n                    (Multiset.map (fun w => Polynomial.X - Polynomial.C w) (Multiset.map (fun v => a - v⁻¹) q)).prod →\n                ↑n * ∫ (t : ℝ) in 0..1, (Multiset.map (fun v => 1 - a * ↑t * v) q).prod =\n                  (-1) ^ (n - 1) * q.prod * z.prod",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.prod_map_mul_const",
+    "type": "∀ (b : ℂ) (s : Multiset ℂ) (f : ℂ → ℂ), (Multiset.map (fun v => b * f v) s).prod = b ^ s.card * (Multiset.map f s).prod",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.prod_inv_mul",
+    "type": "∀ (q : Multiset ℂ), (∀ v ∈ q, v ≠ 0) → (Multiset.map (fun v => v⁻¹) q).prod * q.prod = 1",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.prod_sub_mul_prod",
+    "type": "∀ {n : ℕ} {a c : ℂ} {z q : Multiset ℂ} {p : Polynomial ℂ},\n  c ≠ 0 →\n    (∀ v ∈ q, v ≠ 0) →\n      p =\n          Polynomial.C c *\n            ((Polynomial.X - Polynomial.C a) * (Multiset.map (fun w => Polynomial.X - Polynomial.C w) z).prod) →\n        Polynomial.derivative p =\n            Polynomial.C (↑n * c) *\n              (Multiset.map (fun w => Polynomial.X - Polynomial.C w) (Multiset.map (fun v => a - v⁻¹) q)).prod →\n          q.prod * (Multiset.map (fun w => a - w) z).prod = ↑n",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.polar_identity",
+    "type": "∀ {n : ℕ} {a c : ℂ} {z q : Multiset ℂ} {p : Polynomial ℂ},\n  c ≠ 0 →\n    a ≠ 0 →\n      a ^ 2 ≠ 1 →\n        z.card = n - 1 →\n          q.card = n - 1 →\n            (∀ v ∈ q, v ≠ 0) →\n              Polynomial.eval a p = 0 →\n                p =\n                    Polynomial.C c *\n                      ((Polynomial.X - Polynomial.C a) *\n                        (Multiset.map (fun w => Polynomial.X - Polynomial.C w) z).prod) →\n                  Polynomial.derivative p =\n                      Polynomial.C (↑n * c) *\n                        (Multiset.map (fun w => Polynomial.X - Polynomial.C w)\n                            (Multiset.map (fun v => a - v⁻¹) q)).prod →\n                    q.prod * (Multiset.map (fun w => 1 - a * w) z).prod =\n                      ↑n * ∫ (t : ℝ) in 0..1, (Multiset.map (fun v => a + ↑t * (1 - a ^ 2) * v) q).prod",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.exists_root_multiset",
+    "type": "∀ {n : ℕ},\n  1 ≤ n →\n    ∀ {p : Polynomial ℂ},\n      p.natDegree = n →\n        (∀ w ∈ p.roots, ‖w‖ ≤ 1) →\n          ∀ {a : ℂ},\n            Polynomial.eval a p = 0 →\n              ∃ z,\n                z.card = n - 1 ∧\n                  (∀ w ∈ z, ‖w‖ ≤ 1) ∧\n                    p =\n                      Polynomial.C p.leadingCoeff *\n                        ((Polynomial.X - Polynomial.C a) *\n                          (Multiset.map (fun w => Polynomial.X - Polynomial.C w) z).prod)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.exists_crit_multiset",
+    "type": "∀ {n : ℕ},\n  2 ≤ n →\n    ∀ {p : Polynomial ℂ},\n      p.natDegree = n →\n        ∀ {a : ℂ},\n          (∀ (w : ℂ), Polynomial.eval w (Polynomial.derivative p) = 0 → 1 ≤ ‖w - a‖) →\n            ∃ q,\n              q.card = n - 1 ∧\n                (∀ v ∈ q, ‖v‖ ≤ 1) ∧\n                  (∀ v ∈ q, v ≠ 0) ∧\n                    Polynomial.derivative p =\n                      Polynomial.C (↑n * p.leadingCoeff) *\n                        (Multiset.map (fun v => Polynomial.X - Polynomial.C (a - v⁻¹)) q).prod",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.weighted_product_split",
+    "type": "∀ {ι : Type u_1} [inst : DecidableEq ι] (s : Finset ι) (D c : Polynomial ℂ) (w : ι → Polynomial ℂ),\n  D * ∑ j ∈ s, w j * ∏ k ∈ s.erase j, (D - c * w k) =\n    (∑ j ∈ s, w j) * ∏ k ∈ s, (D - c * w k) + c * ∑ j ∈ s, w j ^ 2 * ∏ k ∈ s.erase j, (D - c * w k)",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.centered_interpolation_polynomial",
+    "type": "∀ {ι : Type u_1} [inst : DecidableEq ι] (s : Finset ι) (D c : ℂ) (w : ι → ℂ),\n  ∑ j ∈ s, w j = 0 →\n    Polynomial.C D *\n        Polynomial.derivative (∏ j ∈ s, (Polynomial.C D - Polynomial.C c * Polynomial.X * Polynomial.C (w j))) =\n      -Polynomial.C (c ^ 2) * Polynomial.X *\n        ∑ j ∈ s,\n          Polynomial.C (w j ^ 2) *\n            ∏ k ∈ s.erase j, (Polynomial.C D - Polynomial.C c * Polynomial.X * Polynomial.C (w k))",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.origin_derivative_polynomial",
+    "type": "∀ {ι : Type u_1} [inst : DecidableEq ι] (s : Finset ι) (a : ℂ) (q : ι → ℂ),\n  Polynomial.derivative (∏ j ∈ s, (1 - Polynomial.C a * Polynomial.X * Polynomial.C (q j))) =\n    -Polynomial.C a * Polynomial.C (∑ j ∈ s, q j) * ∏ k ∈ s, (1 - Polynomial.C a * Polynomial.X * Polynomial.C (q k)) -\n      Polynomial.C (a ^ 2) * Polynomial.X *\n        ∑ j ∈ s, Polynomial.C (q j ^ 2) * ∏ k ∈ s.erase j, (1 - Polynomial.C a * Polynomial.X * Polynomial.C (q k))",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.centered_sum_norm_sq",
+    "type": "∀ {m : ℕ} (w : Fin m → ℂ),\n  ∑ j, w j = 0 → ∀ (D : ℂ) (c : ℝ), ∑ j, ‖D - ↑c * w j‖ ^ 2 = ↑m * ‖D‖ ^ 2 + c ^ 2 * ∑ j, ‖w j‖ ^ 2",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.centered_remainder_general",
+    "type": "∀ {m : ℕ},\n  2 ≤ m →\n    ∀ (w : Fin m → ℂ),\n      ∑ j, w j = 0 →\n        ∀ {D : ℂ},\n          D ≠ 0 →\n            ∀ (c : ℝ) {B : ℝ},\n              0 ≤ B →\n                ↑m * ‖D‖ ^ 2 + c ^ 2 * ∑ j, ‖w j‖ ^ 2 ≤ ↑m * B →\n                  ‖∏ j, (D - ↑c * w j) - D ^ m‖ ≤ (5 * c ^ 2 * ∑ j, ‖w j‖ ^ 2) / (6 * ‖D‖) * B ^ (↑(m - 1) / 2)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.norm_meanComplex_sq",
+    "type": "∀ {m : ℕ} (q : Fin m → ℂ),\n  ‖QuadraticTangZhang.meanComplex q‖ ^ 2 = QuadraticTangZhang.meanRe q ^ 2 + QuadraticTangZhang.meanIm q ^ 2",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.sum_sub_meanComplex",
+    "type": "∀ {m : ℕ}, 0 < m → ∀ (q : Fin m → ℂ), ∑ j, (q j - QuadraticTangZhang.meanComplex q) = 0",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.centered_variance_sum",
+    "type": "∀ {m : ℕ},\n  0 < m →\n    ∀ (q : Fin m → ℂ),\n      ∑ j, ‖q j - QuadraticTangZhang.meanComplex q‖ ^ 2 =\n        ↑m * (QuadraticTangZhang.secondMoment q - ‖QuadraticTangZhang.meanComplex q‖ ^ 2)",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.norm_meanComplex_le_one",
+    "type": "∀ {m : ℕ}, 0 < m → ∀ (q : Fin m → ℂ), QuadraticTangZhang.secondMoment q ≤ 1 → ‖QuadraticTangZhang.meanComplex q‖ ≤ 1",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.one_sub_meanComplex_ne_zero",
+    "type": "∀ {m : ℕ},\n  0 < m →\n    ∀ (q : Fin m → ℂ),\n      QuadraticTangZhang.secondMoment q ≤ 1 → ∀ {u : ℝ}, 0 ≤ u → u < 1 → 1 - ↑u * QuadraticTangZhang.meanComplex q ≠ 0",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.sum_origin_norm_sq",
+    "type": "∀ {m : ℕ},\n  0 < m →\n    ∀ (q : Fin m → ℂ) (a t : ℝ),\n      ∑ j, ‖1 - ↑a * ↑t * q j‖ ^ 2 =\n        ↑m * QuadraticTangZhang.betaS a (QuadraticTangZhang.meanRe q) (QuadraticTangZhang.secondMoment q) t",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.centered_remainder_estimate",
+    "type": "∀ {m : ℕ},\n  2 ≤ m →\n    ∀ (q : Fin m → ℂ),\n      QuadraticTangZhang.secondMoment q ≤ 1 →\n        ∀ {a t : ℝ},\n          0 ≤ a →\n            a < 1 →\n              0 ≤ t →\n                t ≤ 1 →\n                  ‖∏ j, (1 - ↑a * ↑t * q j) - (1 - ↑a * ↑t * QuadraticTangZhang.meanComplex q) ^ m‖ ≤\n                    5 * ↑m * a ^ 2 * t ^ 2 *\n                          (QuadraticTangZhang.secondMoment q - ‖QuadraticTangZhang.meanComplex q‖ ^ 2) /\n                        (6 * ‖1 - ↑a * ↑t * QuadraticTangZhang.meanComplex q‖) *\n                      QuadraticTangZhang.betaS a (QuadraticTangZhang.meanRe q) (QuadraticTangZhang.secondMoment q) t ^\n                        (↑(m - 1) / 2)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.prod_norm_sq_le_mean",
+    "type": "∀ {ι : Type u_1} (s : Finset ι) (f : ι → ℂ), ‖∏ i ∈ s, f i‖ ^ 2 ≤ ((∑ i ∈ s, ‖f i‖ ^ 2) / ↑s.card) ^ s.card",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.norm_prod_le_moment",
+    "type": "∀ {ι : Type u_1} (s : Finset ι),\n  0 < s.card → ∀ (f : ι → ℂ) {B : ℝ}, 0 ≤ B → ∑ i ∈ s, ‖f i‖ ^ 2 ≤ ↑s.card * B → ‖∏ i ∈ s, f i‖ ≤ B ^ (↑s.card / 2)",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.deleted_amgm_coefficient",
+    "type": "∀ {m : ℕ}, 2 ≤ m → (↑m / ↑(m - 1)) ^ (m - 1) ≤ Real.exp 1",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.norm_deleted_prod_le",
+    "type": "∀ {ι : Type u_1} [inst : DecidableEq ι] (s : Finset ι),\n  2 ≤ s.card →\n    ∀ j ∈ s,\n      ∀ (f : ι → ℂ) {B : ℝ},\n        0 ≤ B → ∑ i ∈ s, ‖f i‖ ^ 2 ≤ ↑s.card * B → ‖∏ i ∈ s.erase j, f i‖ ≤ 5 / 3 * B ^ (↑(s.card - 1) / 2)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.exp_one_bounds",
+    "type": "27 / 10 < Real.exp 1 ∧ Real.exp 1 < 11 / 4",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.sqrt_exp_one_lt",
+    "type": "√(Real.exp 1) < 5 / 3",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.log_million_bounds",
+    "type": "13 < Real.log 1000000 ∧ Real.log 1000000 < 14",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.log_three_eighths_million",
+    "type": "12 < Real.log 375000",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.log_fifty_thousand",
+    "type": "4 < Real.log 50000",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.near_coefficient_base",
+    "type": "2048 * (5 / 3) / 81 * (10 / 9) ^ 3 * (1000000 ^ 2 * (1000000 + 1) / (1000000 - 1) ^ 3) < 60",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.decreasing_coefficient_base",
+    "type": "20 / 3 * (1000000 / (1000000 - 1)) ^ 2 < 7",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.near_endpoint_coefficient_base",
+    "type": "4 * (5 / 3) * (1000000 / (1000000 - 1)) ^ 2 < 7",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.near_total_base",
+    "type": "60 / 1000000 + 7 / 1000000 ^ 2 < 61 / 1000000 ∧ 61 / 1000000 < 9 / 20",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.near_exponent_base",
+    "type": "1000 / 6 > 56 ∧ 9 * 1000000 / 160 > 56",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.polar_log_exponent_base",
+    "type": "10 * (1 - 3 / 1000000) > 9",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.small_alpha_base",
+    "type": "16 * 16 ^ 2 < 2 ^ 17 ∧ (17 / 16) ^ 2 < 2",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.large_alpha_base",
+    "type": "1 / (2 * 1000000 ^ 3) < 1 / 4",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.sigma_base",
+    "type": "(1000000 - 1) / (1000000 + 2) > 99999 / 100000",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.degree_correction_base",
+    "type": "1 / (1 - 56 / (1000000 + 2)) < 1001 / 1000",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.small_a_power_base",
+    "type": "(8 / 3) ^ 4 < 4 ^ 3",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.small_a_increasing_coefficient",
+    "type": "4 * (5 / 3) * (1001 / 1000) / (27 / 10) < 5 / 2",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.small_a_decreasing_coefficient",
+    "type": "7 * (1000000 + 2) / (24 * 1000000) < 292 / 1000",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.small_a_total",
+    "type": "292 / 1000 + 5 / 26 + 1 / 10000 < 1 / 2",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.cube_root_base",
+    "type": "72 ^ 3 < 375000",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.large_a_correction_base",
+    "type": "1 / (1 - 14 / 75000) < 1001 / 1000",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.large_a_increasing_coefficient",
+    "type": "5 / 12 * (1 / 27) * (1001 / 1000) < 16 / 1000",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.large_a_total",
+    "type": "112 / 1000000 + 8 / (3 * 1000000) + 16 / 1000 < 17 / 1000 ∧ 17 / 1000 < 1 / 20",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.boundary_gap_base",
+    "type": "(19 / 20) ^ 2 > 9 / 10",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.amgm_step",
+    "type": "∀ {a : ℝ} (N : ℕ) {u : ℝ}, 0 < u → 0 ≤ a → a * u ^ N ≤ ((a + ↑N * u) / (↑N + 1)) ^ (N + 1)",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.maclaurin_step",
+    "type": "∀ {a : ℝ} (N : ℕ),\n  1 ≤ N → ∀ {u : ℝ}, 0 < u → 0 ≤ a → u ^ N + ↑N * a * u ^ (N - 1) ≤ (↑N + 1) * ((a + ↑N * u) / (↑N + 1)) ^ N",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.Multiset.prod_le_mean_pow",
+    "type": "∀ (s : Multiset ℝ), (∀ x ∈ s, 0 ≤ x) → s.prod ≤ (s.sum / ↑s.card) ^ s.card",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.esymm_card_cons",
+    "type": "∀ (a : ℝ) (t : Multiset ℝ), t ≠ 0 → (a ::ₘ t).esymm t.card = t.prod + a * t.esymm (t.card - 1)",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.Multiset.esymm_card_pred_le",
+    "type": "∀ (s : Multiset ℝ), (∀ x ∈ s, 0 ≤ x) → s ≠ 0 → s.esymm (s.card - 1) ≤ ↑s.card * (s.sum / ↑s.card) ^ (s.card - 1)",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.beta_decomposition",
+    "type": "∀ (a x t : ℝ), QuadraticTangZhang.beta a x t = 1 - x ^ 2 + (x - a * t) ^ 2",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.betaS_le_beta",
+    "type": "∀ (a x s t : ℝ), s ≤ 1 → QuadraticTangZhang.betaS a x s t ≤ QuadraticTangZhang.beta a x t",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.beta_one_pos",
+    "type": "∀ {a x : ℝ}, 0 < a → a < 1 → -1 ≤ x → x ≤ 1 → 0 < QuadraticTangZhang.beta a x 1",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.x_gt_half_of_beta_lt_one",
+    "type": "∀ {a x : ℝ}, 0 < a → QuadraticTangZhang.beta a x 1 < 1 → a / 2 < x",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.rho_identity",
+    "type": "∀ (a x s : ℝ), QuadraticTangZhang.rho a x s = 1 - QuadraticTangZhang.beta a x 1 - (1 - a ^ 2) * (1 - s)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.rho_le_gap",
+    "type": "∀ {a x s : ℝ}, a ^ 2 ≤ 1 → s ≤ 1 → QuadraticTangZhang.rho a x s ≤ 1 - QuadraticTangZhang.beta a x 1",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.rho_le_sq",
+    "type": "∀ {a x s : ℝ}, a ^ 2 ≤ 1 → s ≤ 1 → QuadraticTangZhang.rho a x s ≤ x ^ 2",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.betaS_endpoint",
+    "type": "∀ (a x s : ℝ), QuadraticTangZhang.betaS a x s 1 = s - QuadraticTangZhang.rho a x s",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.betaS_endpoint_le",
+    "type": "∀ {a x s : ℝ}, s ≤ 1 → QuadraticTangZhang.betaS a x s 1 ≤ 1 - QuadraticTangZhang.rho a x s",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.polar_chord_gap",
+    "type": "∀ (a x s t : ℝ),\n  a ^ 2 + (1 - a ^ 2) * (1 + QuadraticTangZhang.rho a x s) * t - QuadraticTangZhang.polarQuadratic a x s t =\n    (1 - a ^ 2) ^ 2 * s * t * (1 - t)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.polar_le_chord",
+    "type": "∀ {a x s t : ℝ},\n  0 ≤ s →\n    0 ≤ t →\n      t ≤ 1 → QuadraticTangZhang.polarQuadratic a x s t ≤ a ^ 2 + (1 - a ^ 2) * (1 + QuadraticTangZhang.rho a x s) * t",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.cubic_le_a",
+    "type": "∀ {a C r : ℝ}, 0 ≤ C → 2 * C ≤ a → 0 ≤ r → r ≤ 1 → a * r + C * r * (1 - r ^ 2) ≤ a",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.cubic_discriminant_identity",
+    "type": "∀ (b C r : ℝ), 4 * b ^ 3 - 27 * C * (b * r - C * r ^ 3) ^ 2 = (b - 3 * C * r ^ 2) ^ 2 * (4 * b - 3 * C * r ^ 2)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.cubic_discriminant_nonneg",
+    "type": "∀ {a C r : ℝ}, 0 ≤ a → 0 ≤ C → 0 ≤ r → r ≤ 1 → 27 * C * (a * r + C * r * (1 - r ^ 2)) ^ 2 ≤ 4 * (a + C) ^ 3",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.exclude_center_cubic",
+    "type": "∀ {a C E r : ℝ},\n  0 ≤ a →\n    0 < C → 0 ≤ r → r ≤ 1 → E < 1 → 4 * (a + C) ^ 3 < 27 * C * (1 - E) ^ 2 → 1 ≤ a * r + C * r * (1 - r ^ 2) + E → False",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.exclude_center_monotone",
+    "type": "∀ {a C E r : ℝ}, 0 ≤ C → 2 * C ≤ a → 0 ≤ r → r ≤ 1 → a + E < 1 → 1 ≤ a * r + C * r * (1 - r ^ 2) + E → False",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.boundary_margin",
+    "type": "∀ {a : ℝ}, 0 ≤ a → a < 1 → a + (1 - a ^ 2) / 4 < 1",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.exclude_center_boundary",
+    "type": "∀ {a C E r : ℝ},\n  0 ≤ a → a < 1 → 0 ≤ C → 2 * C ≤ a → 0 ≤ r → r ≤ 1 → E < (1 - a ^ 2) / 4 → 1 ≤ a * r + C * r * (1 - r ^ 2) + E → False",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.exclude_direct",
+    "type": "∀ {F R a m : ℝ}, F + R + m * a / (m + 1) < 1 → 1 ≤ F + m * a / (m + 1) + R → False",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.small_degree_factor_pos",
+    "type": "∀ {a : ℝ}, 0 < a → a < 1 → 0 < a ^ 4 - 3 * a ^ 3 + 3 * a + 4",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.small_degree_deficit_pos",
+    "type": "∀ {a : ℝ}, 0 < a → a < 1 → 0 < (1 - a) ^ 3 * (1 + a) / 5 * (a ^ 4 - 3 * a ^ 3 + 3 * a + 4)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.boxEnvelope_nonneg",
+    "type": "∀ {A h t : ℝ}, A ^ 2 ≤ 1 → h ≤ 1 → t ∈ Set.Icc 0 1 → 0 ≤ QuadraticTangZhang.boxEnvelope A h t",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.boxEnvelope_le_one",
+    "type": "∀ {A h t : ℝ}, 0 ≤ h → t ∈ Set.Icc 0 1 → QuadraticTangZhang.boxEnvelope A h t ≤ 1",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.boxEnvelope_convex",
+    "type": "∀ (A h : ℝ), ConvexOn ℝ (Set.Icc 0 1) (QuadraticTangZhang.boxEnvelope A h)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.boxEnvelope_rpow_convex",
+    "type": "∀ {A h r : ℝ}, A ^ 2 ≤ 1 → h ≤ 1 → 1 ≤ r → ConvexOn ℝ (Set.Icc 0 1) fun t => QuadraticTangZhang.boxEnvelope A h t ^ r",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.weighted_sq_div",
+    "type": "∀ {u v x y d e : ℝ},\n  0 ≤ u →\n    0 ≤ v → 0 < d → 0 < e → 0 < u * d + v * e → (u * x + v * y) ^ 2 / (u * d + v * e) ≤ u * x ^ 2 / d + v * y ^ 2 / e",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.convexOn_sq_div_affine",
+    "type": "∀ {f : ℝ → ℝ},\n  ConvexOn ℝ (Set.Icc 0 1) f →\n    (∀ t ∈ Set.Icc 0 1, 0 ≤ f t) → ∀ {d : ℝ}, d < 1 → ConvexOn ℝ (Set.Icc 0 1) fun t => f t ^ 2 / (1 - d * t)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.boxEnvelope_rpow_div_convex",
+    "type": "∀ {A h r d : ℝ},\n  A ^ 2 ≤ 1 →\n    h ≤ 1 → 2 ≤ r → d < 1 → ConvexOn ℝ (Set.Icc 0 1) fun t => QuadraticTangZhang.boxEnvelope A h t ^ r / (1 - d * t)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.convex_chord_bound",
+    "type": "∀ {f : ℝ → ℝ} {l z t : ℝ},\n  0 < z →\n    ConvexOn ℝ (Set.Icc l (l + z)) f → t ∈ Set.Icc l (l + z) → f t ≤ (l + z - t) / z * f l + (t - l) / z * f (l + z)",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.weighted_chord_integral",
+    "type": "∀ (k : ℕ) (l z u v : ℝ),\n  ∫ (t : ℝ) in l..l + z, t ^ k * ((l + z - t) / z * u + (t - l) / z * v) =\n    ((l + z) * u - l * v) / z * (((l + z) ^ (k + 1) - l ^ (k + 1)) / (↑k + 1)) +\n      (v - u) / z * (((l + z) ^ (k + 2) - l ^ (k + 2)) / (↑k + 2))",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.weighted_convex_integral_le_chord",
+    "type": "∀ (k : ℕ) {f : ℝ → ℝ} {l z : ℝ},\n  0 ≤ l →\n    0 < z →\n      ConvexOn ℝ (Set.Icc l (l + z)) f →\n        ContinuousOn f (Set.Icc l (l + z)) →\n          ∫ (t : ℝ) in l..l + z, t ^ k * f t ≤\n            ∫ (t : ℝ) in l..l + z, t ^ k * ((l + z - t) / z * f l + (t - l) / z * f (l + z))",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.convex_quadrature_weight_one",
+    "type": "∀ {f : ℝ → ℝ} {l z : ℝ},\n  0 ≤ l →\n    0 < z →\n      ConvexOn ℝ (Set.Icc l (l + z)) f →\n        ContinuousOn f (Set.Icc l (l + z)) →\n          ∫ (t : ℝ) in l..l + z, t * f t ≤ z * (l / 2 + z / 6) * f l + z * (l / 2 + z / 3) * f (l + z)",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.convex_quadrature_weight_two",
+    "type": "∀ {f : ℝ → ℝ} {l z : ℝ},\n  0 ≤ l →\n    0 < z →\n      ConvexOn ℝ (Set.Icc l (l + z)) f →\n        ContinuousOn f (Set.Icc l (l + z)) →\n          ∫ (t : ℝ) in l..l + z, t ^ 2 * f t ≤\n            z * (l ^ 2 / 2 + l * z / 3 + z ^ 2 / 12) * f l + z * (l ^ 2 / 2 + 2 * l * z / 3 + z ^ 2 / 4) * f (l + z)",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.degree_term_mono",
+    "type": "∀ {m M : ℕ}, m ≤ M → ∀ {a A : ℝ}, 0 ≤ a → a ≤ A → ↑m * a / (↑m + 1) ≤ ↑M * A / (↑M + 1)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.abstract_rectangle_exclusion",
+    "type": "∀ {a r C E F R T aL aU CU EU FU RU TU tailU : ℝ},\n  0 ≤ a →\n    a < 1 →\n      0 ≤ r →\n        r ≤ 1 →\n          0 ≤ C →\n            aL ≤ a →\n              a ≤ aU →\n                C ≤ CU →\n                  E ≤ EU →\n                    F ≤ FU →\n                      R ≤ RU →\n                        T ≤ TU →\n                          E ≤ (1 - a ^ 2) * tailU →\n                            1 ≤ a * r + C * r * (1 - r ^ 2) + E →\n                              1 ≤ F + T + R → QuadraticTangZhang.RectangleTests aL aU CU EU FU RU TU tailU → False",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.abstract_rectangle_exclusion_basic",
+    "type": "∀ {a r C E F R T aU CU EU FU RU TU : ℝ},\n  0 ≤ a →\n    0 ≤ r →\n      r ≤ 1 →\n        0 ≤ C →\n          a ≤ aU →\n            C ≤ CU →\n              E ≤ EU →\n                F ≤ FU →\n                  R ≤ RU →\n                    T ≤ TU →\n                      1 ≤ a * r + C * r * (1 - r ^ 2) + E →\n                        1 ≤ F + T + R →\n                          FU + RU + TU < 1 ∨\n                              2 * CU ≤ aU ∧ aU + EU < 1 ∨ 0 < CU ∧ EU < 1 ∧ 4 * (aU + CU) ^ 3 < 27 * CU * (1 - EU) ^ 2 →\n                            False",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.sum_eq_card_mul_mean",
+    "type": "∀ {m : ℕ}, 0 < m → ∀ (q : Fin m → ℂ), ∑ j, q j = ↑m * QuadraticTangZhang.meanComplex q",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.differential_origin_identity",
+    "type": "∀ {m : ℕ},\n  0 < m →\n    ∀ (q : Fin m → ℂ) (a : ℝ),\n      1 =\n        (QuadraticTangZhang.originProduct q a 1 +\n            ↑m * ↑a * QuadraticTangZhang.meanComplex q * ∫ (t : ℝ) in 0..1, QuadraticTangZhang.originProduct q a t) +\n          QuadraticTangZhang.originRemainder q a",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.originProduct_norm_le_beta",
+    "type": "∀ {m : ℕ},\n  0 < m →\n    ∀ (q : Fin m → ℂ),\n      QuadraticTangZhang.secondMoment q ≤ 1 →\n        ∀ {a t : ℝ},\n          0 ≤ a →\n            a < 1 →\n              0 ≤ t →\n                t ≤ 1 →\n                  ‖QuadraticTangZhang.originProduct q a t‖ ≤\n                    QuadraticTangZhang.beta a (QuadraticTangZhang.meanRe q) t ^ (↑m / 2)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.originErrorSum_norm_bound",
+    "type": "∀ {m : ℕ},\n  2 ≤ m →\n    ∀ (q : Fin m → ℂ),\n      QuadraticTangZhang.secondMoment q ≤ 1 →\n        ∀ {a t : ℝ},\n          0 ≤ a →\n            a < 1 →\n              0 ≤ t →\n                t ≤ 1 →\n                  ‖QuadraticTangZhang.originErrorSum q a t‖ ≤\n                    5 / 3 * ↑m * QuadraticTangZhang.beta a (QuadraticTangZhang.meanRe q) t ^ (↑(m - 1) / 2)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.originRemainder_norm_bound",
+    "type": "∀ {m : ℕ},\n  2 ≤ m →\n    ∀ (q : Fin m → ℂ),\n      QuadraticTangZhang.secondMoment q ≤ 1 →\n        ∀ {a : ℝ},\n          0 ≤ a →\n            a < 1 →\n              ‖QuadraticTangZhang.originRemainder q a‖ ≤\n                5 / 3 * a ^ 2 * ↑m * QuadraticTangZhang.directIntegral m a (QuadraticTangZhang.meanRe q)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.direct_scalar_inequality",
+    "type": "∀ {m : ℕ},\n  2 ≤ m →\n    ∀ (q : Fin m → ℂ),\n      QuadraticTangZhang.secondMoment q ≤ 1 →\n        ∀ {a : ℝ},\n          0 ≤ a →\n            a < 1 →\n              ‖↑(m + 1) * ∫ (t : ℝ) in 0..1, QuadraticTangZhang.originProduct q a t‖ ≤ 1 →\n                1 ≤\n                  QuadraticTangZhang.beta a (QuadraticTangZhang.meanRe q) 1 ^ (↑m / 2) + ↑m * a / (↑m + 1) +\n                    5 / 3 * a ^ 2 * ↑m * QuadraticTangZhang.directIntegral m a (QuadraticTangZhang.meanRe q)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.origin_gap_pos",
+    "type": "∀ {a x t : ℝ}, 0 ≤ a → a < 1 → x ≤ 1 → 0 ≤ t → t ≤ 1 → 0 < 1 - a * x * t",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.beta_pos_on_unit",
+    "type": "∀ {a x t : ℝ}, 0 ≤ a → a < 1 → x ≤ 1 → 0 ≤ t → t ≤ 1 → 0 < QuadraticTangZhang.beta a x t",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.centerFactor_norm_lower",
+    "type": "∀ {m : ℕ} (q : Fin m → ℂ) (a t : ℝ), 1 - a * QuadraticTangZhang.meanRe q * t ≤ ‖QuadraticTangZhang.centerFactor q a t‖",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.centerIntegral_integrable",
+    "type": "∀ {a x : ℝ},\n  0 ≤ a →\n    a < 1 →\n      x ≤ 1 →\n        ∀ (m : ℕ),\n          IntervalIntegrable (fun t => t ^ 2 * QuadraticTangZhang.beta a x t ^ (↑(m - 1) / 2) / (1 - a * x * t))\n            MeasureTheory.volume 0 1",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.centerIntegral_nonneg",
+    "type": "∀ {a x : ℝ}, 0 ≤ a → a < 1 → x ≤ 1 → ∀ (m : ℕ), 0 ≤ QuadraticTangZhang.centerIntegral m a x",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.centerCoefficient_nonneg",
+    "type": "∀ {a x : ℝ}, 0 ≤ a → a < 1 → x ≤ 1 → ∀ (m : ℕ), 0 ≤ QuadraticTangZhang.centerCoefficient m a x",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.centerFactor_integral",
+    "type": "∀ (m : ℕ) (b : ℂ), b * ↑(m + 1) * ∫ (t : ℝ) in 0..1, (1 - b * ↑t) ^ m = 1 - (1 - b) ^ (m + 1)",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.centered_integral_remainder",
+    "type": "∀ {m : ℕ},\n  2 ≤ m →\n    ∀ (q : Fin m → ℂ),\n      QuadraticTangZhang.secondMoment q ≤ 1 →\n        ∀ {a : ℝ},\n          0 ≤ a →\n            a < 1 →\n              ‖(∫ (t : ℝ) in 0..1, QuadraticTangZhang.originProduct q a t) -\n                    ∫ (t : ℝ) in 0..1, QuadraticTangZhang.centerFactor q a t ^ m‖ ≤\n                5 * ↑m * a ^ 2 * (QuadraticTangZhang.secondMoment q - ‖QuadraticTangZhang.meanComplex q‖ ^ 2) / 6 *\n                  QuadraticTangZhang.centerIntegral m a (QuadraticTangZhang.meanRe q)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.norm_centerFactor_sq_le_beta",
+    "type": "∀ {m : ℕ},\n  0 < m →\n    ∀ (q : Fin m → ℂ),\n      QuadraticTangZhang.secondMoment q ≤ 1 →\n        ∀ (a t : ℝ),\n          ‖QuadraticTangZhang.centerFactor q a t‖ ^ 2 ≤ QuadraticTangZhang.beta a (QuadraticTangZhang.meanRe q) t",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.norm_pow_le_rpow_of_sq_le",
+    "type": "∀ (z : ℂ) {B : ℝ}, ‖z‖ ^ 2 ≤ B → ∀ (k : ℕ), ‖z ^ k‖ ≤ B ^ (↑k / 2)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.centered_scalar_inequality",
+    "type": "∀ {m : ℕ},\n  2 ≤ m →\n    ∀ (q : Fin m → ℂ),\n      QuadraticTangZhang.secondMoment q ≤ 1 →\n        ∀ {a : ℝ},\n          0 ≤ a →\n            a < 1 →\n              ‖↑(m + 1) * ∫ (t : ℝ) in 0..1, QuadraticTangZhang.originProduct q a t‖ ≤ 1 →\n                1 ≤\n                  a * ‖QuadraticTangZhang.meanComplex q‖ +\n                      QuadraticTangZhang.centerCoefficient m a (QuadraticTangZhang.meanRe q) *\n                          ‖QuadraticTangZhang.meanComplex q‖ *\n                        (1 - ‖QuadraticTangZhang.meanComplex q‖ ^ 2) +\n                    QuadraticTangZhang.beta a (QuadraticTangZhang.meanRe q) 1 ^ (↑(m + 1) / 2)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.segment_quadrature_one",
+    "type": "∀ {f : ℝ → ℝ} {l r u v : ℚ},\n  0 ≤ l →\n    l ≤ r →\n      r ≤ 1 →\n        ConvexOn ℝ (Set.Icc 0 1) f →\n          ContinuousOn f (Set.Icc 0 1) →\n            f ↑l ≤ ↑u → f ↑r ≤ ↑v → ∫ (t : ℝ) in ↑l..↑r, t * f t ≤ ↑(QuadraticTangZhang.chordOne l r u v)",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.segment_quadrature_two",
+    "type": "∀ {f : ℝ → ℝ} {l r u v : ℚ},\n  0 ≤ l →\n    l ≤ r →\n      r ≤ 1 →\n        ConvexOn ℝ (Set.Icc 0 1) f →\n          ContinuousOn f (Set.Icc 0 1) →\n            f ↑l ≤ ↑u → f ↑r ≤ ↑v → ∫ (t : ℝ) in ↑l..↑r, t ^ 2 * f t ≤ ↑(QuadraticTangZhang.chordTwo l r u v)",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.finite_quadrature_one_sound",
+    "type": "∀ {f : ℝ → ℝ} {N : ℕ} {p v : ℕ → ℚ},\n  p 0 = 0 →\n    p N = 1 →\n      (∀ i ≤ N, 0 ≤ p i ∧ p i ≤ 1) →\n        (∀ i < N, p i ≤ p (i + 1)) →\n          ConvexOn ℝ (Set.Icc 0 1) f →\n            ContinuousOn f (Set.Icc 0 1) →\n              (∀ i ≤ N, f ↑(p i) ≤ ↑(v i)) → ∫ (t : ℝ) in 0..1, t * f t ≤ ↑(QuadraticTangZhang.quadOne N p v)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.finite_quadrature_two_sound",
+    "type": "∀ {f : ℝ → ℝ} {N : ℕ} {p v : ℕ → ℚ},\n  p 0 = 0 →\n    p N = 1 →\n      (∀ i ≤ N, 0 ≤ p i ∧ p i ≤ 1) →\n        (∀ i < N, p i ≤ p (i + 1)) →\n          ConvexOn ℝ (Set.Icc 0 1) f →\n            ContinuousOn f (Set.Icc 0 1) →\n              (∀ i ≤ N, f ↑(p i) ≤ ↑(v i)) → ∫ (t : ℝ) in 0..1, t ^ 2 * f t ≤ ↑(QuadraticTangZhang.quadTwo N p v)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.roundDown_nonneg",
+    "type": "∀ (S : ℕ) (x : ℚ), 0 ≤ QuadraticTangZhang.roundDown S x",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.roundUp_nonneg",
+    "type": "∀ (S : ℕ) (x : ℚ), 0 ≤ QuadraticTangZhang.roundUp S x",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.roundDown_le",
+    "type": "∀ {S : ℕ}, 0 < S → ∀ {x : ℚ}, 0 ≤ x → QuadraticTangZhang.roundDown S x ≤ x",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.le_roundUp",
+    "type": "∀ {S : ℕ}, 0 < S → ∀ (x : ℚ), x ≤ QuadraticTangZhang.roundUp S x",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.roundDown_cast_le",
+    "type": "∀ {S : ℕ}, 0 < S → ∀ {x : ℚ}, 0 ≤ x → ↑(QuadraticTangZhang.roundDown S x) ≤ ↑x",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.cast_le_roundUp",
+    "type": "∀ {S : ℕ}, 0 < S → ∀ (x : ℚ), ↑x ≤ ↑(QuadraticTangZhang.roundUp S x)",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.roundedPowLower_sound",
+    "type": "∀ {S : ℕ},\n  0 < S →\n    ∀ {x : ℚ},\n      0 ≤ x → ∀ (n : ℕ), 0 ≤ QuadraticTangZhang.roundedPowLower S x n ∧ QuadraticTangZhang.roundedPowLower S x n ≤ x ^ n",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.roundedPowUpper_sound",
+    "type": "∀ {S : ℕ},\n  0 < S →\n    ∀ {x : ℚ},\n      0 ≤ x → ∀ (n : ℕ), 0 ≤ QuadraticTangZhang.roundedPowUpper S x n ∧ x ^ n ≤ QuadraticTangZhang.roundedPowUpper S x n",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.roundedSqrtLower_nonneg",
+    "type": "∀ (S : ℕ) (x : ℚ), 0 ≤ QuadraticTangZhang.roundedSqrtLower S x",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.roundedSqrtUpper_nonneg",
+    "type": "∀ (S : ℕ) (x : ℚ), 0 ≤ QuadraticTangZhang.roundedSqrtUpper S x",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.roundedSqrtLower_sq",
+    "type": "∀ {S : ℕ}, 0 < S → ∀ {x : ℚ}, 0 ≤ x → QuadraticTangZhang.roundedSqrtLower S x ^ 2 ≤ x",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.le_roundedSqrtUpper_sq",
+    "type": "∀ {S : ℕ}, 0 < S → ∀ (x : ℚ), x ≤ QuadraticTangZhang.roundedSqrtUpper S x ^ 2",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.roundedSqrt_sound",
+    "type": "∀ {S : ℕ},\n  0 < S →\n    ∀ {x : ℚ},\n      0 ≤ x → ↑(QuadraticTangZhang.roundedSqrtLower S x) ≤ √↑x ∧ √↑x ≤ ↑(QuadraticTangZhang.roundedSqrtUpper S x)",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.rpow_half_nat_even",
+    "type": "∀ (x : ℝ) {n : ℕ}, n % 2 = 0 → x ^ (↑n / 2) = x ^ (n / 2)",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.rpow_half_nat_odd",
+    "type": "∀ {x : ℝ}, 0 ≤ x → ∀ {n : ℕ}, n % 2 ≠ 0 → x ^ (↑n / 2) = x ^ (n / 2) * √x",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.halfPower_sound",
+    "type": "∀ {S : ℕ},\n  0 < S →\n    ∀ {x : ℚ},\n      0 ≤ x →\n        ∀ (n : ℕ),\n          ↑(QuadraticTangZhang.halfPowerLower S x n) ≤ ↑x ^ (↑n / 2) ∧\n            ↑x ^ (↑n / 2) ≤ ↑(QuadraticTangZhang.halfPowerUpper S x n)",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.integral_t_exp_neg_le",
+    "type": "∀ {c b : ℝ}, 0 < c → 0 ≤ b → ∫ (t : ℝ) in 0..b, t * Real.exp (-c * t) ≤ 1 / c ^ 2",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.integral_sq_exp_neg_le",
+    "type": "∀ {c b : ℝ}, 0 < c → 0 ≤ b → ∫ (t : ℝ) in 0..b, t ^ 2 * Real.exp (-c * t) ≤ 2 / c ^ 3",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.rpow_le_exp_gap",
+    "type": "∀ {b v r : ℝ}, 0 ≤ b → b ≤ 1 - v → 0 ≤ r → b ^ r ≤ Real.exp (-r * v)",
+    "used_by_verified_project_declaration": true
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.beta_power_split_bound",
+    "type": "∀ {a x t r : ℝ},\n  0 ≤ a →\n    a < 1 →\n      x ≤ 1 →\n        t ∈ Set.Icc 0 1 →\n          0 ≤ r → QuadraticTangZhang.beta a x t ^ r ≤ Real.exp (-r * a * x * t) + QuadraticTangZhang.beta a x 1 ^ r",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.direct_integral_split_bound",
+    "type": "∀ {m : ℕ},\n  2 ≤ m →\n    ∀ {a x : ℝ},\n      0 < a →\n        a < 1 →\n          0 < x →\n            x ≤ 1 →\n              QuadraticTangZhang.directIntegral m a x ≤\n                4 / (↑(m - 1) ^ 2 * a ^ 2 * x ^ 2) + QuadraticTangZhang.beta a x 1 ^ (↑(m - 1) / 2)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.affine_denominator_pos",
+    "type": "∀ {d t : ℝ}, d < 1 → t ∈ Set.Icc 0 1 → 0 < 1 - d * t",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.envelope_quotient_continuous",
+    "type": "∀ {A h R d : ℝ},\n  0 ≤ R → d < 1 → ContinuousOn (fun t => QuadraticTangZhang.boxEnvelope A h t ^ R / (1 - d * t)) (Set.Icc 0 1)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.uniform_integral_bounds",
+    "type": "∀ {m L : ℕ} {a x A Z h : ℝ},\n  5 ≤ m →\n    5 ≤ L →\n      L ≤ m →\n        0 ≤ a →\n          a < 1 →\n            x ≤ 1 →\n              0 ≤ A →\n                A ≤ a →\n                  a ≤ Z →\n                    0 ≤ h →\n                      h ≤ 1 - QuadraticTangZhang.beta a x 1 →\n                        (Z ^ 2 + h) / 2 < 1 →\n                          QuadraticTangZhang.directIntegral m a x ≤\n                              ∫ (t : ℝ) in 0..1, t * QuadraticTangZhang.boxEnvelope A h t ^ (↑(L - 1) / 2) ∧\n                            QuadraticTangZhang.centerIntegral m a x ≤\n                              ∫ (t : ℝ) in 0..1,\n                                t ^ 2 *\n                                  (QuadraticTangZhang.boxEnvelope A h t ^ (↑(L - 1) / 2) / (1 - (Z ^ 2 + h) / 2 * t))",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.uniform_coefficient_bounds",
+    "type": "∀ {m L M : ℕ} {a x A Z h J₁ J₂ : ℝ},\n  5 ≤ m →\n    5 ≤ L →\n      L ≤ m →\n        m ≤ M →\n          0 ≤ a →\n            a < 1 →\n              x ≤ 1 →\n                0 ≤ A →\n                  A ≤ a →\n                    a ≤ Z →\n                      0 ≤ h →\n                        h ≤ 1 - QuadraticTangZhang.beta a x 1 →\n                          (Z ^ 2 + h) / 2 < 1 →\n                            ∫ (t : ℝ) in 0..1, t * QuadraticTangZhang.boxEnvelope A h t ^ (↑(L - 1) / 2) ≤ J₁ →\n                              ∫ (t : ℝ) in 0..1,\n                                    t ^ 2 *\n                                      (QuadraticTangZhang.boxEnvelope A h t ^ (↑(L - 1) / 2) /\n                                        (1 - (Z ^ 2 + h) / 2 * t)) ≤\n                                  J₂ →\n                                5 / 3 * a ^ 2 * ↑m * QuadraticTangZhang.directIntegral m a x ≤ 5 / 3 * Z ^ 2 * ↑M * J₁ ∧\n                                  QuadraticTangZhang.centerCoefficient m a x ≤ 5 / 6 * Z ^ 3 * (↑M + 1) * ↑M * J₂",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.uniform_endpoint_bound",
+    "type": "∀ {m L : ℕ} {a x A h : ℝ},\n  L ≤ m →\n    0 ≤ a →\n      a < 1 →\n        x ≤ 1 →\n          0 ≤ A →\n            A ≤ a →\n              0 ≤ h →\n                h ≤ 1 - QuadraticTangZhang.beta a x 1 →\n                  QuadraticTangZhang.beta a x 1 ^ (↑m / 2) ≤ (1 - h) ^ (↑L / 2) ∧\n                    QuadraticTangZhang.beta a x 1 ^ (↑(m + 1) / 2) ≤ (1 - h) ^ (↑(L + 1) / 2)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.beta_gap_form",
+    "type": "∀ (a x t : ℝ), QuadraticTangZhang.beta a x t = QuadraticTangZhang.boxEnvelope a (1 - QuadraticTangZhang.beta a x 1) t",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.denominator_gap_form",
+    "type": "∀ (a x t : ℝ), 1 - a * x * t = 1 - (a ^ 2 + (1 - QuadraticTangZhang.beta a x 1)) / 2 * t",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.rpow_div_mono_pair",
+    "type": "∀ {B b D d r : ℝ}, 0 < b → b ≤ B → 0 < d → 0 < D → 1 ≤ r → b / d ≤ B / D → b ^ r / d ≤ B ^ r / D",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.beta_quotient_gap_mono",
+    "type": "∀ {a x h t r : ℝ},\n  0 ≤ a →\n    a < 1 →\n      x ≤ 1 →\n        h ≤ 1 - QuadraticTangZhang.beta a x 1 →\n          t ∈ Set.Icc 0 1 →\n            1 ≤ r →\n              QuadraticTangZhang.beta a x t ^ r / (1 - a * x * t) ≤\n                QuadraticTangZhang.boxEnvelope a h t ^ r / (1 - (a ^ 2 + h) / 2 * t)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.rectangle_envelope_power_bound",
+    "type": "∀ {a x A h t r R : ℝ},\n  0 ≤ a →\n    a < 1 →\n      x ≤ 1 →\n        0 ≤ A →\n          A ≤ a →\n            0 ≤ h →\n              h ≤ 1 - QuadraticTangZhang.beta a x 1 →\n                t ∈ Set.Icc 0 1 →\n                  0 ≤ R → R ≤ r → QuadraticTangZhang.beta a x t ^ r ≤ QuadraticTangZhang.boxEnvelope A h t ^ R",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.rectangle_envelope_quotient_bound",
+    "type": "∀ {a x A Z h t r R : ℝ},\n  0 ≤ a →\n    a < 1 →\n      x ≤ 1 →\n        0 ≤ A →\n          A ≤ a →\n            a ≤ Z →\n              0 ≤ h →\n                h ≤ 1 - QuadraticTangZhang.beta a x 1 →\n                  t ∈ Set.Icc 0 1 →\n                    1 ≤ r →\n                      0 ≤ R →\n                        R ≤ r →\n                          (Z ^ 2 + h) / 2 < 1 →\n                            QuadraticTangZhang.beta a x t ^ r / (1 - a * x * t) ≤\n                              QuadraticTangZhang.boxEnvelope A h t ^ R / (1 - (Z ^ 2 + h) / 2 * t)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.polar_le_linear",
+    "type": "∀ {a x s t : ℝ},\n  s ≤ 1 →\n    0 ≤ t →\n      t ≤ 1 →\n        QuadraticTangZhang.polarQuadratic a x s t ≤ 1 + (1 - a ^ 2) * (-1 + (2 - QuadraticTangZhang.beta a x 1) * t)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.polar_exponential",
+    "type": "∀ {a x s : ℝ},\n  x ^ 2 ≤ s →\n    s ≤ 1 →\n      ∀ {m : ℕ},\n        1 ≤ ∫ (t : ℝ) in 0..1, QuadraticTangZhang.polarQuadratic a x s t ^ (↑m / 2) →\n          1 ≤ ∫ (t : ℝ) in 0..1, Real.exp (↑m / 2 * (1 - a ^ 2) * (-1 + (2 - QuadraticTangZhang.beta a x 1) * t))",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.beta_rational_bound",
+    "type": "∀ {a x s : ℝ},\n  0 < a →\n    a < 1 →\n      x ≤ 1 →\n        x ^ 2 ≤ s →\n          s ≤ 1 →\n            ∀ {m : ℕ},\n              0 < m →\n                1 ≤ ∫ (t : ℝ) in 0..1, QuadraticTangZhang.polarQuadratic a x s t ^ (↑m / 2) →\n                  have α := ↑m / 2 * (1 - a ^ 2);\n                  0 < QuadraticTangZhang.beta a x 1 ∧\n                    QuadraticTangZhang.beta a x 1 < α / (1 + α) ∧ α / (1 + α) < 1 ∧ a / 2 < x",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.beta_log_bound",
+    "type": "∀ {a x s : ℝ},\n  0 < a →\n    a < 1 →\n      x ≤ 1 →\n        x ^ 2 ≤ s →\n          s ≤ 1 →\n            ∀ {m : ℕ},\n              0 < m →\n                1 ≤ ∫ (t : ℝ) in 0..1, QuadraticTangZhang.polarQuadratic a x s t ^ (↑m / 2) →\n                  have α := ↑m / 2 * (1 - a ^ 2);\n                  Real.log α / α < 1 - QuadraticTangZhang.beta a x 1",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.prod_norm_le_exact_moment",
+    "type": "∀ {q : Multiset ℂ},\n  0 < q.card →\n    ∀ {a x s t : ℝ},\n      (Multiset.map Complex.re q).sum = ↑q.card * x →\n        (Multiset.map (fun v => ‖v‖ ^ 2) q).sum = ↑q.card * s →\n          (Multiset.map (fun v => ‖↑a + ↑t * (1 - ↑a ^ 2) * v‖) q).prod ≤\n            QuadraticTangZhang.polarQuadratic a x s t ^ (↑q.card / 2)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.exact_polar_inequality",
+    "type": "∀ {q : Multiset ℂ},\n  0 < q.card →\n    ∀ {a x s : ℝ},\n      (Multiset.map Complex.re q).sum = ↑q.card * x →\n        (Multiset.map (fun v => ‖v‖ ^ 2) q).sum = ↑q.card * s →\n          1 ≤ ∫ (t : ℝ) in 0..1, (Multiset.map (fun v => ‖↑a + ↑t * (1 - ↑a ^ 2) * v‖) q).prod →\n            1 ≤ ∫ (t : ℝ) in 0..1, QuadraticTangZhang.polarQuadratic a x s t ^ (↑q.card / 2)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.polarQuadratic_nonneg",
+    "type": "∀ {a x s t : ℝ}, x ^ 2 ≤ s → 0 ≤ QuadraticTangZhang.polarQuadratic a x s t",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.polarQuadratic_le_square",
+    "type": "∀ {a x s t : ℝ},\n  0 ≤ a → a ≤ 1 → x ≤ 1 → s ≤ 1 → 0 ≤ t → QuadraticTangZhang.polarQuadratic a x s t ≤ (a + (1 - a ^ 2) * t) ^ 2",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.small_degree_polar_contradiction",
+    "type": "∀ {a x s : ℝ},\n  0 < a →\n    a < 1 →\n      x ≤ 1 →\n        x ^ 2 ≤ s →\n          s ≤ 1 →\n            ∀ {m : ℕ},\n              1 ≤ m → m ≤ 4 → 1 ≤ ∫ (t : ℝ) in 0..1, QuadraticTangZhang.polarQuadratic a x s t ^ (↑m / 2) → False",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.norm_sub_le_norm_one_sub_mul",
+    "type": "∀ {a : ℝ}, |a| ≤ 1 → ∀ {z : ℂ}, ‖z‖ ≤ 1 → ‖↑a - z‖ ≤ ‖1 - ↑a * z‖",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.norm_multiset_prod",
+    "type": "∀ (s : Multiset ℂ), ‖s.prod‖ = (Multiset.map (fun w => ‖w‖) s).prod",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.prod_map_le_of_le",
+    "type": "∀ {s : Multiset ℂ} {f g : ℂ → ℂ},\n  (∀ w ∈ s, ‖f w‖ ≤ ‖g w‖) → (Multiset.map (fun w => ‖f w‖) s).prod ≤ (Multiset.map (fun w => ‖g w‖) s).prod",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.norm_prod_map",
+    "type": "∀ (s : Multiset ℂ) (f : ℂ → ℂ), ‖(Multiset.map f s).prod‖ = (Multiset.map (fun w => ‖f w‖) s).prod",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.prod_map_norm_nonneg",
+    "type": "∀ (s : Multiset ℂ) (f : ℂ → ℂ), 0 ≤ (Multiset.map (fun w => ‖f w‖) s).prod",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.one_le_integral_prod_norm",
+    "type": "∀ {n : ℕ},\n  2 ≤ n →\n    ∀ {a : ℝ},\n      |a| ≤ 1 →\n        ∀ {z q : Multiset ℂ},\n          (∀ w ∈ z, ‖w‖ ≤ 1) →\n            q.prod * (Multiset.map (fun w => 1 - ↑a * w) z).prod =\n                ↑n * ∫ (t : ℝ) in 0..1, (Multiset.map (fun v => ↑a + ↑t * (1 - ↑a ^ 2) * v) q).prod →\n              q.prod * (Multiset.map (fun w => ↑a - w) z).prod = ↑n →\n                1 ≤ ∫ (t : ℝ) in 0..1, (Multiset.map (fun v => ‖↑a + ↑t * (1 - ↑a ^ 2) * v‖) q).prod",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.norm_sq_add_real_mul",
+    "type": "∀ (a s : ℝ) (v : ℂ), ‖↑a + ↑s * v‖ ^ 2 = a ^ 2 + 2 * a * s * v.re + s ^ 2 * ‖v‖ ^ 2",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.prod_map_sq",
+    "type": "∀ (s : Multiset ℂ) (f : ℂ → ℝ), (Multiset.map (fun v => f v ^ 2) s).prod = (Multiset.map f s).prod ^ 2",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.sum_norm_sq_split",
+    "type": "∀ (a s : ℝ) (q : Multiset ℂ),\n  (Multiset.map (fun v => ‖↑a + ↑s * v‖ ^ 2) q).sum =\n    ↑q.card * a ^ 2 + 2 * a * s * (Multiset.map (fun v => v.re) q).sum + s ^ 2 * (Multiset.map (fun v => ‖v‖ ^ 2) q).sum",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.sum_norm_sq_le_card",
+    "type": "∀ (q : Multiset ℂ), (∀ v ∈ q, ‖v‖ ≤ 1) → (Multiset.map (fun v => ‖v‖ ^ 2) q).sum ≤ ↑q.card",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.continuous_prod_norm",
+    "type": "∀ (a : ℝ) (q : Multiset ℂ), Continuous fun t => (Multiset.map (fun v => ‖↑a + ↑t * (1 - ↑a ^ 2) * v‖) q).prod",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.smallIntegral_mul",
+    "type": "∀ (a : ℝ) (k : ℕ),\n  (1 - a ^ 2) * QuadraticTangZhang.smallIntegral a k = ((a + (1 - a ^ 2)) ^ (k + 1) - a ^ (k + 1)) / (↑k + 1)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.smallIntegral_one",
+    "type": "∀ (a : ℝ), a ^ 2 ≠ 1 → 1 - QuadraticTangZhang.smallIntegral a 1 = (1 - a) ^ 2 / 2",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.smallIntegral_two",
+    "type": "∀ (a : ℝ), a ^ 2 ≠ 1 → 1 - QuadraticTangZhang.smallIntegral a 2 = (2 - a) * (1 - a) ^ 2 * (a + 1) / 3",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.smallIntegral_three",
+    "type": "∀ (a : ℝ),\n  a ^ 2 ≠ 1 → 1 - QuadraticTangZhang.smallIntegral a 3 = (1 - a) ^ 2 * (a ^ 4 - 2 * a ^ 3 - 2 * a ^ 2 + 2 * a + 3) / 4",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.smallIntegral_four",
+    "type": "∀ (a : ℝ),\n  a ^ 2 ≠ 1 → 1 - QuadraticTangZhang.smallIntegral a 4 = (1 - a) ^ 3 * (1 + a) / 5 * (a ^ 4 - 3 * a ^ 3 + 3 * a + 4)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.smallIntegral_lt_one",
+    "type": "∀ {a : ℝ}, 0 < a → a < 1 → ∀ {k : ℕ}, 1 ≤ k → k ≤ 4 → QuadraticTangZhang.smallIntegral a k < 1",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.integral_exp_mul",
+    "type": "∀ {c : ℝ}, c ≠ 0 → ∀ (a b : ℝ), ∫ (t : ℝ) in a..b, Real.exp (c * t) = (Real.exp (c * b) - Real.exp (c * a)) / c",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.integral_exp_eq",
+    "type": "∀ {α B : ℝ},\n  0 < α →\n    B < 2 →\n      ∫ (t : ℝ) in 0..1, Real.exp (α * (-1 + (2 - B) * t)) =\n        Real.exp (-(α * B / 2)) * (Real.sinh (α * (2 - B) / 2) / (α * (2 - B) / 2))",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.integral_exp_eq'",
+    "type": "∀ {α B : ℝ},\n  0 < α →\n    B < 2 →\n      ∫ (t : ℝ) in 0..1, Real.exp (α * (-1 + (2 - B) * t)) = (Real.exp (α * (1 - B)) - Real.exp (-α)) / (α * (2 - B))",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.beta_lt_two",
+    "type": "∀ {α B : ℝ}, 0 < α → 1 ≤ ∫ (t : ℝ) in 0..1, Real.exp (α * (-1 + (2 - B) * t)) → B < 2",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.beta_le",
+    "type": "∀ {α B : ℝ}, 0 < α → 0 ≤ B → 1 ≤ ∫ (t : ℝ) in 0..1, Real.exp (α * (-1 + (2 - B) * t)) → B ≤ α / (3 + α)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.log_le_alpha_mul",
+    "type": "∀ {α B : ℝ}, 0 < α → B ≤ 1 → 1 ≤ ∫ (t : ℝ) in 0..1, Real.exp (α * (-1 + (2 - B) * t)) → Real.log α ≤ α * (1 - B)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.sinh_sq_le",
+    "type": "∀ {h : ℝ}, 0 ≤ h → (h ^ 2 + 9) * (h * Real.cosh h - Real.sinh h) ^ 2 ≤ h ^ 4 * Real.sinh h ^ 2",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.sqrt_mul_sub_le",
+    "type": "∀ {h : ℝ}, 0 ≤ h → √(h ^ 2 + 9) * (h * Real.cosh h - Real.sinh h) ≤ h ^ 2 * Real.sinh h",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.log_sinh_div_le",
+    "type": "∀ {h : ℝ}, 0 < h → Real.log (Real.sinh h / h) ≤ √(h ^ 2 + 9) - 3",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "Sendov.sinh_le_mul_exp",
+    "type": "∀ {h : ℝ}, 0 ≤ h → Real.sinh h ≤ h * Real.exp (√(h ^ 2 + 9) - 3)",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.rho_pos_of_polar",
+    "type": "∀ {a x s : ℝ},\n  0 ≤ a →\n    a < 1 →\n      x ^ 2 ≤ s →\n        ∀ {m : ℕ},\n          0 < m →\n            1 ≤ ∫ (t : ℝ) in 0..1, QuadraticTangZhang.polarQuadratic a x s t ^ (↑m / 2) →\n              0 < QuadraticTangZhang.rho a x s",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.chord_polar_bound",
+    "type": "∀ {a x s : ℝ},\n  0 ≤ a →\n    a < 1 →\n      x ^ 2 ≤ s →\n        ∀ {m : ℕ},\n          0 < m →\n            1 ≤ ∫ (t : ℝ) in 0..1, QuadraticTangZhang.polarQuadratic a x s t ^ (↑m / 2) →\n              (1 + (1 - a ^ 2) * QuadraticTangZhang.rho a x s) ^ (↑m / 2 + 1) - a ^ (m + 2) -\n                  (↑m / 2 + 1) * (1 - a ^ 2) * (1 + QuadraticTangZhang.rho a x s) ≥\n                0",
+    "used_by_verified_project_declaration": false
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "name": "QuadraticTangZhang.rho_log_lower_bound",
+    "type": "∀ {a x s : ℝ},\n  0 ≤ a →\n    a < 1 →\n      x ^ 2 ≤ s →\n        ∀ {m : ℕ},\n          0 < m →\n            1 ≤ ∫ (t : ℝ) in 0..1, QuadraticTangZhang.polarQuadratic a x s t ^ (↑m / 2) →\n              1 < (↑m / 2 + 1) * (1 - a ^ 2) →\n                Real.log ((↑m / 2 + 1) * (1 - a ^ 2)) / ((↑m / 2 + 1) * (1 - a ^ 2)) ≤ QuadraticTangZhang.rho a x s",
+    "used_by_verified_project_declaration": false
+  }
+]

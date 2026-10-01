@@ -1,0 +1,221 @@
+{
+  "supplement_commit": "83ee46a7c9711629745290ea8896805fc0239fcd",
+  "mathlib_commit": "de5ce8a9a66a4aa68a9bdbb35b63a06d34d9ca11",
+  "mathlib_checkout": {
+    "head": "de5ce8a9a66a4aa68a9bdbb35b63a06d34d9ca11",
+    "tracked_changes": []
+  },
+  "lean_toolchain": "leanprover/lean4:v4.34.0-rc1",
+  "manuscript": {
+    "sha256": "03b6757519440d2f1b4796a48d984ce1475174c536e0aaff181aae66d1940612",
+    "bytes": 131402,
+    "lines": 5888,
+    "original_byte_match": true
+  },
+  "certificates": [
+    {
+      "file": "certificate_n4_to_n13.json",
+      "local_sha256": "d3f39466fdc088dec063b1767ca2715b3d9da47d3300ee4a4cd5dfc4c7b9b1cb",
+      "original_sha256": "4334dd70fe5317040124115239f92ecc4e220cbf6c3576407396c3ea9df19f8b",
+      "normalization": "Remove exactly one added terminal LF"
+    },
+    {
+      "file": "certificate_n14_to_n100000.json",
+      "local_sha256": "5b5efc06f23142aa90c22de0f423e502c0c3d9c609251c4734de17a2c71b9b33",
+      "original_sha256": "f9131604a764777836afed040bd73b1f8ca24c5696022460b5547cb509af766d",
+      "normalization": "Remove exactly one added terminal LF"
+    }
+  ],
+  "vendored_modules": [
+    {
+      "module": "QuadraticTangZhang.Moments",
+      "path": "QuadraticTangZhang/Moments.lean",
+      "sha256": "f2f2c0b2c02a5462469db5493b1e8fffee09c846deb5afc5c626074ea1d64640",
+      "matches_record": true,
+      "normalization": "Byte-for-byte"
+    },
+    {
+      "module": "QuadraticTangZhang.Reciprocal",
+      "path": "QuadraticTangZhang/Reciprocal.lean",
+      "sha256": "7d6394495d61943c761359b0c3e69f39f8aa63f4fea6193072ff6e3010ff5940",
+      "matches_record": true,
+      "normalization": "Byte-for-byte"
+    },
+    {
+      "module": "QuadraticTangZhang.Statement",
+      "path": "QuadraticTangZhang/Statement.lean",
+      "sha256": "57ee4b6f62245c3d99079bf20dd241e0a91a2984820e53be9a79851c190dc416",
+      "matches_record": true,
+      "normalization": "Byte-for-byte"
+    },
+    {
+      "module": "Sendov.Counterexample.Identities",
+      "path": "Sendov/Counterexample/Identities.lean",
+      "sha256": "7a5f528a2c544a8b13bc7f479dca420b8511c76f4450d6e961369e5cd109b310",
+      "matches_record": true,
+      "normalization": "Original CRLF normalized to local LF"
+    },
+    {
+      "module": "Sendov.Counterexample.Factor",
+      "path": "Sendov/Counterexample/Factor.lean",
+      "sha256": "503396c9ef6e410611ff4e8cdfc5473263b20b4c646729666e1291560d71948d",
+      "matches_record": true,
+      "normalization": "Original CRLF normalized to local LF"
+    },
+    {
+      "module": "QuadraticTangZhang.CenteredIdentity",
+      "path": "QuadraticTangZhang/CenteredIdentity.lean",
+      "sha256": "850c67a5a0842d608990f0213117a91f28be4382b11ef9acd42860cadf042eda",
+      "matches_record": true,
+      "normalization": "Byte-for-byte"
+    },
+    {
+      "module": "QuadraticTangZhang.CenteredRemainder",
+      "path": "QuadraticTangZhang/CenteredRemainder.lean",
+      "sha256": "c5ed6ee5bc75658fec4c59abe095796bb5c00cebf2f84286d76cedf802579896",
+      "matches_record": true,
+      "normalization": "Byte-for-byte"
+    },
+    {
+      "module": "QuadraticTangZhang.DeletedProducts",
+      "path": "QuadraticTangZhang/DeletedProducts.lean",
+      "sha256": "31c45ffd96abce0fe413d20e224b4979ea9e964c0cf302b26e4390a441c6efc7",
+      "matches_record": true,
+      "normalization": "Byte-for-byte"
+    },
+    {
+      "module": "QuadraticTangZhang.AnalyticConstants",
+      "path": "QuadraticTangZhang/AnalyticConstants.lean",
+      "sha256": "492384668616cfc5ea09af908b518870dbef534417d7b44fd39fa20b867aa6eb",
+      "matches_record": true,
+      "normalization": "Byte-for-byte"
+    },
+    {
+      "module": "Sendov.Analytic.Maclaurin",
+      "path": "Sendov/Analytic/Maclaurin.lean",
+      "sha256": "21ccdce40d0df6a56d671e0690ec12f09be56d1e20c3034b9703636d5869d996",
+      "matches_record": true,
+      "normalization": "Original CRLF normalized to local LF"
+    },
+    {
+      "module": "QuadraticTangZhang.Scalar",
+      "path": "QuadraticTangZhang/Scalar.lean",
+      "sha256": "bcba08add0d0c2224d6ffcc51afaf2b758c3091548ff2f93c2d94766579d0390",
+      "matches_record": true,
+      "normalization": "Byte-for-byte"
+    },
+    {
+      "module": "QuadraticTangZhang.ConvexQuadrature",
+      "path": "QuadraticTangZhang/ConvexQuadrature.lean",
+      "sha256": "a5e0f5aea576f8844b8d4d9a098168120682c8b335b9b40fe1f5cafac9d07c96",
+      "matches_record": true,
+      "normalization": "Byte-for-byte"
+    },
+    {
+      "module": "QuadraticTangZhang.RectangleExclusion",
+      "path": "QuadraticTangZhang/RectangleExclusion.lean",
+      "sha256": "4f3473e3a8798abe89ec96a3a716756d7bb6d6c2d561388fd488b6adad1d6c04",
+      "matches_record": true,
+      "normalization": "Byte-for-byte"
+    },
+    {
+      "module": "QuadraticTangZhang.DirectScalar",
+      "path": "QuadraticTangZhang/DirectScalar.lean",
+      "sha256": "d777445a0b5319a738dc1b8efe8f179115f720982fee620bec8f89b3739eeb76",
+      "matches_record": true,
+      "normalization": "Byte-for-byte"
+    },
+    {
+      "module": "QuadraticTangZhang.CenteredScalar",
+      "path": "QuadraticTangZhang/CenteredScalar.lean",
+      "sha256": "e0db7f8bbf0c3d3d9e5a1cf4d58912000171146a11e9d87c32a8718611d09637",
+      "matches_record": true,
+      "normalization": "Byte-for-byte"
+    },
+    {
+      "module": "QuadraticTangZhang.FiniteQuadrature",
+      "path": "QuadraticTangZhang/FiniteQuadrature.lean",
+      "sha256": "6be237a17fbd9a4e3232e4c379cfd188e8eb17569213ff3afa890336fe3f9b80",
+      "matches_record": true,
+      "normalization": "Byte-for-byte"
+    },
+    {
+      "module": "QuadraticTangZhang.DyadicSoundness",
+      "path": "QuadraticTangZhang/DyadicSoundness.lean",
+      "sha256": "6014a87ee94c1370350c6b1916929ca1666be7f2709239ed32586f69220b2ac2",
+      "matches_record": true,
+      "normalization": "Byte-for-byte"
+    },
+    {
+      "module": "QuadraticTangZhang.ExponentialIntegrals",
+      "path": "QuadraticTangZhang/ExponentialIntegrals.lean",
+      "sha256": "dd346d3e3e3d857f6bbb439ca07379c83022a752f6f4dca7e657c189469c1f74",
+      "matches_record": true,
+      "normalization": "Byte-for-byte"
+    },
+    {
+      "module": "QuadraticTangZhang.UniformBounds",
+      "path": "QuadraticTangZhang/UniformBounds.lean",
+      "sha256": "1cb5a9938af80d39db6a0d6667c9943bf7f0e8ecc4864c0238e911a9d233ab29",
+      "matches_record": true,
+      "normalization": "Byte-for-byte"
+    },
+    {
+      "module": "QuadraticTangZhang.RectangleBounds",
+      "path": "QuadraticTangZhang/RectangleBounds.lean",
+      "sha256": "2e84742dd19a032ee6eefd85a216b5f018e7a66a0e4029822d7ddb0c397e0779",
+      "matches_record": true,
+      "normalization": "Byte-for-byte"
+    },
+    {
+      "module": "QuadraticTangZhang.BetaBounds",
+      "path": "QuadraticTangZhang/BetaBounds.lean",
+      "sha256": "a652b67ac8bf95df9cff9cba93eb3ddc42aec3a1f67914ca311bbfeab7a9a0ef",
+      "matches_record": true,
+      "normalization": "Byte-for-byte"
+    },
+    {
+      "module": "QuadraticTangZhang.Polar",
+      "path": "QuadraticTangZhang/Polar.lean",
+      "sha256": "805c425c872bae76fa39f66cac71baa0f2d65e00719d5b637b0b7d442cf6fafb",
+      "matches_record": true,
+      "normalization": "Byte-for-byte"
+    },
+    {
+      "module": "Sendov.Analytic.PolarBase",
+      "path": "Sendov/Analytic/PolarBase.lean",
+      "sha256": "b0720c9da2e2d9758367cf3571945e0abe63ce66a3f6e8c9ca2bdfb158c1e321",
+      "matches_record": true,
+      "normalization": "Byte-for-byte"
+    },
+    {
+      "module": "QuadraticTangZhang.SmallDegrees",
+      "path": "QuadraticTangZhang/SmallDegrees.lean",
+      "sha256": "3f057756127978a435c3b0ad1247ab08f13141dac5426dc4968b57a370679913",
+      "matches_record": true,
+      "normalization": "Byte-for-byte"
+    },
+    {
+      "module": "Sendov.Reduction.BetaBound",
+      "path": "Sendov/Reduction/BetaBound.lean",
+      "sha256": "cc590472e3d2324ef8321e83a8fb372248996b924161768c4591a23d4a5311f4",
+      "matches_record": true,
+      "normalization": "Original CRLF normalized to local LF"
+    },
+    {
+      "module": "Sendov.Common.Sinh",
+      "path": "Sendov/Common/Sinh.lean",
+      "sha256": "4f0d1b8ce9cc7e15e10fc2b3c8ad751e68d74a842193076c8316e267bbd832ae",
+      "matches_record": true,
+      "normalization": "Original CRLF normalized to local LF"
+    },
+    {
+      "module": "QuadraticTangZhang.RhoBounds",
+      "path": "QuadraticTangZhang/RhoBounds.lean",
+      "sha256": "89d50a24e9cafca3c2e35b37944bf5e806c1ba52911e0531f0a3a2f237971e90",
+      "matches_record": true,
+      "normalization": "Byte-for-byte"
+    }
+  ],
+  "status": "PASS"
+}

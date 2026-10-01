@@ -1,0 +1,7 @@
+Command: lake build BorceaVariance.Certificate.Generated.Accepted7
+Exit code: 0
+ℹ [3793/3793] Built BorceaVariance.Certificate.Generated.Accepted7 (139s)
+info: BorceaVariance/Certificate/Generated/Accepted7.lean:3037:0: 'BorceaVariance.Certificate.Generated.certificateBlock7_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Build completed successfully (3793 jobs).

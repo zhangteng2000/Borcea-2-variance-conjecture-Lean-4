@@ -1,0 +1,2 @@
+PASS: 640 acceptance-source modules match regeneration, ignoring trailing whitespace.
+This is source transport validation, not kernel acceptance.

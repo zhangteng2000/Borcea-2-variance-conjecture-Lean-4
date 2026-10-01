@@ -1,0 +1,7 @@
+ℹ [3775/3776] Built BorceaVariance.Certificate.Generated.Accepted71Part1 (132s)
+info: BorceaVariance/Certificate/Generated/Accepted71Part1.lean:117:0: 'BorceaVariance.Certificate.Generated.leafAccepted71_81' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3776/3776] Built BorceaVariance.Certificate.Generated.Accepted71 (16s)
+info: BorceaVariance/Certificate/Generated/Accepted71.lean:263:0: 'BorceaVariance.Certificate.Generated.certificateBlock71_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Build completed successfully (3776 jobs).

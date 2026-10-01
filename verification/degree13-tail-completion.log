@@ -1,0 +1,6 @@
+Command: lake build BorceaVariance.Certificate.Generated.Accepted9Part12
+Exit code: 0
+Scope: parts 8..12 only; the complete block assembly remains pending.
+ℹ [3798/3798] Built BorceaVariance.Certificate.Generated.Accepted9Part12 (600s)
+info: BorceaVariance/Certificate/Generated/Accepted9Part12.lean:255:0: 'BorceaVariance.Certificate.Generated.leafAccepted9_808' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3798 jobs).

@@ -1,0 +1,5 @@
+Command: lake build Solution
+Exit code: 0
+Output below is a build summary (build completion and error lines); full Lean diagnostics are in module traces and the independent final check/audit logs.
+✔ [4281/4282] Built Solution (18s)
+Build completed successfully (4282 jobs).

@@ -1,0 +1,28 @@
+Independent performance pilot; neither proof nor proposed values are imported into the project library.
+Both variants used decide +kernel. Native #eval output was used only as a proposal for explicit rational constants; each proposed equality was proved by the kernel before use.
+12197 / 20480
+6875 / 4096
+8283 / 20480
+1
+1
+221234507131099767103808725265 / 1267650600228229401496703205376
+type checking took 8.94s
+'pilot_baseline' depends on axioms: [propext, Classical.choice, Quot.sound]
+type checking took 8.25s
+'pilot_factored' depends on axioms: [propext, Classical.choice, Quot.sound]
+cumulative profiling times:
+	attribute application 0.0354ms
+	congr simp thm 1.69ms
+	elaboration 1.66ms
+	fix level params 0.0898ms
+	instantiate metavars 0.284ms
+	let-to-have transformation 0.0323ms
+	overlappingInstancesLinter 0.697ms
+	process pre-definitions 1.67ms
+	share common exprs 1.12ms
+	simp 8.83ms
+	tactic execution 34.9ms
+	tacticAnalysis 7.96ms
+	type checking 17.3s
+	typeclass inference 31.5ms
+

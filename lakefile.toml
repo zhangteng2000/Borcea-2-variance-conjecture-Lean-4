@@ -1,0 +1,35 @@
+name = "borcea_variance"
+version = "0.1.0"
+packagesDir = ".lake/packages"
+defaultTargets = ["BorceaVariance", "Solution", "ManuscriptCheck", "Audit"]
+# Resource control only; Lake excludes weakLeanArgs from proof build traces.
+weakLeanArgs = ["-j1"]
+
+[leanOptions]
+autoImplicit = false
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "de5ce8a9a66a4aa68a9bdbb35b63a06d34d9ca11"
+
+[[lean_lib]]
+name = "BorceaVariance"
+
+[[lean_lib]]
+name = "QuadraticTangZhang"
+
+[[lean_lib]]
+name = "Sendov"
+
+[[lean_lib]]
+name = "ManuscriptCheck"
+
+[[lean_lib]]
+name = "Audit"
+
+[[lean_lib]]
+name = "Challenge"
+
+[[lean_lib]]
+name = "Solution"

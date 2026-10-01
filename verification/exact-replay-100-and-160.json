@@ -1,0 +1,213 @@
+{
+  "status": "PASS",
+  "scope": "Untrusted exact-arithmetic reproduction only. Kernel leaf acceptance, analytic tail, and the global theorem remain separate obligations.",
+  "adapter": "work/run_exact_checkers.py; fresh process for 160 bits; precision-dependent caches cleared",
+  "reports": [
+    {
+      "precision_bits": 100,
+      "blocks": 10,
+      "leaves": 12821,
+      "tests": {
+        "product": 318,
+        "product_radial": 566,
+        "center_coeff": 1105,
+        "variance_nonnegative": 122,
+        "moment_A": 2652,
+        "finite_radial": 707,
+        "product_root_stable": 345,
+        "center_positive": 1168,
+        "near_uniform": 10,
+        "critical_variance_negative": 145,
+        "product_stable": 4,
+        "direct": 2057,
+        "moment_B": 306,
+        "product_logcap": 1621,
+        "degree_bound": 65,
+        "direct_retained": 1539,
+        "center_ratio": 58,
+        "inverse_moment": 15,
+        "beta_negative": 18
+      },
+      "maximum_depth": 53,
+      "maximum_main_bound_integer": "1267649741017457658741904437463",
+      "degree_details": [
+        {
+          "n": 4,
+          "leaves": 532
+        },
+        {
+          "n": 5,
+          "leaves": 1103
+        },
+        {
+          "n": 6,
+          "leaves": 1594
+        },
+        {
+          "n": 7,
+          "leaves": 2540
+        },
+        {
+          "n": 8,
+          "leaves": 1753
+        },
+        {
+          "n": 9,
+          "leaves": 1420
+        },
+        {
+          "n": 10,
+          "leaves": 1164
+        },
+        {
+          "n": 11,
+          "leaves": 1002
+        },
+        {
+          "n": 12,
+          "leaves": 904
+        },
+        {
+          "n": 13,
+          "leaves": 809
+        }
+      ],
+      "status": "PASS",
+      "minimum_degree": 4,
+      "maximum_degree": 13,
+      "scale": "1267650600228229401496703205376",
+      "minimum_main_margin_numerator": "859210771742754798767913",
+      "sha256": "d3f39466fdc088dec063b1767ca2715b3d9da47d3300ee4a4cd5dfc4c7b9b1cb",
+      "elapsed_seconds_reporting_only": 38.84399999999732
+    },
+    {
+      "precision_bits": 100,
+      "blocks": 62,
+      "leaves": 20850,
+      "tests": {
+        "product": 2170,
+        "moment_A": 7098,
+        "moment_B": 934,
+        "direct_retained": 651,
+        "direct": 8886,
+        "center_ratio": 171,
+        "inverse_moment": 465,
+        "variance_nonnegative": 249,
+        "beta_negative": 205,
+        "degree_bound": 21
+      },
+      "maximum_depth": 33,
+      "maximum_main_bound_integer": "1267647190230369110022589789016",
+      "status": "PASS",
+      "minimum_degree": 14,
+      "maximum_degree": 100000,
+      "scale": "1267650600228229401496703205376",
+      "minimum_main_margin_numerator": "3409997860291474113416360",
+      "sha256": "5b5efc06f23142aa90c22de0f423e502c0c3d9c609251c4734de17a2c71b9b33",
+      "elapsed_seconds_reporting_only": 21.297000000005937
+    },
+    {
+      "precision_bits": 160,
+      "blocks": 10,
+      "leaves": 12821,
+      "tests": {
+        "product": 318,
+        "product_radial": 566,
+        "center_coeff": 1105,
+        "variance_nonnegative": 122,
+        "moment_A": 2652,
+        "finite_radial": 707,
+        "product_root_stable": 345,
+        "center_positive": 1168,
+        "near_uniform": 10,
+        "critical_variance_negative": 145,
+        "product_stable": 4,
+        "direct": 2057,
+        "moment_B": 306,
+        "product_logcap": 1621,
+        "degree_bound": 65,
+        "direct_retained": 1539,
+        "center_ratio": 58,
+        "inverse_moment": 15,
+        "beta_negative": 18
+      },
+      "maximum_depth": 53,
+      "maximum_main_bound_integer": "1461500646728327186136662544680131596509538415198",
+      "degree_details": [
+        {
+          "n": 4,
+          "leaves": 532
+        },
+        {
+          "n": 5,
+          "leaves": 1103
+        },
+        {
+          "n": 6,
+          "leaves": 1594
+        },
+        {
+          "n": 7,
+          "leaves": 2540
+        },
+        {
+          "n": 8,
+          "leaves": 1753
+        },
+        {
+          "n": 9,
+          "leaves": 1420
+        },
+        {
+          "n": 10,
+          "leaves": 1164
+        },
+        {
+          "n": 11,
+          "leaves": 1002
+        },
+        {
+          "n": 12,
+          "leaves": 904
+        },
+        {
+          "n": 13,
+          "leaves": 809
+        }
+      ],
+      "status": "PASS",
+      "minimum_degree": 4,
+      "maximum_degree": 13,
+      "scale": "1461501637330902918203684832716283019655932542976",
+      "minimum_main_margin_numerator": "990602575732067022288036151423146394127778",
+      "sha256": "d3f39466fdc088dec063b1767ca2715b3d9da47d3300ee4a4cd5dfc4c7b9b1cb",
+      "elapsed_seconds_reporting_only": 37.328000000008615
+    },
+    {
+      "precision_bits": 160,
+      "blocks": 62,
+      "leaves": 20850,
+      "tests": {
+        "product": 2170,
+        "moment_A": 7098,
+        "moment_B": 934,
+        "direct_retained": 651,
+        "direct": 8886,
+        "center_ratio": 171,
+        "inverse_moment": 465,
+        "variance_nonnegative": 249,
+        "beta_negative": 205,
+        "degree_bound": 21
+      },
+      "maximum_depth": 33,
+      "maximum_main_bound_integer": "1461497705871039124828581930932438430430109682578",
+      "status": "PASS",
+      "minimum_degree": 14,
+      "maximum_degree": 100000,
+      "scale": "1461501637330902918203684832716283019655932542976",
+      "minimum_main_margin_numerator": "3931459863793375102901783844589225822860398",
+      "sha256": "5b5efc06f23142aa90c22de0f423e502c0c3d9c609251c4734de17a2c71b9b33",
+      "elapsed_seconds_reporting_only": 15.14100000000326
+    }
+  ]
+}
